@@ -1,5 +1,4 @@
 [
-/*Ľudské telo*/
 { "question": "Počet mliečnych zubov u detí", "answers": ["20", "24", "28", "22"], "correct": 0 },
 { "question": "Počet kostí v dospelom človeku", "answers": ["206", "180", "230", "201"], "correct": 0 },
 { "question": "Počet zubov u dospelého človeka", "answers": ["32", "34", "36", "30"], "correct": 0 },
@@ -9,43 +8,37 @@
 { "question": "Odborný názov pre farbosleposť", "answers": ["Xerophthalmia", "Hyposhagmus", "Daltonizmus", "Achromatopsia"], "correct": 2 },
 { "question": "Odborný názov pre červené krvinky", "answers": ["Urea", "Erytrocyty", "Kreatín", "Leukocyty"], "correct": 1 },
 
-/*Prvý na svete*/
 { "question": "Prvá krajina na svete, ktorá zakázala fajčenie v uzavretých verejných priestoroch", "answers": ["Írsko", "Nórsko", "Dánsko", "Fínsko"], "correct": 0 },
 { "question": "Prvý človek na Mesiaci", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 1 },
 { "question": "Prvý človek vo vesmíre", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 2 },
 { "question": "Prvý človek, ktorý v roku 1911 dosiahol južný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 2 },
 { "question": "Prvý človek, ktorý údajne v roku 1909 dosiahol severný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 0 },
 
-/*pH hodnoty*/
 { "question": "Rozsah pH hodnôt pre kyslé prostredie", "answers": ["0-6", "8-10", "13-14", "7-8"], "correct": 0 },
-{ "question": "Hodnota kyslosti (pH) piva", "answers": ["4,5", "6,5", "8,5", "10,5"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Hodnota kyslosti (pH) mlieka", "answers": ["6,5", "8,5", "10,5", "13,5"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Hodnota kyslosti (pH) Coca Coly", "answers": ["2,5", "4,5", "5,5", "9,5"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Hodnota kyslosti (pH) destilovanej vody", "answers": ["3", "7", "9", "12"], "correct": 1 }, /*nové 7.5.2025*/
-{ "question": "Hodnota kyslosti (pH) žalúdočnej kyseliny", "answers": ["1", "2", "4", "8"], "correct": 1 }, /*nové 7.5.2025*/
+{ "question": "Hodnota kyslosti (pH) piva", "answers": ["4,5", "6,5", "8,5", "10,5"], "correct": 0 },
+{ "question": "Hodnota kyslosti (pH) mlieka", "answers": ["6,5", "8,5", "10,5", "13,5"], "correct": 0 },
+{ "question": "Hodnota kyslosti (pH) Coca Coly", "answers": ["2,5", "4,5", "5,5", "9,5"], "correct": 0 },
+{ "question": "Hodnota kyslosti (pH) destilovanej vody", "answers": ["3", "7", "9", "12"], "correct": 1 },
+{ "question": "Hodnota kyslosti (pH) žalúdočnej kyseliny", "answers": ["1", "2", "4", "8"], "correct": 1 },
 
-/*Meracie zariadenia*/
 { "question": "Prístroj na meranie rýchlosti vetra", "answers": ["Anemometer", "Dozimeter", "Altimeter", "Barometer"], "correct": 0 },
-{ "question": "Prístroj na meranie elektrického prúdu", "answers": ["Ampérmeter", "Anemometer", "Voltmeter", "Wattmeter"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na meranie elektrického napätia", "answers": ["Voltmeter", "Ampérmeter", "Ohmmeter", "Wattmeter"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na meranie tlaku plynov a kvapalín", "answers": ["Manometer", "Barometer", "Ohmmeter", "Luxmeter"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na meranie intenzity osvetlenia", "answers": ["Luxmeter", "Barometer", "Dozimeter", "Osciloskop"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na meranie dávky ionizačného žiarenia", "answers": ["Dozimeter", "Barometer", "Tenzometer", "Spektrometer"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na meranie tlakov, rozťažnosti a napätia látok a konštrukcií", "answers": ["Tenzometer", "Barometer", "Tenzimeter", "Spektrometer"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na meranie tlaku nasýtených pár", "answers": ["Tenzimeter", "Dozimeter", "Tenzometer", "Spektrometer"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na grafické zaznamenávanie zemetrasení", "answers": ["Seizmograf", "Dozimeter", "Tenzometer", "Spektrometer"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Prístroj na meranie elektrickej práce", "answers": ["Elektromer", "Voltmeter", "Tenzometer", "Wattmeter"], "correct": 0 }, /*nové 7.5.2025*/
+{ "question": "Prístroj na meranie elektrického prúdu", "answers": ["Ampérmeter", "Anemometer", "Voltmeter", "Wattmeter"], "correct": 0 },
+{ "question": "Prístroj na meranie elektrického napätia", "answers": ["Voltmeter", "Ampérmeter", "Ohmmeter", "Wattmeter"], "correct": 0 },
+{ "question": "Prístroj na meranie tlaku plynov a kvapalín", "answers": ["Manometer", "Barometer", "Ohmmeter", "Luxmeter"], "correct": 0 },
+{ "question": "Prístroj na meranie intenzity osvetlenia", "answers": ["Luxmeter", "Barometer", "Dozimeter", "Osciloskop"], "correct": 0 },
+{ "question": "Prístroj na meranie dávky ionizačného žiarenia", "answers": ["Dozimeter", "Barometer", "Tenzometer", "Spektrometer"], "correct": 0 },
+{ "question": "Prístroj na meranie tlakov, rozťažnosti a napätia látok a konštrukcií", "answers": ["Tenzometer", "Barometer", "Tenzimeter", "Spektrometer"], "correct": 0 },
+{ "question": "Prístroj na meranie tlaku nasýtených pár", "answers": ["Tenzimeter", "Dozimeter", "Tenzometer", "Spektrometer"], "correct": 0 },
+{ "question": "Prístroj na grafické zaznamenávanie zemetrasení", "answers": ["Seizmograf", "Dozimeter", "Tenzometer", "Spektrometer"], "correct": 0 },
+{ "question": "Prístroj na meranie elektrickej práce", "answers": ["Elektromer", "Voltmeter", "Tenzometer", "Wattmeter"], "correct": 0 },
 { "question": "Prístroj na meranie atmosférického tlaku", "answers": ["Seizmometer", "Termometer", "Barometer", "Hygrometer"], "correct": 2 },
 
-/*Potravinárske farbivá*/
 { "question": "Potravinárske farbivo, ktoré má kód E100", "answers": ["Amarant", "Kurkumín", "Karamel", "Citrónová žltá"], "correct": 1 },
 { "question": "Označenie karamela; potravinárskeho prírodného farbiva", "answers": ["E150", "E160", "E170", "E190"], "correct": 0 },
 
-/*Politika*/
 { "question": "Počet stálych členov Rady bezpečnosti OSN", "answers": ["5", "6", "7", "4"], "correct": 0 },
 { "question": "Dátum vzniku Slovenskej republiky", "answers": ["1. január 1992", "1. január 1993", "1. január 1994", "1. december 1992"], "correct": 1 },
 
-/*Svetové osobnosti*/
 { "question": "Národnosť Krištofa Kolumbusa", "answers": ["Francúz", "Španiel", "Talian", "Portugálčan"], "correct": 2 },
 { "question": "Krajina, v ktorej sa narodil Andy Warhol", "answers": ["Kanada", "USA", "Slovensko", "Poľsko"], "correct": 1 },
 { "question": "Učebnica, ktorú napísal Ján Amos Komenský", "answers": ["Schola pansophica", "Didactica magna", "Orbis pictus", "Janua linguarum"], "correct": 2 },
@@ -53,23 +46,19 @@
 { "question": "Lekár, ktorý prvý pomenoval všetky štyri krvné skupiny", "answers": ["Pierre Curie", "Ján Jánsky", "Louis Pasteur", "Karl Landsteiner"], "correct": 1 },
 { "question": "Vynálezca žiarovky", "answers": ["Thomas Alva Edison", "Nikola Tesla", "Isaac Newton", "Joseph Swan"], "correct": 0 },
 
-/*Náboženstvo*/
 { "question": "Nový názov Kvetnej nedele", "answers": ["Svätá nedeľa", "Veľká nedeľa", "Palmová nedeľa", "Nedeľa vítania"], "correct": 2 },
 { "question": "Hora, na ktorej pristál Noe so svojou archou", "answers": ["Golany", "Ararat", "Sijón", "Sinaj"], "correct": 1 },
-{ "question": "Stav, kedy jeden muž môže mať viac ženských partneriek", "answers": ["Polygýnia", "Polygamia", "Polyandria", "Monogamia"], "correct": 0 }, /*nové 19.5.2025*/
-{ "question": "Stav, kedy jedna žena môže mať viac mužských partnerov", "answers": ["Polyandria", "Polygamia", "Polygýnia", "Monogamia"], "correct": 0 }, /*nové 19.5.2025*/
-{ "question": "Stav, kedy má muž alebo žena uzavretých viacero manželských zväzkov súčasne", "answers": ["Polygamia", "Polyandria", "Polygýnia", "Monogamia"], "correct": 0 }, /*nové 19.5.2025*/
-{ "question": "Stav, kedy má muž alebo žena uzavretý iba jeden manželský zväzok", "answers": ["Monogamia", "Polyandria", "Polygýnia", "Polygamia"], "correct": 0 }, /*nové 19.5.2025*/
-{ "question": "Názov farebnej bodky, ktorú si maľujú hinduistky nad nos medzi obočia", "answers": ["Bindi", "Nirvana", "Burka", "Sári"], "correct": 0 }, /*nové 19.5.2025*/
+{ "question": "Stav, kedy jeden muž môže mať viac ženských partneriek", "answers": ["Polygýnia", "Polygamia", "Polyandria", "Monogamia"], "correct": 0 },
+{ "question": "Stav, kedy jedna žena môže mať viac mužských partnerov", "answers": ["Polyandria", "Polygamia", "Polygýnia", "Monogamia"], "correct": 0 },
+{ "question": "Stav, kedy má muž alebo žena uzavretých viacero manželských zväzkov súčasne", "answers": ["Polygamia", "Polyandria", "Polygýnia", "Monogamia"], "correct": 0 },
+{ "question": "Stav, kedy má muž alebo žena uzavretý iba jeden manželský zväzok", "answers": ["Monogamia", "Polyandria", "Polygýnia", "Polygamia"], "correct": 0 },
+{ "question": "Názov farebnej bodky, ktorú si maľujú hinduistky nad nos medzi obočia", "answers": ["Bindi", "Nirvana", "Burka", "Sári"], "correct": 0 },
 
-/*Šport*/
 { "question": "Slovensko-maďarsko-španielsky futbalista, ktorý má sochu pred štadiónom v Barcelóne", "answers": ["Ladislav Kubala", "Peter Dubovský", "Róbert Mak", "Stanislav Lobotka"], "correct": 0 },
 
-/*KTO JE TO?*/
-{ "question": "Peter Dubovský bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 }, /*nové 19.5.2025*/
-{ "question": "Natália Hejková bola...", "answers": ["Trénerka basketbalu", "Trénerka volejbalu", "Trénerka tenisu", "Trénerka futbalu"], "correct": 0 }, /*nové 19.5.2025*/
+{ "question": "Peter Dubovský bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 },
+{ "question": "Natália Hejková bola...", "answers": ["Trénerka basketbalu", "Trénerka volejbalu", "Trénerka tenisu", "Trénerka futbalu"], "correct": 0 },
 
-/*Film-divadlo*/
 { "question": "Rozprávka, v ktorej vystupuje postava Cruelly de Vil", "answers": ["101 dalmatíncov", "Shrek", "Šmolkovia", "Mickey Mouse"], "correct": 0 },
 { "question": "Režisér filmu E. T. mimozemšťan", "answers": ["Steven Spielberg", "Miloš Forman", "Peter Jackson", "James Cameron"], "correct": 0 },
 { "question": "Autor divadelnej hry Hamlet", "answers": ["Shakespeare", "Dostojevskij", "Tolstoj", "Čechov"], "correct": 0 },
@@ -77,7 +66,6 @@
 { "question": "Prvý slovenský celovečerný film z roku 1921", "answers": ["Jánošík", "Krvavá grófka", "Pacho Hybský zbojník", "Dracula"], "correct": 0 },
 { "question": "Autor prvého slovenského celovečerného filmu Jánošík z roku 1921", "answers": ["Jaroslav Siakeľ", "Ján Kadár", "Paľo Bielik", "Štefan Uher"], "correct": 0 },
 
-/*Nápoje a potraviny*/
 { "question": "Maximálny obsah zvyškového cukru na liter pri suchom víne", "answers": ["4 g/l", "12 g/l", "18 g/l", "6 g/l"], "correct": 0 },
 { "question": "Maximálny obsah zvyškového cukru na liter pri polosuchom víne", "answers": ["4,1-12 g/l", "6-13,5 g/l", "7-11,5 g/l", "15,5-17,5 g/l"], "correct": 0 }, /*nové 7.5.2025*/
 { "question": "Maximálny obsah zvyškového cukru na liter pri polosladkom víne", "answers": ["12,1-45 g/l", "16-33,5 g/l", "25-40,5 g/l", "38-44 g/l"], "correct": 0 }, /*nové 7.5.2025*/
