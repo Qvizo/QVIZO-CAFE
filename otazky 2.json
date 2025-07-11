@@ -1130,9 +1130,9 @@
 {"question": "Názvy lietadiel, ktoré zhodili atómové bomby na Hirošimu a Nagasaki", "answers": ["Bennet a Bradley", "Bambi a Dumbo", "Enola Gay a Bockscar", "Little Boy a Fat Man"], "correct": 2},
 {"question": "Názov atómovej bomby, ktorá bola zhodená na Hirošimu (6. august 1945)", "answers": ["Little Boy", "Fat Man", "Bambi", "Dumbo"], "correct": 0},
 {"question": "Názov atómovej bomby, ktorá bola zhodená na Nagasaki (9. august 1945)", "answers": ["Little Boy", "Fat Man", "Bambi", "Dumbo"], "correct": 1},
-{ "question": "Začiatok 2. svetovej vojny", answers: ["1. september 1939", "1. máj 1941", "1. júl 1914", "1. december 1940"], correct: 0 },
-{ "question": "Koniec 2. svetovej vojny v Európe", answers: ["8. máj 1945", "1. máj 1941", "1. júl 1914", "30. december 1945"], correct: 0 },
-{ "question": "Koniec 2. svetovej vojny vo svete", answers: ["8. máj 1945", "2. september 1945", "17. júl 1945", "30. december 1945"], correct: 1 },
+{ "question": "Začiatok 2. svetovej vojny", "answers": ["1. september 1939", "1. máj 1941", "1. júl 1914", "1. december 1940"], correct: 0 },
+{ "question": "Koniec 2. svetovej vojny v Európe", "answers": ["8. máj 1945", "1. máj 1941", "1. júl 1914", "30. december 1945"], correct: 0 },
+{ "question": "Koniec 2. svetovej vojny vo svete", "answers": ["8. máj 1945", "2. september 1945", "17. júl 1945", "30. december 1945"], correct: 1 },
 
 {"question": "Najstarší písaný jazyk na svete", "answers": ["Arabský", "Sumerský", "Latinský", "Egyptský"], "correct": 1},
 {"question": "Otec modernej ekonómie", "answers": ["Karl Marx", "Ronald Reagan", "Adam Smith", "John Keynes"], "correct": 2},
