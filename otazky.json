@@ -6,5 +6,18 @@
 { "question": "Normálny krvný tlak u dospelého človeka", "answers": ["100/80 mm Hg", "120/80 mm Hg", "130/90 mm Hg", "140/95 mm Hg"], "correct": 1 },
 { "question": "Miesto v ľudskom tele, kde sa nachádza kladivko, strmienok a nákovka", "answers": ["Oko", "Ucho", "Koleno", "Nos"], "correct": 1 },
 { "question": "Odborný názov pre farbosleposť", "answers": ["Xerophthalmia", "Hyposhagmus", "Daltonizmus", "Achromatopsia"], "correct": 2 },
-{ "question": "Odborný názov pre červené krvinky", "answers": ["Urea", "Erytrocyty", "Kreatín", "Leukocyty"], "correct": 1 }
+{ "question": "Odborný názov pre červené krvinky", "answers": ["Urea", "Erytrocyty", "Kreatín", "Leukocyty"], "correct": 1 },
+  /*Prvý na svete*/
+{ "question": "Prvá krajina na svete, ktorá zakázala fajčenie v uzavretých verejných priestoroch", "answers": ["Írsko", "Nórsko", "Dánsko", "Fínsko"], "correct": 0 },
+{ "question": "Prvý človek na Mesiaci", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 1 },
+{ "question": "Prvý človek vo vesmíre", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 2 },
+{ "question": "Prvý človek, ktorý v roku 1911 dosiahol južný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 2 },
+{ "question": "Prvý človek, ktorý údajne v roku 1909 dosiahol severný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 0 },
+/*pH hodnoty*/
+{ "question": "Rozsah pH hodnôt pre kyslé prostredie", "answers": ["0-6", "8-10", "13-14", "7-8"], "correct": 0 },
+{ "question": "Hodnota kyslosti (pH) piva", "answers": ["4,5", "6,5", "8,5", "10,5"], "correct": 0 }, /*nové 7.5.2025*/
+{ "question": "Hodnota kyslosti (pH) mlieka", "answers": ["6,5", "8,5", "10,5", "13,5"], "correct": 0 }, /*nové 7.5.2025*/
+{ "question": "Hodnota kyslosti (pH) Coca Coly", "answers": ["2,5", "4,5", "5,5", "9,5"], "correct": 0 }, /*nové 7.5.2025*/
+{ "question": "Hodnota kyslosti (pH) destilovanej vody", "answers": ["3", "7", "9", "12"], "correct": 1 }, /*nové 7.5.2025*/
+{ "question": "Hodnota kyslosti (pH) žalúdočnej kyseliny", "answers": ["1", "2", "4", "8"], "correct": 1 } /*nové 7.5.2025*/
 ]
