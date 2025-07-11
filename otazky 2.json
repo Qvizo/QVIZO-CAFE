@@ -1130,9 +1130,9 @@
 {"question": "Názvy lietadiel, ktoré zhodili atómové bomby na Hirošimu a Nagasaki", "answers": ["Bennet a Bradley", "Bambi a Dumbo", "Enola Gay a Bockscar", "Little Boy a Fat Man"], "correct": 2},
 {"question": "Názov atómovej bomby, ktorá bola zhodená na Hirošimu (6. august 1945)", "answers": ["Little Boy", "Fat Man", "Bambi", "Dumbo"], "correct": 0},
 {"question": "Názov atómovej bomby, ktorá bola zhodená na Nagasaki (9. august 1945)", "answers": ["Little Boy", "Fat Man", "Bambi", "Dumbo"], "correct": 1},
-{ "question": "Začiatok 2. svetovej vojny", "answers": ["1. september 1939", "1. máj 1941", "1. júl 1914", "1. december 1940"], correct: 0 },
-{ "question": "Koniec 2. svetovej vojny v Európe", "answers": ["8. máj 1945", "1. máj 1941", "1. júl 1914", "30. december 1945"], correct: 0 },
-{ "question": "Koniec 2. svetovej vojny vo svete", "answers": ["8. máj 1945", "2. september 1945", "17. júl 1945", "30. december 1945"], correct: 1 },
+{ "question": "Začiatok 2. svetovej vojny", "answers": ["1. september 1939", "1. máj 1941", "1. júl 1914", "1. december 1940"], "correct": 0 },
+{ "question": "Koniec 2. svetovej vojny v Európe", "answers": ["8. máj 1945", "1. máj 1941", "1. júl 1914", "30. december 1945"], "correct": 0 },
+{ "question": "Koniec 2. svetovej vojny vo svete", "answers": ["8. máj 1945", "2. september 1945", "17. júl 1945", "30. december 1945"], "correct": 1 },
 
 {"question": "Najstarší písaný jazyk na svete", "answers": ["Arabský", "Sumerský", "Latinský", "Egyptský"], "correct": 1},
 {"question": "Otec modernej ekonómie", "answers": ["Karl Marx", "Ronald Reagan", "Adam Smith", "John Keynes"], "correct": 2},
@@ -1768,71 +1768,71 @@
 {"question": "Chemický symbol pre tantal", "answers": ["Ta", "Hf", "W", "Tl"], "correct": 0},
 {"question": "Chemický symbol pre volfrám", "answers": ["W", "V", "Re", "Wm"], "correct": 0},
 {"question": "Chemický symbol pre rénium", "answers": ["Re", "W", "Os", "Rm"], "correct": 0},
-{"question": "Chemický symbol pre aktínium", "answers": ["Ac", "An", "Ak", "Am"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre amerícium", "answers": ["Am", "Ac", "Ar", "A"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre astát", "answers": ["At", "As", "Aa", "Ar"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre zlato", "answers": ["Au", "Ag", "Am", "Zl"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre bohrium", "answers": ["Bh", "Bi", "Al", "Bm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre bizmut", "answers": ["Bi", "Bz", "Bt", "Bm"], "correct": 0}, /*13.5.2025*/  
-{"question": "Chemický symbol pre bizmut", "answers": ["Bi", "Bz", "Bt", "Bm"], "correct": 0}, /*13.5.2025*/  
-{"question": "Chemický symbol pre berkélium", "answers": ["Bk", "Be", "Ct", "Bm"], "correct": 0}, /*13.5.2025*/ 
-{"question": "Chemický symbol pre kalifornium", "answers": ["Cf", "Ka", "De", "Km"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre curium", "answers": ["Cm", "Cn", "Cu", "Ci"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre kopernícium", "answers": ["Cn", "Cm", "Cu", "Km"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre dubnium", "answers": ["Db", "Du", "Dn", "Dm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre darmštátium", "answers": ["Ds", "Du", "Dn", "Dm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre einsteinium", "answers": ["Es", "Et", "Au", "Em"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre fleróvium", "answers": ["Fl", "Ft", "Au", "Ag"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre fermium", "answers": ["Fm", "Ft", "Au", "Fm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre francium", "answers": ["Fr", "Fa", "Fc", "Fm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre ortuť", "answers": ["Hg", "Fe", "Or", "O"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre hásium", "answers": ["Hs", "H", "P", "Hm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre irídium", "answers": ["Ir", "I", "Al", "Br"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre lawrencium", "answers": ["Lr", "La", "Mg", "Lw"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre livermórium", "answers": ["Lv", "Lm", "Hg", "Lw"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre moskóvium", "answers": ["Mc", "Xe", "Hg", "Mo"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre mendelévium", "answers": ["Md", "Li", "Hg", "Mm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre meitnérium", "answers": ["Mt", "Li", "Hg", "Mm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre nihónium", "answers": ["Nh", "Pb", "Rg", "Nm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre nobélium", "answers": ["No", "Pb", "Rg", "Nm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre neptúnium", "answers": ["Np", "Ne", "Rg", "Nm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre oganesón", "answers": ["Og", "O", "Pa", "On"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre osmium", "answers": ["Os", "O", "Og", "On"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre protaktínium", "answers": ["Pa", "P", "Pm", "Ra"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre olovo", "answers": ["Pb", "O", "Ol", "Ra"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre polónium", "answers": ["Po", "Pl", "Ol", "Rf"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre platinu", "answers": ["Pt", "Pl", "Al", "Og"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre plutónium", "answers": ["Pu", "Pl", "Al", "Pm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre rádium", "answers": ["Ra", "Fe", "Mg", "Rm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre rutherfordium", "answers": ["Rf", "Ru", "Mg", "Rm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre Röntgénium", "answers": ["Rg", "Ru", "Mg", "Rm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre radón", "answers": ["Rn", "Ni", "Mg", "Rm"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre seaborgiumón", "answers": ["Sg", "Si", "U", "Sn"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre technécium", "answers": ["Tc", "Th", "V", "Zr"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre tórium", "answers": ["Th", "Tc", "V", "Zr"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre tálium", "answers": ["Tl", "Tc", "Xe", "Zn"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre tenés", "answers": ["Ts", "Tc", "Xe", "Zn"], "correct": 0}, /*13.5.2025*/
-{"question": "Chemický symbol pre urán", "answers": ["U", "K", "P", "O"], "correct": 0}, /*13.5.2025*/
+{"question": "Chemický symbol pre aktínium", "answers": ["Ac", "An", "Ak", "Am"], "correct": 0},
+{"question": "Chemický symbol pre amerícium", "answers": ["Am", "Ac", "Ar", "A"], "correct": 0},
+{"question": "Chemický symbol pre astát", "answers": ["At", "As", "Aa", "Ar"], "correct": 0},
+{"question": "Chemický symbol pre zlato", "answers": ["Au", "Ag", "Am", "Zl"], "correct": 0},
+{"question": "Chemický symbol pre bohrium", "answers": ["Bh", "Bi", "Al", "Bm"], "correct": 0},
+{"question": "Chemický symbol pre bizmut", "answers": ["Bi", "Bz", "Bt", "Bm"], "correct": 0},
+{"question": "Chemický symbol pre bizmut", "answers": ["Bi", "Bz", "Bt", "Bm"], "correct": 0},
+{"question": "Chemický symbol pre berkélium", "answers": ["Bk", "Be", "Ct", "Bm"], "correct": 0},
+{"question": "Chemický symbol pre kalifornium", "answers": ["Cf", "Ka", "De", "Km"], "correct": 0},
+{"question": "Chemický symbol pre curium", "answers": ["Cm", "Cn", "Cu", "Ci"], "correct": 0},
+{"question": "Chemický symbol pre kopernícium", "answers": ["Cn", "Cm", "Cu", "Km"], "correct": 0},
+{"question": "Chemický symbol pre dubnium", "answers": ["Db", "Du", "Dn", "Dm"], "correct": 0},
+{"question": "Chemický symbol pre darmštátium", "answers": ["Ds", "Du", "Dn", "Dm"], "correct": 0},
+{"question": "Chemický symbol pre einsteinium", "answers": ["Es", "Et", "Au", "Em"], "correct": 0},
+{"question": "Chemický symbol pre fleróvium", "answers": ["Fl", "Ft", "Au", "Ag"], "correct": 0},
+{"question": "Chemický symbol pre fermium", "answers": ["Fm", "Ft", "Au", "Fm"], "correct": 0},
+{"question": "Chemický symbol pre francium", "answers": ["Fr", "Fa", "Fc", "Fm"], "correct": 0},
+{"question": "Chemický symbol pre ortuť", "answers": ["Hg", "Fe", "Or", "O"], "correct": 0},
+{"question": "Chemický symbol pre hásium", "answers": ["Hs", "H", "P", "Hm"], "correct": 0},
+{"question": "Chemický symbol pre irídium", "answers": ["Ir", "I", "Al", "Br"], "correct": 0},
+{"question": "Chemický symbol pre lawrencium", "answers": ["Lr", "La", "Mg", "Lw"], "correct": 0},
+{"question": "Chemický symbol pre livermórium", "answers": ["Lv", "Lm", "Hg", "Lw"], "correct": 0},
+{"question": "Chemický symbol pre moskóvium", "answers": ["Mc", "Xe", "Hg", "Mo"], "correct": 0},
+{"question": "Chemický symbol pre mendelévium", "answers": ["Md", "Li", "Hg", "Mm"], "correct": 0},
+{"question": "Chemický symbol pre meitnérium", "answers": ["Mt", "Li", "Hg", "Mm"], "correct": 0},
+{"question": "Chemický symbol pre nihónium", "answers": ["Nh", "Pb", "Rg", "Nm"], "correct": 0},
+{"question": "Chemický symbol pre nobélium", "answers": ["No", "Pb", "Rg", "Nm"], "correct": 0},
+{"question": "Chemický symbol pre neptúnium", "answers": ["Np", "Ne", "Rg", "Nm"], "correct": 0},
+{"question": "Chemický symbol pre oganesón", "answers": ["Og", "O", "Pa", "On"], "correct": 0},
+{"question": "Chemický symbol pre osmium", "answers": ["Os", "O", "Og", "On"], "correct": 0},
+{"question": "Chemický symbol pre protaktínium", "answers": ["Pa", "P", "Pm", "Ra"], "correct": 0},
+{"question": "Chemický symbol pre olovo", "answers": ["Pb", "O", "Ol", "Ra"], "correct": 0},
+{"question": "Chemický symbol pre polónium", "answers": ["Po", "Pl", "Ol", "Rf"], "correct": 0},
+{"question": "Chemický symbol pre platinu", "answers": ["Pt", "Pl", "Al", "Og"], "correct": 0},
+{"question": "Chemický symbol pre plutónium", "answers": ["Pu", "Pl", "Al", "Pm"], "correct": 0},
+{"question": "Chemický symbol pre rádium", "answers": ["Ra", "Fe", "Mg", "Rm"], "correct": 0},
+{"question": "Chemický symbol pre rutherfordium", "answers": ["Rf", "Ru", "Mg", "Rm"], "correct": 0},
+{"question": "Chemický symbol pre Röntgénium", "answers": ["Rg", "Ru", "Mg", "Rm"], "correct": 0},
+{"question": "Chemický symbol pre radón", "answers": ["Rn", "Ni", "Mg", "Rm"], "correct": 0},
+{"question": "Chemický symbol pre seaborgiumón", "answers": ["Sg", "Si", "U", "Sn"], "correct": 0},
+{"question": "Chemický symbol pre technécium", "answers": ["Tc", "Th", "V", "Zr"], "correct": 0},
+{"question": "Chemický symbol pre tórium", "answers": ["Th", "Tc", "V", "Zr"], "correct": 0},
+{"question": "Chemický symbol pre tálium", "answers": ["Tl", "Tc", "Xe", "Zn"], "correct": 0},
+{"question": "Chemický symbol pre tenés", "answers": ["Ts", "Tc", "Xe", "Zn"], "correct": 0},
+{"question": "Chemický symbol pre urán", "answers": ["U", "K", "P", "O"], "correct": 0},
 
-{"question": "Latinský názov pre striebro", "answers": ["Argentum", "Silver", "Aurum", "Actínium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre hliník", "answers": ["Aluminium", "Amerícium", "Bauxit", "Dural"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre zlato", "answers": ["Aurum", "Argentum", "Gold", "Mosadz"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre uhlík", "answers": ["Carboneum", "Uhľovodík", "Platinium", "Bromum"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre vápnik", "answers": ["Calcium", "Carboneum", "Cerium", "Vapnium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre meď", "answers": ["Cuprum", "Manganum", "Ferrum", "Kalium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre železo", "answers": ["Ferrum", "Manganum", "Holmium", "Kalium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre vodík", "answers": ["Hydrogenium", "Hydrargyrum", "Helium", "Hafnium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre ortuť", "answers": ["Hydrargyrum", "Hydrogenium", "Helium", "Iodium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre draslík", "answers": ["Kalium", "Calcium", "Ferrum", "Iodium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre horčík", "answers": ["Magnesium", "Calcium", "Ferrum", "Kalium"], "correct": 0}, /*13.5.2025*/  
-{"question": "Latinský názov pre dusík", "answers": ["Nitrogenium", "Calcium", "Magnesium", "Natrium"], "correct": 0}, /*13.5.2025*/ 
-{"question": "Latinský názov pre sodík", "answers": ["Natrium", "Calcium", "Magnesium", "Niobum"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre kyslík", "answers": ["Oxygenium", "Osmium", "Plumbum", "Niobum"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre olovo", "answers": ["Plumbum", "Osmium", "Oganesson", "Niobum"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre síru", "answers": ["Sulfus", "Silver", "Selenium", "Stannum"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre antimón", "answers": ["Stibium", "Actinium", "Selenium", "Aluminium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre kremík", "answers": ["Silicium", "Stibium", "Selenium", "Cadmium"], "correct": 0}, /*13.5.2025*/
-{"question": "Latinský názov pre cín", "answers": ["Stannum", "Stibium", "Selenium", "Silicium"], "correct": 0}, /*13.5.2025*/
+{"question": "Latinský názov pre striebro", "answers": ["Argentum", "Silver", "Aurum", "Actínium"], "correct": 0},
+{"question": "Latinský názov pre hliník", "answers": ["Aluminium", "Amerícium", "Bauxit", "Dural"], "correct": 0},
+{"question": "Latinský názov pre zlato", "answers": ["Aurum", "Argentum", "Gold", "Mosadz"], "correct": 0},
+{"question": "Latinský názov pre uhlík", "answers": ["Carboneum", "Uhľovodík", "Platinium", "Bromum"], "correct": 0},
+{"question": "Latinský názov pre vápnik", "answers": ["Calcium", "Carboneum", "Cerium", "Vapnium"], "correct": 0},
+{"question": "Latinský názov pre meď", "answers": ["Cuprum", "Manganum", "Ferrum", "Kalium"], "correct": 0},
+{"question": "Latinský názov pre železo", "answers": ["Ferrum", "Manganum", "Holmium", "Kalium"], "correct": 0},
+{"question": "Latinský názov pre vodík", "answers": ["Hydrogenium", "Hydrargyrum", "Helium", "Hafnium"], "correct": 0},
+{"question": "Latinský názov pre ortuť", "answers": ["Hydrargyrum", "Hydrogenium", "Helium", "Iodium"], "correct": 0},
+{"question": "Latinský názov pre draslík", "answers": ["Kalium", "Calcium", "Ferrum", "Iodium"], "correct": 0},
+{"question": "Latinský názov pre horčík", "answers": ["Magnesium", "Calcium", "Ferrum", "Kalium"], "correct": 0}, 
+{"question": "Latinský názov pre dusík", "answers": ["Nitrogenium", "Calcium", "Magnesium", "Natrium"], "correct": 0},
+{"question": "Latinský názov pre sodík", "answers": ["Natrium", "Calcium", "Magnesium", "Niobum"], "correct": 0},
+{"question": "Latinský názov pre kyslík", "answers": ["Oxygenium", "Osmium", "Plumbum", "Niobum"], "correct": 0},
+{"question": "Latinský názov pre olovo", "answers": ["Plumbum", "Osmium", "Oganesson", "Niobum"], "correct": 0},
+{"question": "Latinský názov pre síru", "answers": ["Sulfus", "Silver", "Selenium", "Stannum"], "correct": 0},
+{"question": "Latinský názov pre antimón", "answers": ["Stibium", "Actinium", "Selenium", "Aluminium"], "correct": 0},
+{"question": "Latinský názov pre kremík", "answers": ["Silicium", "Stibium", "Selenium", "Cadmium"], "correct": 0},
+{"question": "Latinský názov pre cín", "answers": ["Stannum", "Stibium", "Selenium", "Silicium"], "correct": 0},
 
 {"question": "Chemický prvok, ktorý má symbol Au", "answers": ["Zlato", "Astát", "Meď", "Aluminium"], "correct": 0},
 {"question": "Chemický prvok, ktorý má symbol Ag", "answers": ["Striebro", "Zlato", "Argón", "Argentum"], "correct": 0},
