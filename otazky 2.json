@@ -67,17 +67,16 @@
 { "question": "Autor prvého slovenského celovečerného filmu Jánošík z roku 1921", "answers": ["Jaroslav Siakeľ", "Ján Kadár", "Paľo Bielik", "Štefan Uher"], "correct": 0 },
 
 { "question": "Maximálny obsah zvyškového cukru na liter pri suchom víne", "answers": ["4 g/l", "12 g/l", "18 g/l", "6 g/l"], "correct": 0 },
-{ "question": "Maximálny obsah zvyškového cukru na liter pri polosuchom víne", "answers": ["4,1-12 g/l", "6-13,5 g/l", "7-11,5 g/l", "15,5-17,5 g/l"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Maximálny obsah zvyškového cukru na liter pri polosladkom víne", "answers": ["12,1-45 g/l", "16-33,5 g/l", "25-40,5 g/l", "38-44 g/l"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Maximálny obsah zvyškového cukru na liter pri sladkom víne", "answers": [">45 g/l", "35-40,5 g/l", "25-40,5 g/l", "4-5,5 g/l"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Šumivé víno, ktorého obsah zvyškového cukru je v rozmedzí 0-3 g/l", "answers": ["brut nature", "extra dry", "doux", "sec"], "correct": 0 }, /*nové 7.5.2025*/
-{ "question": "Šumivé víno, ktorého obsah zvyškového cukru je >50 g/l", "answers": ["brut nature", "extra dry", "doux", "sec"], "correct": 2 }, /*nové 7.5.2025*/
+{ "question": "Maximálny obsah zvyškového cukru na liter pri polosuchom víne", "answers": ["4,1-12 g/l", "6-13,5 g/l", "7-11,5 g/l", "15,5-17,5 g/l"], "correct": 0 },
+{ "question": "Maximálny obsah zvyškového cukru na liter pri polosladkom víne", "answers": ["12,1-45 g/l", "16-33,5 g/l", "25-40,5 g/l", "38-44 g/l"], "correct": 0 },
+{ "question": "Maximálny obsah zvyškového cukru na liter pri sladkom víne", "answers": [">45 g/l", "35-40,5 g/l", "25-40,5 g/l", "4-5,5 g/l"], "correct": 0 },
+{ "question": "Šumivé víno, ktorého obsah zvyškového cukru je v rozmedzí 0-3 g/l", "answers": ["brut nature", "extra dry", "doux", "sec"], "correct": 0 },
+{ "question": "Šumivé víno, ktorého obsah zvyškového cukru je >50 g/l", "answers": ["brut nature", "extra dry", "doux", "sec"], "correct": 2 },
 { "question": "Podiel mliečneho tuku v masle", "answers": ["53%", "74%", "82%", "60%"], "correct": 2 },
 { "question": "Známa srbská zeleninová zmes z červenej papriky, baklažánu, chilli a cesnaku", "answers": ["Sarma", "Ajvar", "Džuveč", "Musaka"], "correct": 1 },
 { "question": "Obsah alkoholu v pive Pilsner Urquell", "answers": ["4.40%", "4.80%", "5.20%", "5.60%"], "correct": 0 },
 { "question": "Talianske cestoviny v tvare mašličiek alebo motýľov", "answers": ["Farfalle", "Rigatoni", "Fusilli", "Penne"], "correct": 0 },
 
-/*Písmo*/
 { "question": "Prvé písmeno gréckej abecedy", "answers": ["Alfa", "Omega", "Zéta", "Kapa"], "correct": 0 },
 { "question": "Tretie písmeno gréckej abecedy", "answers": ["Delta", "Gama", "Kapa", "Mí"], "correct": 1 },
 { "question": "Posledné písmeno gréckej abecedy", "answers": ["Omikron", "Omega", "Zéta", "Psi"], "correct": 1 },
@@ -89,32 +88,24 @@
 { "question": "Názov gréckeho písmena Ξ ", "answers": ["Zéta", "Ksí", "Delta", "Omega"], "correct": 1 },
 { "question": "Názov gréckeho písmena Χ ", "answers": ["Tau", "Chí", "Ró", "Pí"], "correct": 1 },
 
-/*Fyzika*/
 { "question": "Prostredie, ktorým neprejde zvuk", "answers": ["Vákuum", "Voda", "Vzduch", "Sklo"], "correct": 0 },
 
-/*Skratky*/
 { "question": "Význam skratky EAN", "answers": ["Označenie kvality", "Čiarový kód", "Vyrobené v EÚ", "Energetický certifikát"], "correct": 1 },
 
-/*Rastliny*/
 { "question": "Dĺžka, o ktorú môže bambus vyrásť za 1 deň", "answers": ["15 cm", "50 cm", "90 cm", "30 cm"], "correct": 2 },
 { "question": "Odroda viniča, ktorá vznikla skrížením odrôd Tramínu červeného a Müller Thurgau", "answers": ["Alibernet", "Pálava", "Devín", "Chardonnay"], "correct": 1 },
 
-/*Šport*/
 { "question": "Rok, v ktorom sa naposledy konali letné a zimné olympijské hry v tom istom roku", "answers": ["1984", "1988", "1992", "1996"], "correct": 2 },
 { "question": "Počet hráčov v jednom tíme vo futbale", "answers": ["10", "11", "12", "9"], "correct": 1 },
 
-/*Geografia-rieky*/
 { "question": "Najdlhšia rieka v Írsku (386 km)", "answers": ["Shannon", "Temža", "Volga", "Liffey"], "correct": 0 },
 
 { "question": "Počet cyklov spánku", "answers": ["1", "8", "5", "3"], "correct": 2 },
 
-/*Herci*/
 { "question": "Britský herec, ktorý sa preslávil postavou Mr. Beana", "answers": ["Rowan Atkinson", "Hugh Grant", "Sean Connery", "Daniel Craig"], "correct": 0 },
 
-/*Hudba*/
 { "question": "Hudobná skupina, v ktorej spieva Damon Albarn", "answers": ["Blur", "Deep Purple", "Depeche Mode", "Gorillaz"], "correct": 0 },
 
-/*Matematika*/
 { "question": "Číslo, ktoré označuje tucet", "answers": ["12", "24", "48", "10"], "correct": 0 },
 { "question": "Počet strán triangla", "answers": ["3", "4", "5", "6"], "correct": 0 },
 { "question": "Počet strán šesťuholníka", "answers": ["5", "6", "7", "8"], "correct": 1 },
@@ -126,13 +117,10 @@
 { "question": "Názov mnohouholníka, ktorý má desať strán", "answers": ["Dekagón", "Pentagón", "Nonagón", "Oktagón"], "correct": 0 },
 { "question": "Názov mnohouholníka, ktorý má dvanásť strán", "answers": ["Dodekagón", "Pentagón", "Kváder", "Oktagón"], "correct": 0 },
 
-/*Choroby*/
 { "question": "Zápalové ochorenie žalúdka", "answers": ["Gastritída", "Sarkoidóza", "Apendicitída", "Kolitída"], "correct": 0 },
 
-/*Slovensko-príroda*/
 { "question": "Bukový prales v Národnom parku Poloniny", "answers": ["Veterlín", "Stužica", "Badínsky prales", "Bokšov"], "correct": 1 },
 
-/*NAJ-svet*/
 { "question": "Najvyššia hora sveta", "answers": ["Mount Everest", "Mont Blanc", "Kilimandžáro", "K2"], "correct": 0 },
 { "question": "Najväčší kontinent", "answers": ["Ázia", "Afrika", "Severná Amerika", "Antarktída"], "correct": 0 },
 { "question": "Najrýchlejšie zviera na zemi", "answers": ["Gepard", "Kôň", "Sokol", "Lev"], "correct": 0 },
@@ -140,8 +128,6 @@
 { "question": "Kontinent najmenej obývaný", "answers": ["Antarktída", "Austrália", "Afrika", "Európa"], "correct": 0 },
 { "question": "Najhlbší oceán na svete", "answers": ["Indický", "Tichý", "Atlantický", "Severný ľadový"], "correct": 1 },
 
-
-  /*Vesmír*/
   { "question": "Počet planét v slnečnej sústave", "answers": ["8", "9", "7", "10"], "correct": 0 },
   { "question": "Planéta známa ako Červená planéta", "answers": ["Mars", "Venuša", "Jupiter", "Merkúr"], "correct": 0 },
   { "question": "Planéta, ktorá má prstence", "answers": ["Mars", "Saturn", "Venuša", "Uran"], "correct": 1 },
@@ -152,15 +138,12 @@
   { "question": "Druhá planéta od Slnka", "answers": ["Mars", "Venuša", "Merkúr", "Zem"], "correct": 1 },
   { "question": "Počet mesiacov Saturnu", "answers": ["viac ako 100", "50", "12", "62"], "correct": 0 },
 
-  /*Štáty-rôzne*/
   { "question": "Krajina vychádzajúceho slnka", "answers": ["Čína", "Japonsko", "India", "Kórea"], "correct": 1 },
   { "question": "Štát, ktorý má tvar čižmy", "answers": ["Španielsko", "Taliansko", "Grécko", "Chorvátsko"], "correct": 1 },
   { "question": "Krajina tulipánov", "answers": ["Dánsko", "Fínsko", "Holandsko", "Belgicko"], "correct": 2 },
 
-  /*Umenie*/
   { "question": "Autor obrazu Mona Lisy", "answers": ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Michelangelo"], "correct": 1 },
 
-  /*Zviera symbol 26.5.2025*/
   { "question": "Národné zviera Austrálie", "answers": ["Panda", "Klokan", "Krokodíl", "Slon"], "correct": 1 },
   { "question": "Národné zviera Číny", "answers": ["Slon", "Koala", "Panda", "Tiger"], "correct": 2 },
   { "question": "Zviera, ktoré je symbolom Tatier", "answers": ["Medveď", "Zubor", "Kamzík", "Rys"], "correct": 2 },
@@ -172,7 +155,6 @@
   { "question": "Národné zviera Francúzska", "answers": ["Medveď", "Kohút", "Orol", "Výr"], "correct": 1 },
   { "question": "Národné zviera Bahám", "answers": ["Čajka", "Plameniak", "Lastovička", "Vrana"], "correct": 1 },
 
-/*Autor knihy 22.5.2025*/
   { "question": "Autor knihy 'Vojna a mier'", "answers": ["Lev Tolstoj", "Anton Čechov", "Fjodor Dostojevskij", "Maxim Gorkij"], "correct": 0 },
   { "question": "Autor knihy '1984'", "answers": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "J.R.R. Tolkien"], "correct": 0 },
   { "question": "Autor knihy 'Moby-Dick'", "answers": ["Herman Melville", "Edgar Allan Poe", "Mark Twain", "Nathaniel Hawthorne"], "correct": 0 },
@@ -201,7 +183,6 @@
   { "question": "Plynový prvok, ktorý potrebujeme na dýchanie", "answers": ["Dusík", "Kyslík", "Vodík", "Hélium"], "correct": 1 },
   { "question": "Počet farieb v dúhe", "answers": ["6", "7", "8", "5"], "correct": 1 },
 
-/*BOJOVÉ UMENIE 28.5.2025*/
   { "question": "Malý kovový alebo plastový prút, ktorý sa používa na tlakové body a aplikáciu bolesti na útočníka", "answers": ["Taser", "Kubotan", "Obušok", "Paralyzér"], "correct": 1 },
   { "question": "Ostrov, na ktorom vzniklo bojové umenie karate", "answers": ["Okinawa", "Chaj-nan", "Taiwan", "Jeju"], "correct": 0 },
   { "question": "Bojové umenie, ktoré má tieto základné štýly: wado, šito, godžu a šótokan", "answers": ["Karate", "Kung Fu", "Džudo", "Taekwondo"], "correct": 0 },
@@ -211,14 +192,12 @@
   { "question": "Autor teórie relativity", "answers": ["Nikola Tesla", "Albert Einstein", "Isaac Newton", "Stephen Hawking"], "correct": 1 },
   { "question": "Oceán, ktorý obmýva východné pobrežie USA", "answers": ["Tichý", "Indický", "Atlantický", "Severný ľadový"], "correct": 2 },
 
-/*Zvieratá 26.5.2025*/
   { "question": "Vták, ktorý nedokáže lietať", "answers": ["Orol", "Pštros", "Sokol", "Čajka"], "correct": 1 },
   { "question": "Vták, ktorý nedokáže lietať", "answers": ["Sokol", "Kiwi", "Lastovička", "Bocian"], "correct": 1 },
   { "question": "Vták, ktorý nedokáže lietať", "answers": ["Vtákopysk", "Tučniak", "Tuleň", "Kosatka"], "correct": 1 },
   { "question": "Kontinent, ktorý je domovom ľadových medveďov", "answers": ["Antarktída", "Európa", "Severná Amerika", "Ázia"], "correct": 2 },
   { "question": "Zviera, ktoré dokáže spať postojačky", "answers": ["Pes", "Kôň", "Mačka", "Krava"], "correct": 1 },
 
-/*Hudobné nástroje 26.5.2025*/
   { "question": "Hudobný nástroj, ktorý používa sláčik", "answers": ["Husle", "Gitara", "Flauta", "Ukulele"], "correct": 0 },
   { "question": "Hudobný nástroj, ktorý používa sláčik", "answers": ["Kontrabas", "Gitara", "Okarina", "Ukulele"], "correct": 0 },
   { "question": "Hudobný nástroj, ktorý používa sláčik", "answers": ["Violončelo", "Bendžo", "Okarina", "Mandolína"], "correct": 0 },
@@ -231,16 +210,13 @@
   { "question": "Slovenský národý hudobný nástroj", "answers": ["Fujara", "Dudy", "Harmonika", "Ukulele"], "correct": 0 },
   { "question": "Japonský národý hudobný nástroj", "answers": ["Koto", "Sitar", "Harmonika", "Ukulele"], "correct": 0 },
 
-/*Hádanky 27.5.2025*/
   { "question": "Čo má nohy, ale nechodí?", "answers": ["Stolička", "Pes", "Kôň", "Človek"], "correct": 0 },
   { "question": "Čo sa stále zväčšuje, ale nikdy nemá veľkosť?", "answers": ["Čas", "Balón", "Dom", "Kniha"], "correct": 0 },
   { "question": "Čo môžeš zlomiť, ale nikdy to nedržíš v ruke?", "answers": ["Sľub", "Palicu", "Sklo", "Pero"], "correct": 0 },
   { "question": "Čo má zuby, ale neje?", "answers": ["Hrebeň", "Pes", "Človek", "Lev"], "correct": 0 },
 
-/*Skladačka slov 27.5.2025*/
 { "question": "Z písmen 'STOME' vytvor slovo", "answers": ["MESTO", "CESTO", "PLESO", "KOSTI"], "correct": 0 },
 { "question": "Z písmen 'DÍKKOLRO' vytvor slovo", "answers": ["KROKODÍL", "KOLONÁDA", "DOMINANT", "POMARANČ"], "correct": 0 },
-
 
   { "question": "Hlavná zložka vzduchu", "answers": ["Kyslík", "Dusík", "Hélium", "Oxid uhličitý"], "correct": 1 },
   { "question": "Počet základných smerov", "answers": ["2", "4", "6", "8"], "correct": 1 },
@@ -288,7 +264,6 @@
   { "question": "Pásové vozidlo na úpravu lyžiarskych tratí", "answers": ["Traktor", "Ratrak", "Kovinorez", "Buldozér"], "correct": 1 },
   { "question": "Plyn, ktorý je možné cítiť pred búrkou a po nej", "answers": ["Argón", "Hélium", "Ozón", "Metán"], "correct": 2 },
 
-
   { "question": "Oceán, v ktorom sa nachádza Mariánska priekopa", "answers": ["Indický oceán", "Tichý oceán", "Atlantický oceán", "Severný ľadový oceán"], "correct": 1 },
   { "question": "Príchuť čiernej soli Kala Namak, ktorú používajú aj vegáni", "answers": ["Mäsitá", "Vaječná", "Mliečna", "Orechová"], "correct": 1 },
   { "question": "Počet turistických regiónov na Slovensku", "answers": ["7", "12", "21", "14"], "correct": 2 },
@@ -307,7 +282,6 @@
   { "question": "Počet hviezd na čínskej vlajke", "answers": ["1", "5", "7", "3"], "correct": 1 },
   { "question": "Zásady bezpečného správania na lyžiarskej trati", "answers": ["Snehový kódex", "Lyžiarsky kódex", "Biely kódex", "Modrý kódex"], "correct": 2 },
 
-/*Porekadla, pranostiky 27.5.2025*/
   { "question": "Doplň pranostiku: Studený máj, ...", "answers": ["do šálky čaj", "v stodole raj", "Boh huby sial", "kosca trápi žiaľ"], "correct": 1 },
   { "question": "Doplň pranostiku: Svätá Žofia ...", "answers": ["stromy rozvíja", "zemiaky zbiera", "ľan rozsieva", "okná otvára"], "correct": 2 },
   { "question": "Doplň pranostiku: Medardova kvapka ... dní kvapká", "answers": ["20", "30", "40", "50"], "correct": 2 },
@@ -334,7 +308,6 @@
   { "question": "Zviera, ktoré reprezentuje americkú politickú stranu demokratov", "answers": ["Vlk", "Somár", "Slon", "Jazvec"], "correct": 1 },
   { "question": "Vrstva atmosféry, v ktorej sa dejú zmeny počasia", "answers": ["Troposféra", "Termosféra", "Stratosféra", "Mezosféra"], "correct": 0 },
 
-/*SK Literatura 3.6.2025*/
   { "question": "Autor literárneho diela Marína", "answers": ["Martin Kukučín", "Andrej Sládkovič", "Ján Smrek", "Pavol Országh Hviezdoslav"], "correct": 1 },
   { "question": "Literárne dielo Martina Kukučína", "answers": ["Mor ho!", "Neprebudený", "Žltá ľalia", "Hájnikova žena"], "correct": 1 },
 
@@ -357,7 +330,6 @@
   { "question": "Druhý človek na Mesiaci", "answers": ["Edwin Aldrin", "Alan Bean", "David Scott", "Michael Collins"], "correct": 0 },
   { "question": "Rok, v ktorom sa potopil Titanic", "answers": ["1908", "1912", "1915", "1918"], "correct": 1 },
 
-/*FÓBIE 5.6.2025*/
   { "question": "Chorobný strach z výšky", "answers": ["Akrofóbia", "Fobofóbia", "Autofóbia", "Klaustrofóbia"], "correct": 0 },
   { "question": "Chorobný strach z uzavretých priestorov", "answers": ["Klaustrofóbia", "Agorafóbia", "Sociálna fóbie", "Akrofóbia"], "correct": 0 },
   { "question": "Chorobný strach z otvorených priestranstiev alebo davov", "answers": ["Agorafóbia", "Mysofóbia", "Zoofóbia", "Hematofóbia"], "correct": 0 },
@@ -381,7 +353,6 @@
   { "question": "Chorobný strach z bleskov a hromu", "answers": ["Brontofóbia", "Astrafóbia", "Keraunofóbia", "Akrofóbia"], "correct": 1 },
   { "question": "Chorobný strach z chorôb alebo nakazenia", "answers": ["Nozofóbia", "Iatrofóbia", "Hematofóbia", "Trypofóbia"], "correct": 0 },
   { "question": "Chorobný strach zo špinavoty a baktérií", "answers": ["Mysofóbia", "Nosofóbia", "Hematofóbia", "Trypofóbia"], "correct": 0 },
-
 
   { "question": "Americký televízny sitkom zobrazujúci život šiestich mladých ľudí v New Yorke", "answers": ["Simpsonovci", "Teória veľkého tresku", "Priatelia", "Krok za krokom"], "correct": 2 },
   { "question": "Koniec 1. svetovej vojny", "answers": ["11. novembra 1914", "11. novembra 1917", "11. novembra 1918", "28. júna 1919"], "correct": 2 },
@@ -412,7 +383,6 @@
   { "question": "Odborný názov pre obojpohlavné živočíchy", "answers": ["Afrodity", "Reptilia", "Hermafrodity", "Annelidy"], "correct": 2 },
   { "question": "Prvý uhorský kráľ korunovaný v Stoličnom Belehrade v roku 1000", "answers": ["Belo I.", "Štefan I.", "Ondrej I.", "Ladislav I."], "correct": 1 },
 
-/*VOJENSKÁ HODNOSŤ 3.6.2025*/
   { "question": "Najvyššia dôstojnícka hodnosť v slovenskej armáde", "answers": ["Plukovník", "Admirál", "Major", "Generál"], "correct": 3 },
   { "question": "Najnižšia dôstojnícka hodnosť v slovenskej armáde", "answers": ["Plukovník", "Poručík", "Major", "Kapitán"], "correct": 1 },
   { "question": "Najnižšia poddôstojnícka hodnosť v slovenskej armáde", "answers": ["Čatár", "Poručík", "Rotný", "Generál"], "correct": 2 },
@@ -420,7 +390,6 @@
   { "question": "Najvyššia generálna hodnosť v slovenskej armáde", "answers": ["Generál Poručík", "Brigádny Generál", "Generál", "Generálmajor"], "correct": 2 },
   { "question": "Hovorový výraz pre výsadkára", "answers": ["Bigoš", "Mariňák", "Paragán", "Patriot"], "correct": 2 },
   { "question": "Hovorový výraz pre príslušníka námornej pechoty", "answers": ["Bigoš", "Mariňák", "Paragán", "Patriot"], "correct": 1 },
-
 
   { "question": "Krajina, v ktorej sú národným jedlom žurek a bigos", "answers": ["Litva", "Poľsko", "Estónsko", "Maďarsko"], "correct": 1 },
   { "question": "Vysokohorská chata vo Veľkej studenej doline", "answers": ["Reinerova chata", "Skalnatá chata", "Zbojnícka chata", "Téryho chata"], "correct": 2 },
@@ -470,8 +439,6 @@
   { "question": "Počet rokov 100-ročnej vojny medzi Anglickom a Francúzskom", "answers": ["100", "108", "116", "130"], "correct": 2 },
   { "question": "Orgán, ktorý produkuje v ľudskom tele inzulín", "answers": ["Obličky", "Pečeň", "Pankreas", "Slezina"], "correct": 2 },
 
-/*Kombináia fabieb 2.6.2025*/
-
 { "question": "Farba, ktorá vznikne kombináciou žltej a modrej", "answers": ["Zelená", "Fialová", "Hnedá", "Oranžová"], "correct": 0 },
   { "question": "Farba, ktorá vznikne kombináciou červenej a žltej", "answers": ["Oranžová", "Zelená", "Modrá", "Fialová"], "correct": 0 },
   { "question": "Farba, ktorá vznikne kombináciou modrej a červenej", "answers": ["Fialová", "Hnedá", "Zelená", "Oranžová"], "correct": 0 },
@@ -481,8 +448,6 @@
   { "question": "Farba, ktorá vznikne kombináciou žltej a čiernej", "answers": ["Olivová", "Fialová", "Modrá", "Oranžová"], "correct": 0 },
   { "question": "Farba, ktorá vznikne kombináciou modrej a fialovej", "answers": ["Indigo", "Oranžová", "Zelená", "Hnedá"], "correct": 0 },
   
-
-/*Slovene druhy 2.6.2025*/
  { "question": "Slová, ktoré rovnako znejú, ale majú rôzny význam", "answers": ["Homonymá", "Synonymá", "Antonymá", "Pseudonymá"], "correct": 0 },
   { "question": "Slová, ktoré majú rovnaký alebo podobný význam", "answers": ["Synonymá", "Antonymá", "Homonymá", "Hyperonymá"], "correct": 0 },
   { "question": "Slová s opačným významom", "answers": ["Antonymá", "Synonymá", "Homonymá", "Paronymá"], "correct": 0 },
@@ -493,8 +458,6 @@
   { "question": "Slová, ktoré určujú miesto, čas, spôsob alebo príčinu", "answers": ["Príslovky", "Prídavné mená", "Slovesá", "Častice"], "correct": 0 },
   { "question": "Slová, ktoré spájajú vety alebo ich časti", "answers": ["Spojky", "Častice", "Príslovky", "Zájmená"], "correct": 0 },
 
-
-/*Zvieratá jedine na svete 2.6.2025*/
   { "question": "Ostrov, na ktorom žijú lemury", "answers": ["Grónsko", "Madagaskar", "Hawai", "Borneo"], "correct": 1 },
   { "question": "Kontinent, na ktorom žijú klokany", "answers": ["Afrika", "Južná Amerika", "Austrália", "Ázia"], "correct": 2 },
   { "question": "Krajina, kde žijú pandy veľké v prírode", "answers": ["Čína", "Japonsko", "India", "Rusko"], "correct": 0 },
@@ -503,7 +466,6 @@
   { "question": "Krajina, kde sa prirodzene vyskytujú kamzíky tatranské", "answers": ["Slovensko", "Nórsko", "Kanada", "Rusko"], "correct": 0 },
   { "question": "Kontinent, na ktorom žije pštros", "answers": ["Južná Amerika", "Afrika", "Austrália", "Európa"], "correct": 1 },
   { "question": "Kontinent, kde žije jaguár", "answers": ["Severná Amerika", "Európa", "Afrika", "Ázia"], "correct": 1 },
-
 
 { "question": "Fyzikálna veličina, ktorú meriame v Newtonoch", "answers": ["Sila", "Hmotnosť", "Tlak", "Prúd"], "correct": 0 },
 { "question": "Rastlina, z ktorej sa vyrába ópium", "answers": ["Púpava", "Mak", "Kokos", "Lotos"], "correct": 1 },
@@ -695,7 +657,6 @@
 {"question": "Medzinárodná telefónna predvoľba do Maďarska", "answers": ["+36", "+22", "+48", "+41"], "correct": 0},
 {"question": "Rímska číslica 'MM' znamená ...", "answers": ["20", "200", "2000", "3000"], "correct": 2},
 
-/*Mená v kalendári 2.6.2025*/
 {"question": "Mesiac, v ktorom sú mená Radovan a Ema", "answers": ["Február", "Marec", "Január", "Máj"], "correct": 2},
 {"question": "Mesiac, v ktorom sú mená Valentín a Matej", "answers": ["Február", "Október", "Január", "Júl"], "correct": 0},
 {"question": "Mesiac, v ktorom sú mená Jozef a Alena", "answers": ["Marec", "Október", "December", "Júl"], "correct": 0},
@@ -711,7 +672,6 @@
 {"question": "Mesiac, v ktorom sú mená Ondrej a Andrej", "answers": ["Október", "Jún", "November", "December"], "correct": 2},
 {"question": "Mesiac, v ktorom sú mená Adam a Eva", "answers": ["Október", "Jún", "November", "December"], "correct": 3},
 
-
 {"question": "Najväčšie nemecké mesto na rieke Labe", "answers": ["Mníchov", "Hamburg", "Drážďany", "Brémy"], "correct": 2},
 {"question": "Význam latinského názvu vulpes vulpes", "answers": ["Pes domáci", "Líška hrdzavá", "Vlk dravý", "Zajac poľný"], "correct": 1},
 {"question": "Krátky film premietaný v kinách pred začiatkom celovečerného filmu", "answers": ["Groteska", "Triler", "Žurnál", "Trailer"], "correct": 2},
@@ -721,7 +681,6 @@
 {"question": "Československá pesničková relácia z čias socializmu", "answers": ["Saxofón", "Triangel", "Xylofón", "Akordeón"], "correct": 1},
 {"question": "Režisér filmu Avatar", "answers": ["Robert Zemeckis", "Peter Jackson", "James Cameron", "Steven Spielberg"], "correct": 2},
 
-/*Znamenia 26.5.2025*/
 {"question": "Znamenie zverokruhu v období 21. marec – 19. apríl", "answers": ["Baran", "Býk", "Rak", "Lev"], "correct": 0},
 {"question": "Znamenie zverokruhu v období 20. apríl – 20. máj", "answers": ["Baran", "Býk", "Rak", "Lev"], "correct": 1},
 {"question": "Znamenie zverokruhu v období 21. máj – 20. jún", "answers": ["Blíženci", "Rak", "Lev", "Panna"], "correct": 0},
@@ -1014,7 +973,6 @@
 {"question": "Základná stavebná jednotka nervovej sústavy", "answers": ["Receptor", "Neurón", "Atóm", "Prvok"], "correct": 1},
 {"question": "Plody dubu", "answers": ["Žalude", "Bukvice", "Orechy", "Hrsť"], "correct": 0},
 
-/*OVOCIE 3.6.2025*/
 {"question": "Ovocie, ktoré má odrody ametyst, goldstar, golden delicious či luna", "answers": ["Jablká", "Hrušky", "Slivky", "Maliny"], "correct": 0},
 {"question": "Ovocie, ktoré je natoľko rádioaktívne, že dokáže spustiť alarmy v prístavoch a na letiskách", "answers": ["Banány", "Ananas", "Slivky", "Mango"], "correct": 0},
 
@@ -1169,7 +1127,6 @@
 {"question": "Biela mäsitá dužina kokosových orechov, sušená na slnku, z ktorej sa získava kokosový olej", "answers": ["Kopra", "Coco", "Sisal", "Plsť"], "correct": 0},
 {"question": "Najväčší ostrov súostrovia Mariány v Tichomorí, ktorý patrí pod správu USA", "answers": ["Guantánamo", "Guam", "Grónsko", "Hawaii"], "correct": 1},
 
-/* 2.svetová vojna 27.5.2025*/
 {"question": "Názvy lietadiel, ktoré zhodili atómové bomby na Hirošimu a Nagasaki", "answers": ["Bennet a Bradley", "Bambi a Dumbo", "Enola Gay a Bockscar", "Little Boy a Fat Man"], "correct": 2},
 {"question": "Názov atómovej bomby, ktorá bola zhodená na Hirošimu (6. august 1945)", "answers": ["Little Boy", "Fat Man", "Bambi", "Dumbo"], "correct": 0},
 {"question": "Názov atómovej bomby, ktorá bola zhodená na Nagasaki (9. august 1945)", "answers": ["Little Boy", "Fat Man", "Bambi", "Dumbo"], "correct": 1},
@@ -1260,7 +1217,7 @@
 {"question": "Proces, ktorý premieňa slnečné svetlo na chemickú energiu v rastlinách", "answers": ["Fotosyntéza", "Fermentácia", "Fibrilácia", "Respirácia"], "correct": 0},
 {"question": "Najhlbšie jazero na svete", "answers": ["Bajkalské jazero", "Kaspické more", "Viktóriino jazero", "Tanganika"], "correct": 0},
 {"question": "Vedecký názov človeka", "answers": ["Homo erectus", "Homo habilis", "Homo sapiens", "Homo neanderthalensis"], "correct": 2},
-/*BOHOVIA 28.5.2025*/
+
 {"question": "Grécky boh podsvetia", "answers": ["Hades", "Hermes", "Ares", "Kronos"], "correct": 0},
 {"question": "Rímska bohyňa lásky a krásy", "answers": ["Diana", "Venuša", "Minerva", "Juno"], "correct": 1},
 {"question": "Egyptský boh slnka", "answers": ["Anubis", "Ra", "Horus", "Osiris"], "correct": 1},
@@ -1270,7 +1227,6 @@
 {"question": "Grécky boh hromu a blesku", "answers": ["Hades", "Hermes", "Zeus", "Apolón"], "correct": 2},
 {"question": "Rímsky boh múdrosti a remesiel", "answers": ["Aténa", "Venuša", "Minerva", "Bellona"], "correct": 2},
 
-/*Hlavné mestá Európy*/
 {"question": "Hlavné mesto Albánska", "answers": ["Tirana", "Skopje", "Záhreb", "Podgorica"], "correct": 0},
 {"question": "Hlavné mesto Andorry", "answers": ["Andorra la Vella", "Madrid", "Lisabon", "Paríž"], "correct": 0},
 {"question": "Hlavné mesto Arménska", "answers": ["Jerevan", "Baku", "Tbilisi", "Teherán"], "correct": 0},
@@ -1322,7 +1278,6 @@
 {"question": "Hlavné mesto Vatikánu", "answers": ["Vatikán", "Castel Gandolfo", "San Pietro", "Rím"], "correct": 0},
 {"question": "Neoficiálne hlavné mesto Európskej únie", "answers": ["Brusel", "Paríž", "Berlín", "Luxemburg"], "correct": 0},
 
-/*Hlavné mestá Afriky*/
 {"question": "Hlavné mesto Alžírska", "answers": ["Madrid", "Alžír", "Káhira", "Buenos Aires"], "correct": 1},
 {"question": "Hlavné mesto Angoly", "answers": ["Lisabon", "Luanda", "Tokio", "Santiago"], "correct": 1},
 {"question": "Hlavné mesto Beninu", "answers": ["Brusel", "Porto-Novo", "Jakarta", "Caracas"], "correct": 1},
@@ -1375,7 +1330,6 @@
 {"question": "Hlavné mesto Zambie", "answers": ["Lusaka", "Ndola", "Toronto", "Lima"], "correct": 0},
 {"question": "Hlavné mesto Zimbabwe", "answers": ["Harare", "Bulawayo", "Lima", "Káhira"], "correct": 0},
 
-/*Hlavné mestá Ázie*/
 {"question": "Hlavné mesto Afganistanu", "answers": ["Kandahár", "Kábul", "Lima", "Tokio"], "correct": 1},
 {"question": "Hlavné mesto Bahrajnu", "answers": ["Rio de Janeiro", "Manáma", "Santiago", "Seul"], "correct": 1},
 {"question": "Hlavné mesto Bangladéša", "answers": ["Čitágáon", "Dháka", "Baku", "Bangkok"], "correct": 1},
@@ -1420,12 +1374,10 @@
 {"question": "Hlavné mesto Vietnamu", "answers": ["Caracas", "Hanoj", "Lagos", "Manila"], "correct": 1},
 {"question": "Hlavné mesto Spojených arabských emirátov", "answers": ["Dubaj", "Abú Zabí", "Kinshasa", "Dháka"], "correct": 1},
 
-/*Hlavné mestá Severnej Ameriky*/
 {"question": "Hlavné mesto Kanady", "answers": ["Toronto", "Ottawa", "Mexico City", "Denver"], "correct": 1},
 {"question": "Hlavné mesto Spojených štátov amerických", "answers": ["New York", "Washington, D.C.", "Ottawa", "Havana"], "correct": 1},
 {"question": "Hlavné mesto Mexika", "answers": ["Buenos Aires", "Lima", "Mexico City", "Bogota"], "correct": 2},
 
-/*Hlavné mestá Strednej Ameriky a Karibiky*/
 {"question": "Hlavné mesto Belize", "answers": ["Belmopan", "Nassau", "Bridgetown", "Havana"], "correct": 0},
 {"question": "Hlavné mesto Kostariky", "answers": ["San José", "Guatemala City", "Managua", "San Salvador"], "correct": 0},
 {"question": "Hlavné mesto El Salvadoru", "answers": ["Port-au-Prince", "San Salvador", "Panama City", "Belmopan"], "correct": 1},
@@ -1443,7 +1395,6 @@
 {"question": "Hlavné mesto Portorika", "answers": ["San José", "San Juan", "Tegucigalpa", "Bridgetown"], "correct": 1},
 {"question": "Hlavné mesto Trinidadu a Tobaga", "answers": ["Santo Domingo", "Port of Spain", "Guatemala City", "Nassau"], "correct": 1},
 
-/*Hlavné mestá Južnej Ameriky*/
 {"question": "Hlavné mesto Argentíny", "answers": ["Buenos Aires", "Brasília", "Quito", "Asunción"], "correct": 0},
 {"question": "Hlavné mesto Bolívie", "answers": ["Bogotá", "Sucre", "Georgetown", "La Paz"], "correct": 1},
 {"question": "Hlavné mesto Brazílie", "answers": ["São Paulo", "Brasília", "Caracas", "Montevideo"], "correct": 1},
@@ -1457,7 +1408,6 @@
 {"question": "Hlavné mesto Uruguaja", "answers": ["Montevideo", "Brasília", "Buenos Aires", "Asunción"], "correct": 0},
 {"question": "Hlavné mesto Venezuely", "answers": ["Caracas", "Sucre", "Mérida", "Santiago"], "correct": 0},
 
-/*Hlavné mestá Oceánie*/
 {"question": "Hlavné mesto Austrálie", "answers": ["Sydney", "Canberra", "Wellington", "Port Vila"], "correct": 1},
 {"question": "Hlavné mesto Fidži", "answers": ["Suva", "Apia", "Funafuti", "Nuku'alofa"], "correct": 0},
 {"question": "Hlavné mesto Kiribati", "answers": ["Tarawa", "Palikir", "Majuro", "Havana"], "correct": 0},
@@ -1473,7 +1423,6 @@
 {"question": "Hlavné mesto Tuvalu", "answers": ["Funafuti", "Tarawa", "Apia", "Damask"], "correct": 0},
 {"question": "Hlavné mesto Vanuatu", "answers": ["Port Vila", "Majuro", "Palikir", "Suva"], "correct": 0},
 
-/*Štáty a hlavné mestá Európy*/
 {"question": "Štát, ktorý má hlavné mesto Prahu", "answers": ["Poľsko", "Maďarsko", "Česká republika", "Kanada"], "correct": 2},
 {"question": "Štát, ktorý má hlavné mesto Bratislavu", "answers": ["Slovinsko", "Slovensko", "Srbsko", "Mexiko"], "correct": 1},
 {"question": "Štát, ktorý má hlavné mesto Viedeň", "answers": ["Rakúsko", "Nemecko", "Švajčiarsko", "Austrália"], "correct": 0},
@@ -1514,7 +1463,6 @@
 {"question": "Štát, ktorý má hlavné mesto Kyjev", "answers": ["Bielorusko", "Ukrajina", "Rusko", "Filipíny"], "correct": 1},
 {"question": "Štát, ktorý má hlavné mesto Moskva", "answers": ["Ukrajina", "Rusko", "Kazachstan", "Indonézia"], "correct": 1},
 
-/*Štáty a hlavné mestá Afriky*/
 {"question": "Štát, ktorý má hlavné mesto Abuja", "answers": ["Nigéria", "Ghana", "Kamerun", "Taliansko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Accra", "answers": ["Ghana", "Togo", "Benin", "Nemecko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Addis Abeba", "answers": ["Etiópia", "Somálsko", "Sudán", "India"], "correct": 0},
@@ -1559,7 +1507,6 @@
 {"question": "Štát, ktorý má hlavné mesto Windhoek", "answers": ["Namíbia", "Botswana", "Južná Afrika", "Kanada"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Yaoundé", "answers": ["Kamerun", "Gabon", "Rovníková Guinea", "Nový Zéland"], "correct": 0},
 
-/*Štáty a hlavné mestá Ázie*/
 {"question": "Štát, ktorý má hlavné mesto Abú Zabí", "answers": ["Spojené arabské emiráty", "Omán", "Saudská Arábia", "Španielsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Ankara", "answers": ["Turecko", "Irán", "Azerbajdžan", "Portugalsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Astana", "answers": ["Kazachstan", "Uzbekistan", "Turkménsko", "Grécko"], "correct": 0},
@@ -1598,7 +1545,6 @@
 {"question": "Štát, ktorý má hlavné mesto Vientiane", "answers": ["Laos", "Vietnam", "Kambodža", "Kolumbia"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Juba", "answers": ["Južný Sudán", "Sudán", "Čad", "Island"], "correct": 0},
 
-/*Štáty a hlavné mestá Severnej a Strednej Ameriky*/
 {"question": "Štát, ktorý má hlavné mesto Brasília", "answers": ["Brazília", "Argentina", "Paraguaj", "Slovensko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Panama City", "answers": ["Panama", "Honduras", "Kostarika", "Francúzsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Mexico City", "answers": ["Mexiko", "Kostarika", "Guatemala", "Rakúsko"], "correct": 0},
@@ -1609,7 +1555,6 @@
 {"question": "Štát, ktorý má hlavné mesto Tegucigalpa", "answers": ["Honduras", "Guatemala", "Salvádor", "Nórsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Washington, D.C.", "answers": ["Spojené štáty americké", "Kanada", "Mexiko", "Poľsko"], "correct": 0},
 
-/*Štáty a hlavné mestá Karibiku*/
 {"question": "Štát, ktorý má hlavné mesto Nassau", "answers": ["Bahamy", "Jamajka", "Barbados", "Španielsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Bridgetown", "answers": ["Barbados", "Jamajka", "Trinidad a Tobago", "Taliansko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Kingston", "answers": ["Jamajka", "Bahamy", "Barbados", "Francúzsko"], "correct": 0},
@@ -1620,7 +1565,6 @@
 {"question": "Štát, ktorý má hlavné mesto Basseterre", "answers": ["Sv. Krištof a Nevis", "Antigua a Barbuda", "Saint Lucia", "Rakúsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Havana", "answers": ["Kuba", "Dominikánska republika", "Portoriko", "Nemecko"], "correct": 0},
 
-/*Štáty a hlavné mestá Južnej Ameriky*/
 {"question": "Štát, ktorý má hlavné mesto Asunción", "answers": ["Paraguaj", "Bolívia", "Čile", "Česko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Bogotá", "answers": ["Kolumbia", "Peru", "Ekvádor", "Maďarsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Buenos Aires", "answers": ["Argentína", "Uruguaj", "Paraguaj", "Poľsko"], "correct": 0},
@@ -1629,7 +1573,6 @@
 {"question": "Štát, ktorý má hlavné mesto Quito", "answers": ["Ekvádor", "Peru", "Bolívia", "Fínsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Sucre", "answers": ["Bolívia", "Peru", "Čile", "Nórsko"], "correct": 0},
 
-/*Štáty a hlavné mestá Oceánie*/
 {"question": "Štát, ktorý má hlavné mesto Honiara", "answers": ["Šalamúnove ostrovy", "Papua Nová Guinea", "Fidži", "Írsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Majuro", "answers": ["Marshallove ostrovy", "Fidži", "Palau", "Estónsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Port Moresby", "answers": ["Papua Nová Guinea", "Austrália", "Nový Zéland", "Litva"], "correct": 0},
@@ -1638,7 +1581,6 @@
 {"question": "Štát, ktorý má hlavné mesto Canberra", "answers": ["Austrália", "Nový Zéland", "Papua Nová Guinea", "Chorvátsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Funafuti", "answers": ["Tuvalu", "Kiribati", "Fidži", "Slovinsko"], "correct": 0},
 
-/*Matematiky príklady*/
 {"question": "5 + 3 = ?", "answers": ["7", "8", "6", "9"], "correct": 1},
 {"question": "12 - 4 = ?", "answers": ["10", "8", "6", "7"], "correct": 1},
 {"question": "6 x 2 = ?", "answers": ["12", "10", "14", "15"], "correct": 0},
@@ -1700,8 +1642,6 @@
 { "question": "(5 × 3) - (2 × 4) + 1 = ?", "answers": ["10", "15", "8", "13"], "correct": 0 },
 { "question": "20 + (3 × 2) - 5 = ?", "answers": ["21", "25", "16", "23"], "correct": 0 },
 
-
-/*Matematika slovené ulohy 23.5.2025*/
   {"question":"Peter má 5 jabĺk. Kúpil si ešte 3 jablká. Koľko jabĺk má Peter spolu?","answers":["8","7","9","6"],"correct":0},
   {"question":"Mária má 4 perá. Dostala od kamaráta ešte 5 pier. Koľko pier má Mária spolu?","answers":["9","8","10","7"],"correct":0},
   {"question":"V triede je 12 detí. Pribudli ďalšie 4 deti. Koľko detí je teraz v triede?","answers":["16","15","14","13"],"correct":0},
@@ -1724,7 +1664,6 @@
   {"question":"Pekár upečie 5 koláčov denne. Koľko koláčov upečie za 2 týždne?","answers":["70","60","75","65"],"correct":0},
   {"question":"Pri delení 144 číslom dostaneme 12. Aké je to číslo?","answers":["12","10","11","9"],"correct":0},
 
-/*Premena jednotiek 27.5.2025*/
 { "question": "750 ml = ? ml", "answers": ["750", "7,5", "75", "0,75"], "correct": 0 },
 { "question": "3,2 l = ? ml", "answers": ["3200", "320", "32", "3,2"], "correct": 0 },
 { "question": "1500 ml = ? l", "answers": ["1,5", "15", "0,15", "150"], "correct": 0 },
@@ -1754,7 +1693,6 @@
 { "question": "3 h = ? min", "answers": ["180", "30", "0,3", "300"], "correct": 0 },
 { "question": "120 s = ? min", "answers": ["2", "0,2", "20", "200"], "correct": 0 },
 
-/*Chemický prvok symbol*/
 {"question": "Chemický symbol pre vodík", "answers": ["H", "He", "Li", "Vk"], "correct": 0},
 {"question": "Chemický symbol pre hélium", "answers": ["He", "H", "Ne", "Hm"], "correct": 0},
 {"question": "Chemický symbol pre lítium", "answers": ["Li", "Na", "Be", "Lm"], "correct": 0},
@@ -1876,7 +1814,6 @@
 {"question": "Chemický symbol pre tenés", "answers": ["Ts", "Tc", "Xe", "Zn"], "correct": 0}, /*13.5.2025*/
 {"question": "Chemický symbol pre urán", "answers": ["U", "K", "P", "O"], "correct": 0}, /*13.5.2025*/
 
-/*Chémia-latinský názov*/
 {"question": "Latinský názov pre striebro", "answers": ["Argentum", "Silver", "Aurum", "Actínium"], "correct": 0}, /*13.5.2025*/
 {"question": "Latinský názov pre hliník", "answers": ["Aluminium", "Amerícium", "Bauxit", "Dural"], "correct": 0}, /*13.5.2025*/
 {"question": "Latinský názov pre zlato", "answers": ["Aurum", "Argentum", "Gold", "Mosadz"], "correct": 0}, /*13.5.2025*/
@@ -1897,7 +1834,6 @@
 {"question": "Latinský názov pre kremík", "answers": ["Silicium", "Stibium", "Selenium", "Cadmium"], "correct": 0}, /*13.5.2025*/
 {"question": "Latinský názov pre cín", "answers": ["Stannum", "Stibium", "Selenium", "Silicium"], "correct": 0}, /*13.5.2025*/
 
-/*Chemický prvok názov*/
 {"question": "Chemický prvok, ktorý má symbol Au", "answers": ["Zlato", "Astát", "Meď", "Aluminium"], "correct": 0},
 {"question": "Chemický prvok, ktorý má symbol Ag", "answers": ["Striebro", "Zlato", "Argón", "Argentum"], "correct": 0},
 {"question": "Chemický prvok, ktorý má symbol Pb", "answers": ["Olovo", "Zinok", "Meď", "Prometium"], "correct": 0},
@@ -1939,7 +1875,6 @@
 {"question": "Chemický prvok, ktorý má symbol Rh", "answers": ["Ródium", "Irídium", "Platina", "Radón"], "correct": 0},
 {"question": "Chemický prvok, ktorý má symbol Pd", "answers": ["Palládium", "Ródium", "Platina", "Polónium"], "correct": 0},
 
-/*Slovenčina*/
 {"question": "Názov 1. pádu v slovenčine", "answers": ["Datív", "Genitív", "Nominatív", "Vokatív"], "correct": 2},
 {"question": "Názov 2. pádu v slovenčine", "answers": ["Genitív", "Akuzatív", "Lokál", "Nominatív"], "correct": 0},
 {"question": "Názov 3. pádu v slovenčine", "answers": ["Nominatív", "Datív", "Inštrumentál", "Genitív"], "correct": 1},
@@ -2002,7 +1937,6 @@
 
 { "question": "Opozitum k slovu zmršťovanie", "answers": ["Zväčšovanie", "Nafukovanie", "Rozpínanie", "Uvoľňovanie"], "correct": 2 },
 
-/*Chémia*/
 {"question": "Chemický vzorec vody", "answers": ["H₂O", "CO₂", "O₂", "H₂O₂"], "correct": 0},
 {"question": "Chemický vzorec oxidu uhličitého", "answers": ["H₂O", "CO₂", "NaCl", "SO₂"], "correct": 1},
 {"question": "Chemický vzorec kyslíka", "answers": ["H₂", "O₂", "CO₂", "N₂"], "correct": 1},
@@ -2016,7 +1950,6 @@
 {"question": "Chemický vzorec oxidu železitého", "answers": ["FeO", "Fe₂O₃", "Fe₃O₄", "FeO₂"], "correct": 1},
 {"question": "Chemický vzorec dusičnanu draselného", "answers": ["KNO₃", "NaNO₃", "NH₄NO₃", "K₂SO₄"], "correct": 0},
 
-/*Význam mena*/
 {"question": "Význam mena Adam", "answers": ["Živý človek", "Boží človek", "Človek z hliny", "Prvý muž"], "correct": 2},
 {"question": "Význam mena Peter", "answers": ["Skala", "Sloboda", "Vlk", "Strom"], "correct": 0},
 {"question": "Význam mena Lucia", "answers": ["Svetlo", "Šťastie", "Mier", "Hviezda"], "correct": 0},
@@ -2032,7 +1965,6 @@
 {"question": "Význam mena Andrej", "answers": ["Mužný", "Múdry", "Veriaci", "Silný"], "correct": 0},
 {"question": "Meno, ktorého význam v hebrejčine znamená \"ako Boh\"", "answers": ["Jakub", "Michal", "Matej", "Jozef"], "correct": 1},
 
-/*Peniaze, mena*/
 {"question": "Mena, ktorou sa platí v Maďarsku", "answers": ["Euro", "Forint", "Drachma", "Hryvnia"], "correct": 1},
 {"question": "Mena, ktorou sa platilo v Nemecku pred zavedením eura", "answers": ["Marka", "Dolár", "Frank", "Peseta"], "correct": 0},
 {"question": "Mena, ktorou sa platí v Japonsku", "answers": ["Yuan", "Yen", "Won", "Ringgit"], "correct": 1},
@@ -2053,8 +1985,6 @@
 {"question": "Mena, ktorou sa platilo v Grécku pred zavedením eura", "answers": ["Marka", "Drachma", "Gulden", "Lira"], "correct": 1},
 {"question": "Prvý postkomunistický štát, ktorý prijal v roku 2009 euro", "answers": ["Chorvátsko", "Slovensko", "Litva", "Estónsko"], "correct": 1},
 
-
-/*Zdravotníctvo_odbory medicíny*/
 {"question": "Odbor medicíny zaoberajúci sa diagnostikou a liečbou mentálnych porúch", "answers": ["Psychiatria", "Psychológia", "Neurológia", "Psychoterapia"], "correct": 0},
 {"question": "Odbor medicíny zaoberajúci sa liečbou a prevenciou rakoviny kože", "answers": ["Dermatológia", "Onkológia", "Chirurgia", "Alergológia"], "correct": 0},
 {"question": "Odbor medicíny zaoberajúci sa liečbou porúch trávenia", "answers": ["Gastroenterológia", "Neurológia", "Endokrinológia", "Dietetika"], "correct": 0},
@@ -2087,7 +2017,6 @@
 {"question": "Odbor medicíny zaoberajúci sa prevenciou a liečbou porúch pohybového aparátu", "answers": ["Ortopédia", "Reumatológia", "Fyzikálna medicína", "Neurológia"], "correct": 0},
 {"question": "Odbor medicíny zaoberajúci sa diagnostikou a liečbou ochorení žíl", "answers": ["Flebológia", "Kardiológia", "Dermatológia", "Chirurgia"], "correct": 0},
 
-/*Slovensko Najvyššie vrchy pohorí 20.5.2025*/
 {"question": "Najvyšší vrch pohoria Vysoké Tatry", "answers": ["Repisko (1259 m)", "Gerlachovský štít (2654 m)", "Ďumbier (2046 m)", "Vihorlat (1076 m)"], "correct": 1},
 {"question": "Najvyšší vrch pohoria Belianaske Tatry", "answers": ["Havran (2152 m)", "Gerlachovský štít (2654 m)", "Ďumbier (2046 m)", "Vihorlat (1076 m)"], "correct": 0},
 {"question": "Najvyšší vrch pohoria Západné Tatry", "answers": ["Bystrá (2248 m)", "Chopok (2024 m)", "Ďumbier (2046 m)", "Baranec (2185 m)"], "correct": 0},
@@ -2149,7 +2078,6 @@
 {"question": "Najvyšší vrch pohoria Zemplínske vrchy", "answers": ["Rozhľadňa (469 m)", "Plešivec (395 m)", "Kykula (845 m)", "Karanč (725 m)"], "correct": 0},
 {"question": "Najvyšší vrch pohoria Burda", "answers": ["Plešivec (395 m)", "Bradlo (543 m)", "Rozhľadňa (469 m)", "Dlhý diel (818 m)"], "correct": 0},
 
-/*Slovensko Pohoria ich najvyššie vrchy 20.5.2025*/
 {"question": "Pohorie, ktoré má najvyšší vrch Gerlachovský štít", "answers": ["Tatry", "Nízke Tatry", "Malá Fatra", "Veľká Fatra"], "correct": 0},
 {"question": "Pohorie, ktoré má najvyšší vrch Ďumbier", "answers": ["Nízke Tatry", "Tatry", "Malá Fatra", "Veľká Fatra"], "correct": 0},
 {"question": "Pohorie, ktoré má najvyšší vrch Babia hora", "answers": ["Oravské Beskydy", "Malá Fatra", "Kysucké Beskydy", "Oravská Magura"], "correct": 0},
@@ -2210,10 +2138,8 @@
 {"question": "Pohorie, ktoré má najvyšší vrch Rozhľadňa", "answers": ["Zemplínske vrchy", "Strážovské vrchy", "Malá Fatra", "Vtáčnik"], "correct": 0},
 {"question": "Pohorie, ktoré má najvyšší vrch Plešivec", "answers": ["Burda", "Malé Karpaty", "Slanské vrchy", "Bukovské vrchy"], "correct": 0},
 
-/*Poľsko 21.5.2025*/ 
 {"question": "Najvyšší vrch poľských Tatier", "answers": ["Lomnický štít (2634 m)", "Gerlachovský štít (2654 m)", "Kotlový štít (2601 m)", "Rysy (2501 m)"], "correct": 3},
 
-/*Najvyššie vrchy kontinentov 22.5.2025*/
 { "question": "Najvyšší vrch Ázie", "answers": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"], "correct": 0 },
 { "question": "Najvyšší vrch Afriky", "answers": ["Kilimandžáro", "Mount Kenya", "Ras Dashen", "Mount Meru"], "correct": 0 },
 { "question": "Najvyšší vrch Európy", "answers": ["Mont Blanc", "Matterhorn", "Elbrus", "Denali"], "correct": 2 },
@@ -2222,7 +2148,6 @@
 { "question": "Najvyšší vrch Antarktídy", "answers": ["Vinson Massif", "Mount Kirkpatrick", "Mount Erebus", "Mount Craddock"], "correct": 0 },
 { "question": "Najvyšší vrch Austrálie (Oceánie)", "answers": ["Mount Kosciuszko", "Puncak Jaya", "Mount Cook", "Mount Wilhelm"], "correct": 0 },
 
-/*Najdlhšie rieky kontinentov 22.5.2025*/
 { "question": "Najdlhšia rieka Ázie", "answers": ["Jang-c’-ťiang", "Ganga", "Mekong", "Indus"], "correct": 0 },
 { "question": "Najdlhšia rieka Afriky", "answers": ["Níl", "Kongo", "Zambezi", "Limpopo"], "correct": 0 },
 { "question": "Najdlhšia rieka Európy", "answers": ["Volga", "Dunaj", "Rýn", "Loira"], "correct": 0 },
@@ -2231,7 +2156,6 @@
 { "question": "Najdlhšia rieka Antarktídy", "answers": ["Onyx", "Mawson", "Lambert", "Davis"], "correct": 0 },
 { "question": "Najdlhšia rieka Austrálie (Oceánie)", "answers": ["Murray-Darling", "Sepik", "Fly", "Lachlan"], "correct": 0 },
 
-/*Najväčší štát na kontinente 22.5.2025*/
 { "question": "Najväčší štát v Ázii", "answers": ["Rusko", "Čína", "India", "Kazachstan"], "correct": 0 },
 { "question": "Najväčší štát v Afrike", "answers": ["Alžírsko", "Sudán", "Kongo", "Líbia"], "correct": 0 },
 { "question": "Najväčší štát v Európe", "answers": ["Rusko", "Ukrajina", "Francúzsko", "Nemecko"], "correct": 0 },
@@ -2240,7 +2164,6 @@
 { "question": "Najväčší štát v Antarktíde", "answers": ["Žiadny štát", "Austrália", "Francúzsko", "Čile"], "correct": 0 },
 { "question": "Najväčší štát v Austrálii (Oceánia)", "answers": ["Austrália", "Papua Nová Guinea", "Nový Zéland", "Fidži"], "correct": 0 },
 
-/*Najľudnatejší štát na kontinente 22.5.2025*/
 { "question": "Najľudnatejší štát v Ázii", "answers": ["Čína", "India", "Japonsko", "Indonézia"], "correct": 0 },
 { "question": "Najľudnatejší štát v Afrike", "answers": ["Nigéria", "Etiópia", "Egypt", "Kongo"], "correct": 0 },
 { "question": "Najľudnatejší štát v Európe", "answers": ["Rusko", "Nemecko", "Francúzsko", "Taliansko"], "correct": 0 },
@@ -2249,7 +2172,6 @@
 { "question": "Najľudnatejší štát v Antarktíde", "answers": ["Žiadny štát", "Čile", "Nórsko", "Francúzsko"], "correct": 0 },
 { "question": "Najľudnatejší štát v Austrálii (Oceánie)", "answers": ["Austrália", "Papua Nová Guinea", "Nový Zéland", "Fidži"], "correct": 0 },
 
-/*Najľudnatejšie mesto na kontinente 22.5.2025*/
 { "question": "Najľudnatejšie mesto v Ázii", "answers": ["Šanghaj (Čína)", "Mumbaj (India)", "Peking (Čína)", "Káhira (Egypt)"], "correct": 0 },
 { "question": "Najľudnatejšie mesto v Afrike", "answers": ["Lagos (Nigéria)", "Káhira (Egypt)", "Kinšasa (Kongo)", "Nairobi (Keňa)"], "correct": 0 },
 { "question": "Najľudnatejšie mesto v Európe", "answers": ["Moskva (Rusko)", "Istanbul (Turecko)", "Paríž (Francúzsko)", "Londýn (Spojené kráľovstvo)"], "correct": 0 },
@@ -2258,7 +2180,6 @@
 { "question": "Najľudnatejšie mesto v Antarktíde", "answers": ["Žiadne mesto", "McMurdo Station (USA)", "Palmer Station (USA)", "Vostok Station (Rusko)"], "correct": 0 },
 { "question": "Najľudnatejšie mesto v Austrálii (Oceánie)", "answers": ["Sydney (Austrália)", "Melbourne (Austrália)", "Brisbane (Austrália)", "Auckland (Nový Zéland)"], "correct": 0 },
 
-/*FUTBAL 13.6.2025*/
   {"question":"Futbalový štadión, na ktorom hráva FC Barcelona","answers":["Camp Nou","Santiago Bernabéu","Metropolitano","Mestalla"],"correct":0},
   {"question":"Futbalový štadión, na ktorom hráva Real Madrid","answers":["San Mamés","Wanda Metropolitano","Santiago Bernabéu","Camp Nou"],"correct":2},
   {"question":"Futbalový štadión, na ktorom hráva Manchester United","answers":["Etihad Stadium","Anfield","Old Trafford","Emirates Stadium"],"correct":2},
@@ -2275,9 +2196,6 @@
   {"question":"Futbalový štadión, na ktorom hráva FC Porto","answers":["Estádio da Luz","Estádio do Dragão","Estádio José Alvalade","Estádio Nacional"],"correct":1},
   {"question":"Futbalový štadión, na ktorom hráva Benfica Lisabon","answers":["Estádio José Alvalade","Estádio do Dragão","Estádio da Luz","Estádio do Bessa"],"correct":2},
 {"question": "Slávny brazílsky futbalový štadión", "answers": ["Wembley Stadium", "Camp Nou", "Maracana", "Old Trafford"], "correct": 2},
-
-/*Dobrý deň 13.6.2025*/
-
 
   {"question":"Dobrý deň po maďarsky?","answers":["Jó napot","Szia","Viszlát","Köszönöm"],"correct":0},
   {"question":"Dobrý deň po nemecky?","answers":["Guten Tag","Hallo","Tschüss","Danke"],"correct":0},
@@ -2296,5 +2214,4 @@
   {"question":"Dobrý deň po slovinsky?","answers":["Dober dan","Živjo","Nasvidenje","Hvala"],"correct":0},
   {"question":"Dobrý deň po estónsky?","answers":["Tere päevast","Tere","Head aega","Aitäh"],"correct":0},
   {"question":"Dobrý deň po lotyšsky?","answers":["Labdien","Sveiki","Uz redzēšanos","Paldies"],"correct":0}
-
 ]
