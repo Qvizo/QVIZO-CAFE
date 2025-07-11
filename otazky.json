@@ -15,5 +15,14 @@
   {"question":"Dobrý deň po nórsky?","answers":["God dag","Hei","Farvel","Takk"],"correct":0},
   {"question":"Dobrý deň po slovinsky?","answers":["Dober dan","Živjo","Nasvidenje","Hvala"],"correct":0},
   {"question":"Dobrý deň po estónsky?","answers":["Tere päevast","Tere","Head aega","Aitäh"],"correct":0},
-  {"question":"Dobrý deň po lotyšsky?","answers":["Labdien","Sveiki","Uz redzēšanos","Paldies"],"correct":0}
+  {"question":"Dobrý deň po lotyšsky?","answers":["Labdien","Sveiki","Uz redzēšanos","Paldies"],"correct":0},
+  /*Ľudské telo*/
+{ "question": "Počet mliečnych zubov u detí", "answers": ["20", "24", "28", "22"], "correct": 0 },
+{ "question": "Počet kostí v dospelom človeku", "answers": ["206", "180", "230", "201"], "correct": 0 },
+{ "question": "Počet zubov u dospelého človeka", "answers": ["32", "34", "36", "30"], "correct": 0 },
+{ "question": "Hormón, ktorý uvoľňuje telo pri stretnutí s alergénom", "answers": ["Histamín", "Progesterón", "Inzulín", "Adrenalín"], "correct": 0 },
+{ "question": "Normálny krvný tlak u dospelého človeka", "answers": ["100/80 mm Hg", "120/80 mm Hg", "130/90 mm Hg", "140/95 mm Hg"], "correct": 1 },
+{ "question": "Miesto v ľudskom tele, kde sa nachádza kladivko, strmienok a nákovka", "answers": ["Oko", "Ucho", "Koleno", "Nos"], "correct": 1 },
+{ "question": "Odborný názov pre farbosleposť", "answers": ["Xerophthalmia", "Hyposhagmus", "Daltonizmus", "Achromatopsia"], "correct": 2 },
+{ "question": "Odborný názov pre červené krvinky", "answers": ["Urea", "Erytrocyty", "Kreatín", "Leukocyty"], "correct": 1 }
 ]
