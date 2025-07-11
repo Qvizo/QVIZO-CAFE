@@ -16,7 +16,6 @@
   {"question":"Dobrý deň po slovinsky?","answers":["Dober dan","Živjo","Nasvidenje","Hvala"],"correct":0},
   {"question":"Dobrý deň po estónsky?","answers":["Tere päevast","Tere","Head aega","Aitäh"],"correct":0},
   {"question":"Dobrý deň po lotyšsky?","answers":["Labdien","Sveiki","Uz redzēšanos","Paldies"],"correct":0},
-  /*Ľudské telo*/
 { "question": "Počet mliečnych zubov u detí", "answers": ["20", "24", "28", "22"], "correct": 0 },
 { "question": "Počet kostí v dospelom človeku", "answers": ["206", "180", "230", "201"], "correct": 0 },
 { "question": "Počet zubov u dospelého človeka", "answers": ["32", "34", "36", "30"], "correct": 0 },
