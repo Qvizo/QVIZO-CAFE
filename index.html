@@ -775,8 +775,49 @@ color: black;
 
 
 </style>
+<!-- 🔥 Sem pridáš Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js"></script>
+
+<script>
+  // ⬇️ TOTO nahraď svojimi údajmi z Firebase Console
+  const firebaseConfig = {
+  apiKey: "AIzaSyCQWhi-mdf7crzHt-ftmmJGEQJb62Zh57U",
+  authDomain: "qvizo-cafe.firebaseapp.com",
+  projectId: "qvizo-cafe",
+  storageBucket: "qvizo-cafe.firebasestorage.app",
+  messagingSenderId: "691251487185",
+  appId: "1:691251487185:web:0284ac0e9e47e92663c0f0",
+  measurementId: "G-NGCXT5ZE1F"
+};
+
+  // Inicializácia Firebase
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+</script>
+
 </head>
 <body>
+
+<!-- 0. OKNO Prihlásenie -->
+<div class="login-container" id="loginWindow">
+  <h2 class="qvizo-title"><span class="q">Q</span><span class="vizo">VIZO</span></h2>
+  <h3>Prihlásenie</h3>
+  
+  <input type="email" id="email" placeholder="Zadaj email" style="font-size:20px; padding:10px; margin:10px; width:80%; border-radius:10px; border:1px solid #333;">
+  <input type="password" id="password" placeholder="Zadaj heslo" style="font-size:20px; padding:10px; margin:10px; width:80%; border-radius:10px; border:1px solid #333;">
+
+  <div class="button-container">
+    <button onclick="login()">Prihlásiť sa</button>
+    <button onclick="register()">Vytvoriť účet</button>
+  </div>
+  
+  <p id="authMessage" style="color:red; font-weight:bold;"></p>
+</div>
+
+
+
+
 
 <!-- 1. OKNO Úvod -->
 <div class="new-start-container" id="newStartWindow">
@@ -855,7 +896,12 @@ color: black;
 </div>
 <script>
 
-
+window.onload = function() {
+  document.getElementById("loginWindow").style.display = "flex";
+  document.getElementById("newStartWindow").style.display = "none";
+  document.querySelector(".start-container").style.display = "none";
+  document.querySelector(".question-container").style.display = "none";
+};
 
 
 let selectedQuestions = [];
@@ -1029,6 +1075,15 @@ function toggleFullScreen() {
 }
 }
 
+function toggleFullScreen() {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch(err => {
+        alert(`Nepodarilo sa prepnúť do režimu celej obrazovky: ${err.message}`);
+      });
+    } else {
+      document.exitFullscreen();
+    }
+  }
 
 
 </script>
