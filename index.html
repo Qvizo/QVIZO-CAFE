@@ -776,10 +776,15 @@ color: black;
 
 </style>
 <!-- 🔥 Sem pridáš Firebase SDK -->
-<script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-auth-compat.js"></script>
+import { sendEmailVerification } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-analytics.js";
+  import {
+    getAuth,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword
+  } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
 
-<script>
   // ⬇️ TOTO nahraď svojimi údajmi z Firebase Console
   const firebaseConfig = {
   apiKey: "AIzaSyCQWhi-mdf7crzHt-ftmmJGEQJb62Zh57U",
