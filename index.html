@@ -869,7 +869,7 @@ let questions = [];
 
 const subory = ["otazky 2.json"]; // môžeš rozšíriť
 
-/*Promise.all(subory.map(subor => fetch(`otazky 2/${subor}`).then(res => res.json())))*/
+/*Promise.all(subory.map(subor => fetch(`otazky/${subor}`).then(res => res.json())))*/
 Promise.all(subory.map(subor => fetch(subor).then(res => res.json())))
   .then(jsonSubory => {
     questions = jsonSubory.flat(); // spojí všetky načítané JSON polia do jedného
@@ -1034,4 +1034,5 @@ function toggleFullScreen() {
 </script>
 </body>
 </html>
+
 
