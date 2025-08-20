@@ -776,29 +776,29 @@ color: black;
 
 </style>
 <!-- 🔥 Sem pridáš Firebase SDK -->
-import { sendEmailVerification } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-analytics.js";
-  import {
-    getAuth,
-    createUserWithEmailAndPassword,
-    signInWithEmailAndPassword
-  } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js";
+<!-- Firebase SDK compat -->
+<script src="https://www.gstatic.com/firebasejs/11.10.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.10.0/firebase-auth-compat.js"></script>
 
-  // ⬇️ TOTO nahraď svojimi údajmi z Firebase Console
+<script>
+  // Konfigurácia Firebase
   const firebaseConfig = {
-  apiKey: "AIzaSyCQWhi-mdf7crzHt-ftmmJGEQJb62Zh57U",
-  authDomain: "qvizo-cafe.firebaseapp.com",
-  projectId: "qvizo-cafe",
-  storageBucket: "qvizo-cafe.firebasestorage.app",
-  messagingSenderId: "691251487185",
-  appId: "1:691251487185:web:0284ac0e9e47e92663c0f0",
-  measurementId: "G-NGCXT5ZE1F"
-};
+    apiKey: "AIzaSyCQWhi-mdf7crzHt-ftmmJGEQJb62Zh57U",
+    authDomain: "qvizo-cafe.firebaseapp.com",
+    projectId: "qvizo-cafe",
+    storageBucket: "qvizo-cafe.firebasestorage.app",
+    messagingSenderId: "691251487185",
+    appId: "1:691251487185:web:0284ac0e9e47e92663c0f0",
+    measurementId: "G-NGCXT5ZE1F"
+  };
 
   // Inicializácia Firebase
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
+
+	// Prístupové kódy
+  const validCodes = ["VIP2025", "TAPETA123", "NEZVEREJNUJ"];
+	
 </script>
 
 </head>
@@ -819,10 +819,14 @@ import { sendEmailVerification } from "https://www.gstatic.com/firebasejs/11.10.
   
   <p id="authMessage" style="color:red; font-weight:bold;"></p>
 </div>
-
-
-
-
+	
+<!-- 1.1 OKNO Overovací kód -->
+<div class="verify-container" id="verifyWindow">
+  <h3>Zadaj overovací kód</h3>
+  <input type="text" id="accessCode" placeholder="Zadaj kód">
+  <button onclick="verifyCode()">Potvrdiť</button>
+  <p id="codeMessage"></p>
+</div>
 
 <!-- 1. OKNO Úvod -->
 <div class="new-start-container" id="newStartWindow">
@@ -1090,42 +1094,68 @@ function toggleFullScreen() {
     }
   }
 
-// 🔑 Funkcie pre Firebase login/register
-function login() {
-  const email = document.getElementById("email").value;
-  const password = document.getElementById("password").value;
+// Funkcia login
+  function login() {
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value.trim();
+	  if (!email || !password) {
+      document.getElementById("authMessage").style.color = "red";
+      document.getElementById("authMessage").innerText = "Zadaj email a heslo!";
+      return;
+    }
 
   auth.signInWithEmailAndPassword(email, password)
-    .then(userCredential => {
-      document.getElementById("authMessage").style.color = "green";
-      document.getElementById("authMessage").innerText = "Prihlásenie úspešné!";
-      document.getElementById("loginWindow").style.display = "none";
-      document.getElementById("newStartWindow").style.display = "flex";
-    })
-    .catch(error => {
-      document.getElementById("authMessage").style.color = "red";
-      document.getElementById("authMessage").innerText = error.message;
-    });
-}
+      .then(userCredential => {
+        // Zobraz okno overenia kódu
+        document.getElementById("loginWindow").style.display = "none";
+        document.getElementById("verifyWindow").style.display = "flex";
+        document.getElementById("authMessage").innerText = "";
+      })
+      .catch(error => {
+        document.getElementById("authMessage").style.color = "red";
+        document.getElementById("authMessage").innerText = error.message;
+      });
+  }
 
 function register() {
-  const email = document.getElementById("email").value;
-  const password = document.getElementById("password").value;
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value.trim();
 
-  auth.createUserWithEmailAndPassword(email, password)
-    .then(userCredential => {
-      document.getElementById("authMessage").style.color = "green";
-      document.getElementById("authMessage").innerText = "Účet vytvorený! Teraz sa môžeš prihlásiť.";
-    })
-    .catch(error => {
+    if (!email || !password) {
       document.getElementById("authMessage").style.color = "red";
-      document.getElementById("authMessage").innerText = error.message;
-    });
-}
+      document.getElementById("authMessage").innerText = "Zadaj email a heslo!";
+      return;
+    }
+	auth.createUserWithEmailAndPassword(email, password)
+      .then(userCredential => {
+        document.getElementById("authMessage").style.color = "green";
+        document.getElementById("authMessage").innerText = "Účet vytvorený! Teraz sa môžeš prihlásiť.";
+      })
+      .catch(error => {
+        document.getElementById("authMessage").style.color = "red";
+        document.getElementById("authMessage").innerText = error.message;
+      });
+  }
+function verifyCode() {
+    const code = document.getElementById("accessCode").value.trim();
+    const msg = document.getElementById("codeMessage");
 
+    if (validCodes.includes(code)) {
+      document.getElementById("verifyWindow").style.display = "none";
+      document.getElementById("newStartWindow").style.display = "flex";
+    } else {
+      msg.innerText = "Neplatný kód! Skús znova.";
+    }
+  }
+
+  // Pri načítaní stránky zobraz login
+  window.onload = function() {
+    document.getElementById("loginWindow").style.display = "flex";
+  }
 
 </script>
 </body>
 </html>
+
 
 
