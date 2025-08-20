@@ -1085,6 +1085,39 @@ function toggleFullScreen() {
     }
   }
 
+// 🔑 Funkcie pre Firebase login/register
+function login() {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  auth.signInWithEmailAndPassword(email, password)
+    .then(userCredential => {
+      document.getElementById("authMessage").style.color = "green";
+      document.getElementById("authMessage").innerText = "Prihlásenie úspešné!";
+      document.getElementById("loginWindow").style.display = "none";
+      document.getElementById("newStartWindow").style.display = "flex";
+    })
+    .catch(error => {
+      document.getElementById("authMessage").style.color = "red";
+      document.getElementById("authMessage").innerText = error.message;
+    });
+}
+
+function register() {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  auth.createUserWithEmailAndPassword(email, password)
+    .then(userCredential => {
+      document.getElementById("authMessage").style.color = "green";
+      document.getElementById("authMessage").innerText = "Účet vytvorený! Teraz sa môžeš prihlásiť.";
+    })
+    .catch(error => {
+      document.getElementById("authMessage").style.color = "red";
+      document.getElementById("authMessage").innerText = error.message;
+    });
+}
+
 
 </script>
 </body>
