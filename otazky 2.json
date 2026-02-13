@@ -2215,16 +2215,16 @@
   {"question":"Dobrý deň po estónsky?","answers":["Tere päevast","Tere","Head aega","Aitäh"],"correct":0},
   {"question":"Dobrý deň po lotyšsky?","answers":["Labdien","Sveiki","Uz redzēšanos","Paldies"],"correct":0},
 
-  { "question": "Začiatok Veľkej francúzskej revolúcie", "answers": ["1776", "1789", "1756", "1812"], "correct": 1 },
-{ "question": "Francúzsky kráľ počas Veľkej francúzskej revolúcie", "answers": ["Ľudovít XIV.", "Napoleon Bonaparte", "Ľudovít XVI.", "Karol X."], "correct": 2 },
-{ "question": "Rok podpísania Deklarácie nezávislosti USA", "answers": ["1783", "1776", "1791", "1804"], "correct": 1 },
-{ "question": "Prvý prezident Spojených štátov amerických", "answers": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "Benjamin Franklin"], "correct": 1 },
-{ "question": "Panovníčka Habsburskej monarchie v 18. storočí", "answers": ["Katarína Veľká", "Mária Terézia", "Alžbeta I.", "Viktória"], "correct": 1 },
-{ "question": "Myšlienkové hnutie zdôrazňujúce rozum a vedu v 18. storočí", "answers": ["Renesancia", "Romantizmus", "Osvietenstvo", "Humanizmus"], "correct": 2 },
-{ "question": "Významný predstaviteľ osvietenstva", "answers": ["Leonardo da Vinci", "Voltaire", "Martin Luther", "Karol Veľký"], "correct": 1 },
-{ "question": "Vojna prebiehajúca v rokoch 1756 – 1763", "answers": ["Sedemročná vojna", "Storočná vojna", "Napoleonské vojny", "Krymská vojna"], "correct": 0 },
-{ "question": "Štát, ktorý získal nezávislosť od Veľkej Británie v 18. storočí", "answers": ["Kanada", "Austrália", "Spojené štáty americké", "India"], "correct": 2 },
-{ "question": "Cisár Francúzska korunovaný v roku 1804", "answers": ["Ľudovít XVI.", "Robespierre", "Napoleon Bonaparte", "Fridrich II."], "correct": 2 },
+{"question": "Začiatok Veľkej francúzskej revolúcie", "answers": ["1776", "1789", "1756", "1812"], "correct": 1 },
+{"question": "Francúzsky kráľ počas Veľkej francúzskej revolúcie", "answers": ["Ľudovít XIV.", "Napoleon Bonaparte", "Ľudovít XVI.", "Karol X."], "correct": 2 },
+{"question": "Rok podpísania Deklarácie nezávislosti USA", "answers": ["1783", "1776", "1791", "1804"], "correct": 1 },
+{"question": "Prvý prezident Spojených štátov amerických", "answers": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "Benjamin Franklin"], "correct": 1 },
+{"question": "Panovníčka Habsburskej monarchie v 18. storočí", "answers": ["Katarína Veľká", "Mária Terézia", "Alžbeta I.", "Viktória"], "correct": 1 },
+{"question": "Myšlienkové hnutie zdôrazňujúce rozum a vedu v 18. storočí", "answers": ["Renesancia", "Romantizmus", "Osvietenstvo", "Humanizmus"], "correct": 2 },
+{"question": "Významný predstaviteľ osvietenstva", "answers": ["Leonardo da Vinci", "Voltaire", "Martin Luther", "Karol Veľký"], "correct": 1 },
+{"question": "Vojna prebiehajúca v rokoch 1756 – 1763", "answers": ["Sedemročná vojna", "Storočná vojna", "Napoleonské vojny", "Krymská vojna"], "correct": 0 },
+{"question": "Štát, ktorý získal nezávislosť od Veľkej Británie v 18. storočí", "answers": ["Kanada", "Austrália", "Spojené štáty americké", "India"], "correct": 2 },
+{"question": "Cisár Francúzska korunovaný v roku 1804", "answers": ["Ľudovít XVI.", "Robespierre", "Napoleon Bonaparte", "Fridrich II."], "correct": 2 },
 { "question": "Začiatok Sedemročnej vojny", "answers": ["1740", "1756", "1763", "1772"], "correct": 1 },
 { "question": "Ukončenie Sedemročnej vojny", "answers": ["1763", "1789", "1750", "1776"], "correct": 0 },
 { "question": "Panovník Pruska počas Sedemročnej vojny", "answers": ["Fridrich II.", "Wilhelm I.", "Karol VI.", "Otto I."], "correct": 0 },
@@ -2266,4 +2266,5 @@
 { "question": "Filozof John Locke pochádzal z krajiny", "answers": ["Francúzsko", "Nemecko", "Anglicko", "Taliansko"], "correct": 2 },
 { "question": "Hlavné obdobie osvietenstva storočie", "answers": ["17.", "18.", "19.", "16."], "correct": 1 }
 ]
+
 
