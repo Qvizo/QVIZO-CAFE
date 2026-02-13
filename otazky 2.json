@@ -2295,8 +2295,28 @@
 { "question": "Biblický patriarcha, ktorý dostal meno Izrael", "answers": ["Jákob", "Izák", "Abraham", "Josef"], "correct": 0 },
 { "question": "Prorok, ktorý predpovedal pád Jeruzalema", "answers": ["Jeremiáš", "Izaiáš", "Daniel", "Ezechiel"], "correct": 0 },
 { "question": "Kniha o tvorbe sveta a prvých ľuďoch", "answers": ["Genesis", "Exodus", "Levitikus", "Numeri"], "correct": 0 },
-{ "question": "Prorok, ktorý bol známy svojou silou a bojom proti pohanským kultom", "answers": ["Eliáš", "Jeremiáš", "Daniel", "Izaiáš"], "correct": 0 }
+{ "question": "Prorok, ktorý bol známy svojou silou a bojom proti pohanským kultom", "answers": ["Eliáš", "Jeremiáš", "Daniel", "Izaiáš"], "correct": 0 },
+
+{ "question": "Kresťanský učiteľ a zakladateľ cirkvi", "answers": ["Ježiš Kristus", "Mojžiš", "Samuel", "Pavol"], "correct": 0 },
+{ "question": "Autor listov Korinťanom", "answers": ["Pavol", "Peter", "Jakub", "Ján"], "correct": 0 },
+{ "question": "Prvý učeník povolaný Ježišom", "answers": ["Šimon Peter", "Jakub Zebedeov", "Ján", "Filip"], "correct": 0 },
+{ "question": "Apoštol, ktorý neveril Ježišovmu vzkrieseniu kým si nepoložil prst do rán", "answers": ["Tomáš", "Ján", "Pavol", "Peter"], "correct": 0 },
+{ "question": "Miesto Ježišovho ukrižovania", "answers": ["Golgota", "Betlehem", "Nazaret", "Jeruzalem"], "correct": 0 },
+{ "question": "Prorocká časť Nového zákona, posledná kniha", "answers": ["Zjavenie Jána", "Evanjelium podľa Marka", "Skutky apoštolov", "Listy Pavla"], "correct": 0 },
+{ "question": "Kresťanský sviatok pripomínajúci vzkriesenie Ježiša", "answers": ["Veľká noc", "Vianoce", "Letnice", "Epifánia"], "correct": 0 },
+{ "question": "Učeník, ktorý poprel Ježiša trikrát", "answers": ["Peter", "Ján", "Jakub", "Matúš"], "correct": 0 },
+{ "question": "Miesto, kde Ježiš vykonal svoje prvé verejné kázanie", "answers": ["Galilea", "Nazaret", "Jeruzalem", "Betlehem"], "correct": 0 },
+{ "question": "Apoštol známy svojou misionárskou cestou po Stredomorí", "answers": ["Pavol", "Peter", "Jakub", "Ján"], "correct": 0 },
+{ "question": "Prvý zázrak Ježiša podľa evanjelia", "answers": ["Premena vody na víno", "Vzkriesenie Lazara", "Umenie sietí", "Očistenie malomocného"], "correct": 0 },
+{ "question": "Posledná večera Ježiša s apoštolmi je opísaná v", "answers": ["Evanjeliu podľa Matúša", "Evanjeliu podľa Marka", "Skutkoch apoštolov", "Zjavení Jána"], "correct": 0 },
+{ "question": "Udalosť, kedy Duch Svätý zostúpil na apoštolov", "answers": ["Turice", "Veľká noc", "Vianoce", "Krst"], "correct": 0 },
+{ "question": "Prorok Starého zákona, ktorého život je spomenutý v Novom zákone pri ukrižovaní", "answers": ["Izaiáš", "Jeremiáš", "Daniel", "Ezechiel"], "correct": 0 },
+{ "question": "Apoštol, ktorý šíril kresťanstvo medzi pohanmi", "answers": ["Pavol", "Peter", "Jakub", "Ján"], "correct": 0 },
+{ "question": "Biblické miesto, kde sa Ježiš modlil pred zatknutím", "answers": ["Getsemanská záhrada", "Golgota", "Betlehem", "Nazaret"], "correct": 0 },
+
+  
 ]
+
 
 
 
