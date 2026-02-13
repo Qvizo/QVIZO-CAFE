@@ -1664,7 +1664,7 @@
   {"question":"Pekár upečie 5 koláčov denne. Koľko koláčov upečie za 2 týždne?","answers":["70","60","75","65"],"correct":0},
   {"question":"Pri delení 144 číslom dostaneme 12. Aké je to číslo?","answers":["12","10","11","9"],"correct":0},
 
-{ "question": "750 ml = ? ml", "answers": ["750", "7,5", "75", "0,75"], "correct": 0 },
+{ "question": "0,750 l = ? ml", "answers": ["750", "7,5", "75", "0,75"], "correct": 0 },
 { "question": "3,2 l = ? ml", "answers": ["3200", "320", "32", "3,2"], "correct": 0 },
 { "question": "1500 ml = ? l", "answers": ["1,5", "15", "0,15", "150"], "correct": 0 },
 { "question": "500 ml = ? l", "answers": ["0,5", "5", "50", "5000"], "correct": 0 },
@@ -2264,7 +2264,39 @@
 { "question": "Francúzska hymna vzniknutá počas revolúcie", "answers": ["La Marseillaise", "God Save the King", "Internacionála", "Óda na radosť"], "correct": 0 },
 { "question": "Politický systém s neobmedzenou mocou panovníka", "answers": ["Demokracia", "Republika", "Absolutizmus", "Federácia"], "correct": 2 },
 { "question": "Filozof John Locke pochádzal z krajiny", "answers": ["Francúzsko", "Nemecko", "Anglicko", "Taliansko"], "correct": 2 },
-{ "question": "Hlavné obdobie osvietenstva storočie", "answers": ["17.", "18.", "19.", "16."], "correct": 1 }
+{ "question": "Hlavné obdobie osvietenstva storočie", "answers": ["17.", "18.", "19.", "16."], "correct": 1 },
+
+{ "question": "Začiatok Stvorenia sveta podľa Biblie", "answers": ["Genesis", "Exodus", "Levitikus", "Numeri"], "correct": 0 },
+{ "question": "Prvý človek stvorený Bohom", "answers": ["Adam", "Ábel", "Noe", "Mojžiš"], "correct": 0 },
+{ "question": "Prvá žena podľa Biblie", "answers": ["Eva", "Sára", "Rebeka", "Ráchel"], "correct": 0 },
+{ "question": "Syn Adama a Evy, ktorý zabil svojho brata", "answers": ["Kain", "Ábel", "Set", "Noe"], "correct": 0 },
+{ "question": "Syn Adama a Evy, ktorý bol spravodlivý a zabitý Kainom", "answers": ["Ábel", "Kain", "Set", "Noe"], "correct": 0 },
+{ "question": "Muž, ktorý postavil archu", "answers": ["Noe", "Abraham", "Mojžiš", "Jozef"], "correct": 0 },
+{ "question": "Boh dal Mojžišovi", "answers": ["Desatoro prikázaní", "Tóru", "Žalm", "Epos"], "correct": 0 },
+{ "question": "Biblický kráľ, ktorý porazil Goliáša", "answers": ["David", "Saul", "Šalamún", "Saul"], "correct": 0 },
+{ "question": "Kráľ známy svojou múdrosťou a stavbou chrámu", "answers": ["Šalamún", "David", "Saul", "Samuel"], "correct": 0 },
+{ "question": "Prorok, ktorý bol pohltený veľrybou", "answers": ["Jonáš", "Elizeus", "Eliáš", "Izaiáš"], "correct": 0 },
+{ "question": "Biblický patriarcha, otec národov Izraela", "answers": ["Abraham", "Izák", "Jákob", "Noe"], "correct": 0 },
+{ "question": "Syn Abrahama, ktorý bol takmer obetovaný", "answers": ["Izák", "Izmael", "Jákob", "Josef"], "correct": 0 },
+{ "question": "Syn Izáka, ktorý podvodom získal požehnanie", "answers": ["Jákob", "Ezau", "Josef", "Levi"], "correct": 0 },
+{ "question": "Jeden z dvanástich synov Jákoba, predaný do Egypta", "answers": ["Jozef", "Benjamin", "Ruben", "Simeon"], "correct": 0 },
+{ "question": "Biblická kniha o Mojžišových cestách a zákonoch", "answers": ["Exodus", "Genesis", "Levitikus", "Numeri"], "correct": 0 },
+{ "question": "Biblická kniha o zákonoch a rituáloch Izraelitov", "answers": ["Levitikus", "Genesis", "Exodus", "Deuteronómium"], "correct": 0 },
+{ "question": "Biblická kniha obsahujúca sčítanie Izraelitov", "answers": ["Numeri", "Exodus", "Levitikus", "Genesis"], "correct": 0 },
+{ "question": "Biblická kniha zakončujúca Mojžišove zákony", "answers": ["Deuteronómium", "Genesis", "Exodus", "Numeri"], "correct": 0 },
+{ "question": "Prorok, ktorý rozdelil Jordán a vzišiel do neba vo víre", "answers": ["Eliáš", "Elizeus", "Izaiáš", "Jeremiáš"], "correct": 0 },
+{ "question": "Prorok, ktorý predpovedal príchod Mesiáša", "answers": ["Izaiáš", "Jeremiáš", "Ezechiel", "Daniel"], "correct": 0 },
+{ "question": "Tradičné meno izraelského národa", "answers": ["Hebrejci", "Amorejci", "Filistínci", "Moábci"], "correct": 0 },
+{ "question": "Biblický sudca, ktorý zabil Filistíncov pomocou brady", "answers": ["Samson", "Gideon", "Samuel", "Debora"], "correct": 0 },
+{ "question": "Sudkyňa a prorokyňa, ktorá viedla Izraelitov", "answers": ["Debora", "Samson", "Rút", "Esther"], "correct": 0 },
+{ "question": "Prorok, ktorý bol vychovaný v Babylone a vyložil sen kráľovi", "answers": ["Daniel", "Izaiáš", "Jeremiáš", "Ezechiel"], "correct": 0 },
+{ "question": "Kniha o vernosti a obetavosti moábskej ženy", "answers": ["Rút", "Esther", "Jozue", "Judita"], "correct": 0 },
+{ "question": "Biblický prorok, ktorý rozbil zlaté teľa", "answers": ["Mojžiš", "Samuel", "Elizeus", "Eliáš"], "correct": 0 },
+{ "question": "Biblický patriarcha, ktorý dostal meno Izrael", "answers": ["Jákob", "Izák", "Abraham", "Josef"], "correct": 0 },
+{ "question": "Prorok, ktorý predpovedal pád Jeruzalema", "answers": ["Jeremiáš", "Izaiáš", "Daniel", "Ezechiel"], "correct": 0 },
+{ "question": "Kniha o tvorbe sveta a prvých ľuďoch", "answers": ["Genesis", "Exodus", "Levitikus", "Numeri"], "correct": 0 },
+{ "question": "Prorok, ktorý bol známy svojou silou a bojom proti pohanským kultom", "answers": ["Eliáš", "Jeremiáš", "Daniel", "Izaiáš"], "correct": 0 }
 ]
+
 
 
