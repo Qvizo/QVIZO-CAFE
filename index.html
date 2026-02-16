@@ -877,6 +877,7 @@ color: black;
   <!-- Tlačidlo CAFE -->
   <div class="button-container">
     <button onclick="verifyAndStartCafe()">CAFE</button>
+	<button onclick="verifyAndStartCafe1()">CAFE 1</button>  
   </div>
 </div>
 
@@ -961,6 +962,7 @@ let timerInterval;
 let userSelectedTime = 10;
 let timeLeft = 10;
 let isPaused = false;
+let isCafe1Mode = false;
 
 let questions = [];
 
@@ -1049,7 +1051,13 @@ function showQuestion() {
     btn.querySelector(".answer-letter").innerText = ['A', 'B', 'C', 'D'][i];
     btn.style.backgroundColor = "#ddd";
     btn.style.color = "black";
-	});
+
+    if (isCafe1Mode) {
+        btn.style.visibility = "hidden";
+    } else {
+        btn.style.visibility = "visible";
+    }
+});
 	adjustFontSizeForAnswers();
 	timeLeft = userSelectedTime;
   	document.getElementById("timer").innerText = "Čas: " + timeLeft;
@@ -1068,6 +1076,25 @@ function showQuestion() {
 }, 1000);
 }
 
+	if (isCafe1Mode) {
+    const buttons = document.querySelectorAll(".answer-button");
+    buttons.forEach(btn => btn.style.visibility = "visible");
+
+    const correctButton = buttons[selectedQuestions[currentQuestionIndex].shuffledCorrect];
+    correctButton.style.backgroundColor = "#4CAF50";
+    correctButton.style.color = "white";
+
+    currentQuestionIndex++;
+    if (currentQuestionIndex < selectedQuestions.length) {
+        setTimeout(showQuestion, 3000);
+    } else {
+        setTimeout(() => {
+            document.querySelector(".question-container").style.display = "none";
+            startGame();
+        }, 3000);
+    }
+    return;
+}
 
 function highlightCorrectAnswer() {
 	const correctButton = document.querySelectorAll(".answer-button")[selectedQuestions[currentQuestionIndex].shuffledCorrect];
@@ -1101,6 +1128,7 @@ function backToStart() {
 	currentQuestionIndex = 0;
 	clearInterval(timerInterval);
 	isPaused = false;
+	isCafe1Mode = false;
 	document.querySelector(".stop-button").innerText = "Stop";
 	document.getElementById("timer").innerText = `Čas: ${userSelectedTime}`;
 }
@@ -1191,7 +1219,23 @@ function verifyAndStartCafe() {
     msg.innerText = "Neplatný kód! Skús znova.";
   }
 }
+	function verifyAndStartCafe1() {
+  const code = document.getElementById("accessCode").value.trim();
+  const msg = document.getElementById("codeMessage");
+
+  if (validCodes.includes(code)) {
+    msg.style.color = "green";
+    msg.innerText = "Kód správny!";
+    isCafe1Mode = true;
+    document.querySelector(".new-start-container").style.display = "none";
+    document.querySelector(".start-container").style.display = "block";
+  } else {
+    msg.style.color = "red";
+    msg.innerText = "Neplatný kód! Skús znova.";
+  }
+}
 
 </script>
 </body>
+
 </html>
