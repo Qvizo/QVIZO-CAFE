@@ -1141,6 +1141,15 @@ function startCafe() {
 	document.querySelector(".start-container").style.display = "block";
 }
 
+	function startCafe1() {
+    document.getElementById("modeSelection").style.display = "none";
+    document.getElementById("cafeScreen").style.display = "flex";
+
+    cafeMode = "cafe1";   // prepínač režimu
+    currentQuestionIndex = 0;
+
+    showQuestionCafe1();
+}
 
 function toggleFullScreen() {
 	if (!document.fullscreenElement) {
@@ -1239,3 +1248,4 @@ function verifyAndStartCafe() {
 </body>
 
 </html>
+
