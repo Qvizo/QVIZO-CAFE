@@ -1011,7 +1011,6 @@ const categoryFiles = {
 let selectedCategories = [];
 
 function toggleCategory(category, button) {
-
   if (category === "ALL") return;
 
   if (selectedCategories.includes(category)) {
@@ -1022,17 +1021,27 @@ function toggleCategory(category, button) {
     button.classList.add("active");
   }
 
+  // Skontroluj, či sú všetky kategórie vybrané
+  const allBtn = document.querySelector(".category-btn:last-child"); // tlačidlo ALL
+  if (selectedCategories.length === Object.keys(categoryFiles).length) {
+    allBtn.classList.add("active");
+  } else {
+    allBtn.classList.remove("active");
+  }
+
   console.log("Vybrané kategórie:", selectedCategories);
 }
 
 
 function selectAllCategories(button) {
-
-  selectedCategories = Object.keys(categoryFiles);
-
-  document.querySelectorAll(".category-btn").forEach(btn => {
-    btn.classList.add("active");
-  });
+  // Ak je ALL už aktívne, odznačíme všetko
+  if (button.classList.contains("active")) {
+    selectedCategories = [];
+    document.querySelectorAll(".category-btn").forEach(btn => btn.classList.remove("active"));
+  } else {
+    selectedCategories = Object.keys(categoryFiles);
+    document.querySelectorAll(".category-btn").forEach(btn => btn.classList.add("active"));
+  }
 
   console.log("Vybrané kategórie:", selectedCategories);
 }
@@ -1272,4 +1281,5 @@ function verifyAndStartCafe() {
 
 </script>
 </body>
+
 </html>
