@@ -1,0 +1,11 @@
+[
+{ "question": "Prvý človek na Mesiaci", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 1 },
+{ "question": "Prvý človek vo vesmíre", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 2 },
+{ "question": "Prvý človek, ktorý v roku 1911 dosiahol južný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 2 },
+{ "question": "Prvý človek, ktorý údajne v roku 1909 dosiahol severný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 0 }
+]
+
+
+
+
+

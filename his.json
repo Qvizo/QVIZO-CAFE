@@ -1,0 +1,11 @@
+[
+{ "question": "Koniec 1. svetovej vojny", "answers": ["11. novembra 1914", "11. novembra 1917", "11. novembra 1918", "28. júna 1919"], "correct": 2 },
+{"question": "Nemecké mesto, ktoré si po druhej svetovej vojne rozdelili ZSSR, USA, Francúzsko a Veľká Británia", "answers": ["Mníchov", "Hamburg", "Berlín", "Drážďany"], "correct": 2},
+{ "question": "Koniec 2. svetovej vojny v Európe", "answers": ["8. máj 1945", "1. máj 1941", "1. júl 1914", "30. december 1945"], "correct": 0 },
+{ "question": "Koniec 2. svetovej vojny vo svete", "answers": ["8. máj 1945", "2. september 1945", "17. júl 1945", "30. december 1945"], "correct": 1 }
+]
+
+
+
+
+
