@@ -1268,10 +1268,11 @@ function verifyAndStartCafe() {
   const code = document.getElementById("accessCode").value.trim();
   const msg = document.getElementById("codeMessage");
 
-  // Najprv kontrola, či je vybraná aspoň jedna kategória
+  // Kontrola, či je vybraná aspoň jedna kategória
   if (selectedCategories.length === 0) {
-    alert("Vyber si aspoň jednu kategóriu!");
-    return; // Zastaví funkciu a nepustí ďalej
+    msg.style.color = "red";
+    msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    return; // Funkcia sa zastaví
   }
 
   // Kontrola kódu
@@ -1290,4 +1291,5 @@ function verifyAndStartCafe() {
 </body>
 
 </html>
+
 
