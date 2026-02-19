@@ -1123,6 +1123,9 @@ function startGame() {
 
 
 function showQuestion() {
+	const questionDiv = document.getElementById("question");
+  questionDiv.style.color = "#333"; // 🔥 reset farby hneď na začiatku
+	
     const q = selectedQuestions[currentQuestionIndex];
 
     // Zamiešame odpovede
@@ -1361,6 +1364,7 @@ function verifyAndStartCafeSolo() {
 </body>
 
 </html>
+
 
 
 
