@@ -910,7 +910,7 @@ color: black;
   <!-- Tlačidlo CAFE -->
   <div class="button-container">
     <button onclick="verifyAndStartCafe()">CAFE</button>
-    <button class="cafe-solo-btn">CAFE SOLO</button>
+    <button class="cafe-solo-btn" onclick="verifyAndStartCafeSolo()">CAFE SOLO</button>
 </div>
 
 </div>
@@ -996,6 +996,7 @@ let timerInterval;
 let userSelectedTime = 10;
 let timeLeft = 10;
 let isPaused = false;
+let isCafeSoloMode = false;	
 
 let questions = [];
 
@@ -1132,11 +1133,18 @@ function showQuestion() {
 	adjustFontSizeForQuestion();  // ← tu zavolaj zmenšovanie veľkosti písma
 	document.getElementById("counter").innerText = `Otázka ${currentQuestionIndex + 1} / ${selectedQuestions.length}`;
 	document.querySelectorAll(".answer-button").forEach((btn, i) => {
+
+  if (isCafeSoloMode) {
+    btn.style.display = "none";  // 🔥 v SOLO režime odpovede skryjeme
+  } else {
+    btn.style.display = "flex";
     btn.querySelector(".answer-text").innerText = shuffledAnswers[i];
     btn.querySelector(".answer-letter").innerText = ['A', 'B', 'C', 'D'][i];
     btn.style.backgroundColor = "#ddd";
     btn.style.color = "black";
-	});
+  }
+
+});
 	adjustFontSizeForAnswers();
 	timeLeft = userSelectedTime;
   	document.getElementById("timer").innerText = "Čas: " + timeLeft;
@@ -1157,19 +1165,34 @@ function showQuestion() {
 
 
 function highlightCorrectAnswer() {
-	const correctButton = document.querySelectorAll(".answer-button")[selectedQuestions[currentQuestionIndex].shuffledCorrect];
-	correctButton.style.backgroundColor = "#4CAF50";
-	correctButton.style.color = "white";
-	currentQuestionIndex++;
-	if (currentQuestionIndex < selectedQuestions.length) 
-	{
-	setTimeout(showQuestion, 2000);
-	} else {
-	setTimeout(() => {
-	document.querySelector(".question-container").style.display = "none";	      
-	startGame();
-	}, 2000);
-}
+
+  if (isCafeSoloMode) {
+    const q = selectedQuestions[currentQuestionIndex];
+    const correctAnswer = q.answers[q.correct];
+
+    const questionDiv = document.getElementById("question");
+    questionDiv.innerText = correctAnswer;  // 🔥 zobrazí sa iba správna odpoveď
+    questionDiv.style.color = "green";
+
+  } else {
+    const correctButton = document.querySelectorAll(".answer-button")[selectedQuestions[currentQuestionIndex].shuffledCorrect];
+    correctButton.style.backgroundColor = "#4CAF50";
+    correctButton.style.color = "white";
+  }
+
+  currentQuestionIndex++;
+
+  if (currentQuestionIndex < selectedQuestions.length) {
+    setTimeout(() => {
+      document.getElementById("question").style.color = "#333";
+      showQuestion();
+    }, 2000);
+  } else {
+    setTimeout(() => {
+      document.querySelector(".question-container").style.display = "none";
+      startGame();
+    }, 2000);
+  }
 }
 
 
@@ -1279,6 +1302,7 @@ function verifyAndStartCafe() {
   if (validCodes.includes(code)) {
     msg.style.color = "green";
     msg.innerText = "Kód správny!";
+	isCafeSoloMode = false;   // 🔥 vypneme SOLO režim  
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
   } else {
@@ -1287,9 +1311,35 @@ function verifyAndStartCafe() {
   }
 }
 
+function verifyAndStartCafeSolo() {
+  const code = document.getElementById("accessCode").value.trim();
+  const msg = document.getElementById("codeMessage");
+
+  if (selectedCategories.length === 0) {
+    msg.style.color = "red";
+    msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    return;
+  }
+
+  if (validCodes.includes(code)) {
+    msg.style.color = "green";
+    msg.innerText = "Kód správny!";
+    
+    isCafeSoloMode = true;   // 🔥 zapneme SOLO režim
+    
+    document.querySelector(".new-start-container").style.display = "none";
+    document.querySelector(".start-container").style.display = "block";
+  } else {
+    msg.style.color = "red";
+    msg.innerText = "Neplatný kód! Skús znova.";
+  }
+}	
+
+	
 </script>
 </body>
 
 </html>
+
 
 
