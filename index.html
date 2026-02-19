@@ -1123,37 +1123,45 @@ function startGame() {
 
 
 function showQuestion() {
-
-  const questionDiv = document.getElementById("question");
-  questionDiv.style.color = "#333"; // 🔥 reset farby hneď na začiatku
-
-  const q = selectedQuestions[currentQuestionIndex];
-  const shuffledAnswers = [...q.answers];
-  shuffle(shuffledAnswers);
-
-  const correctIndex = shuffledAnswers.indexOf(q.answers[q.correct]);
-  selectedQuestions[currentQuestionIndex].shuffledCorrect = correctIndex;
-
-  questionDiv.innerText = q.question;
-
-  adjustFontSizeForQuestion();
-
-  document.getElementById("counter").innerText =
-    `Otázka ${currentQuestionIndex + 1} / ${selectedQuestions.length}`;
-
-  document.querySelectorAll(".answer-button").forEach((btn, i) => {
-
-    if (isCafeSoloMode) {
-      btn.style.display = "none";
-    } else {
-      btn.style.display = "flex";
-      btn.querySelector(".answer-text").innerText = shuffledAnswers[i];
-      btn.querySelector(".answer-letter").innerText = ['A', 'B', 'C', 'D'][i];
-      btn.style.backgroundColor = "#ddd";
-      btn.style.color = "black";
-    }
-
-  });
+    const questionDiv = document.getElementById("question");
+    
+    // 🔥 reset farby hneď na začiatku
+    questionDiv.style.color = "#333";
+    
+    const q = selectedQuestions[currentQuestionIndex];
+    
+    // Zamiešame odpovede
+    const shuffledAnswers = [...q.answers];
+    shuffle(shuffledAnswers);
+    
+    // Zistíme index správnej odpovede po zamiešaní
+    const correctIndex = shuffledAnswers.indexOf(q.answers[q.correct]);
+    selectedQuestions[currentQuestionIndex].shuffledCorrect = correctIndex;
+    
+    // Zobrazíme otázku
+    questionDiv.innerText = q.question;
+    
+    // ← tu zavolaj zmenšovanie veľkosti písma
+    adjustFontSizeForQuestion();
+    
+    // Zobrazíme počítadlo otázok
+    document.getElementById("counter").innerText = 
+        `Otázka ${currentQuestionIndex + 1} / ${selectedQuestions.length}`;
+    
+    // Zobrazíme odpovede
+    document.querySelectorAll(".answer-button").forEach((btn, i) => {
+        if (isCafeSoloMode) {
+            // 🔥 v SOLO režime odpovede skryjeme
+            btn.style.display = "none";
+        } else {
+            btn.style.display = "flex";
+            btn.querySelector(".answer-text").innerText = shuffledAnswers[i];
+            btn.querySelector(".answer-letter").innerText = ['A', 'B', 'C', 'D'][i];
+            btn.style.backgroundColor = "#ddd";
+            btn.style.color = "black";
+        }
+    });
+}
 	
 	adjustFontSizeForAnswers();
 	timeLeft = userSelectedTime;
@@ -1350,6 +1358,7 @@ function verifyAndStartCafeSolo() {
 </body>
 
 </html>
+
 
 
 
