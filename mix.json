@@ -1,14 +1,32 @@
 [
-{ "question": "Počet mliečnych zubov u detí", "answers": ["20", "24", "28", "22"], "correct": 0 },
-{ "question": "Počet kostí v dospelom človeku", "answers": ["206", "180", "230", "201"], "correct": 0 },
-{ "question": "Počet zubov u dospelého človeka", "answers": ["32", "34", "36", "30"], "correct": 0 },
-{ "question": "Hormón, ktorý uvoľňuje telo pri stretnutí s alergénom", "answers": ["Histamín", "Progesterón", "Inzulín", "Adrenalín"], "correct": 0 },
-{ "question": "Normálny krvný tlak u dospelého človeka", "answers": ["100/80 mm Hg", "120/80 mm Hg", "130/90 mm Hg", "140/95 mm Hg"], "correct": 1 },
-{ "question": "Miesto v ľudskom tele, kde sa nachádza kladivko, strmienok a nákovka", "answers": ["Oko", "Ucho", "Koleno", "Nos"], "correct": 1 },
-{ "question": "Odborný názov pre farbosleposť", "answers": ["Xerophthalmia", "Hyposhagmus", "Daltonizmus", "Achromatopsia"], "correct": 2 },
-{ "question": "Odborný názov pre červené krvinky", "answers": ["Urea", "Erytrocyty", "Kreatín", "Leukocyty"], "correct": 1 },
-{ "question": "Biblické miesto, kde sa Ježiš modlil pred zatknutím", "answers": ["Getsemanská záhrada", "Golgota", "Betlehem", "Nazaret"], "correct": 0 }
+{"question": "Znamenie zverokruhu v období 21. marec – 19. apríl", "answers": ["Baran", "Býk", "Rak", "Lev"], "correct": 0},
+{"question": "Znamenie zverokruhu v období 20. apríl – 20. máj", "answers": ["Baran", "Býk", "Rak", "Lev"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 21. máj – 20. jún", "answers": ["Blíženci", "Rak", "Lev", "Panna"], "correct": 0},
+{"question": "Znamenie zverokruhu v období 21. jún – 22. júl", "answers": ["Blíženci", "Rak", "Lev", "Panna"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 23. júl – 22. august", "answers": ["Blíženci", "Rak", "Lev", "Panna"], "correct": 2},
+{"question": "Znamenie zverokruhu v období 23. august – 22. september", "answers": ["Lev", "Panna", "Váhy", "Škorpión"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 23. september – 22. október", "answers": ["Panna", "Váhy", "Škorpión", "Strelec"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 23. október – 21. november", "answers": ["Váhy", "Škorpión", "Strelec", "Kozorožec"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 22. november – 21. december", "answers": ["Škorpión", "Strelec", "Kozorožec", "Vodnár"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 22. december – 19. január", "answers": ["Strelec", "Kozorožec", "Vodnár", "Ryby"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 20. január – 18. február", "answers": ["Kozorožec", "Vodnár", "Ryby", "Baran"], "correct": 1},
+{"question": "Znamenie zverokruhu v období 19. február – 20. marec", "answers": ["Vodnár", "Ryby", "Baran", "Býk"], "correct": 1},
+{"question": "Znamenie zverokruhu Baran v latinčine", "answers": ["Aquarius", "Taurus", "Leo", "Aries"], "correct": 3},
+{"question": "Znamenie zverokruhu Býk v latinčine", "answers": ["Aquarius", "Taurus", "Aries", "Gemini"], "correct": 1},
+{"question": "Znamenie zverokruhu Blíženci v latinčine", "answers": ["Gemini", "Cancer", "Leo", "Virgo"], "correct": 0},
+{"question": "Znamenie zverokruhu Rak v latinčine", "answers": ["Scorpius", "Cancer", "Libra", "Pisces"], "correct": 1},
+{"question": "Znamenie zverokruhu Lev v latinčine", "answers": ["Leo", "Virgo", "Taurus", "Capricorn"], "correct": 0},
+{"question": "Znamenie zverokruhu Panna v latinčine", "answers": ["Virgo", "Leo", "Sagittarius", "Aquarius"], "correct": 0},
+{"question": "Znamenie zverokruhu Váhy v latinčine", "answers": ["Libra", "Pisces", "Gemini", "Cancer"], "correct": 0},
+{"question": "Znamenie zverokruhu Škorpión v latinčine", "answers": ["Scorpius", "Capricorn", "Leo", "Aries"], "correct": 0},
+{"question": "Znamenie zverokruhu Strelec v latinčine", "answers": ["Sagittarius", "Virgo", "Libra", "Cancer"], "correct": 0},
+{"question": "Znamenie zverokruhu Kozorožec v latinčine", "answers": ["Capricorn", "Scorpius", "Sagittarius", "Pisces"], "correct": 0},
+{"question": "Znamenie zverokruhu Vodnár v latinčine", "answers": ["Aquarius", "Pisces", "Gemini", "Capricorn"], "correct": 0},
+{"question": "Znamenie zverokruhu Ryby v latinčine", "answers": ["Pisces", "Aquarius", "Sagittarius", "Libra"], "correct": 0},
+{"question": "Počet symbolov v čínskom zverokruhu", "answers": ["12", "10", "14", "8"], "correct": 0},
+{"question": "Počet astrologických znamení", "answers": ["12", "10", "14", "8"], "correct": 0}
 ]
+
 
 
 
