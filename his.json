@@ -96,10 +96,11 @@
 {"question": "Dátum vzniku prvého Slovenského štátu", "answers": ["14. marca 1938", "14. marca 1939", "14. marca 1940", "1. januára 1993"], "correct": 1},
 {"question": "Rok, kedy sa začal vyrábať v Československu nealkoholický nápoj Kofola", "answers": ["1950", "1960", "1970", "1980"], "correct": 1},
 {"question": "Najstarší pivovar na Slovensku, ktorý v roku 1473 založili jezuitský mnísi vo Vyhniach", "answers": ["Steiger", "Popper", "Stein", "Corgoň"], "correct": 0},
-{"question": "Prvý československý pivovar, ktorý začal v roku 1971 plniť pivo do plechoviek", "answers": ["Zlatý bažant", "Plzeňský Prazdroj", "Krušovice", "Gambrinus"], "correct": 0},
+{"question": "Prvý československý pivovar, ktorý začal v roku 1971 plniť pivo do plechoviek", "answers": ["Zlatý bažant", "Plzeňský Prazdroj", "Krušovice", "Gambrinus"], "correct": 0}
   
   
 ]
+
 
 
 
