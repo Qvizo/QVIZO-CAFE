@@ -166,6 +166,7 @@
 {"question": "Hlavné mesto Venezuely", "answers": ["Caracas", "Sucre", "Mérida", "Santiago"], "correct": 0},
 {"question": "Hlavné mesto Austrálie", "answers": ["Sydney", "Canberra", "Wellington", "Port Vila"], "correct": 1},
 {"question": "Hlavné mesto Fidži", "answers": ["Suva", "Apia", "Funafuti", "Nuku'alofa"], "correct": 0},
+  
 {"question": "Štát, ktorý má hlavné mesto Prahu", "answers": ["Poľsko", "Maďarsko", "Česká republika", "Kanada"], "correct": 2},
 {"question": "Štát, ktorý má hlavné mesto Bratislavu", "answers": ["Slovinsko", "Slovensko", "Srbsko", "Mexiko"], "correct": 1},
 {"question": "Štát, ktorý má hlavné mesto Viedeň", "answers": ["Rakúsko", "Nemecko", "Švajčiarsko", "Austrália"], "correct": 0},
@@ -299,9 +300,33 @@
 {"question": "Štát, ktorý má hlavné mesto Quito", "answers": ["Ekvádor", "Peru", "Bolívia", "Fínsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Sucre", "answers": ["Bolívia", "Peru", "Čile", "Nórsko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Wellington", "answers": ["Nový Zéland", "Austrália", "Papua Nová Guinea", "Slovensko"], "correct": 0},
-{"question": "Štát, ktorý má hlavné mesto Canberra", "answers": ["Austrália", "Nový Zéland", "Papua Nová Guinea", "Chorvátsko"], "correct": 0}
+{"question": "Štát, ktorý má hlavné mesto Canberra", "answers": ["Austrália", "Nový Zéland", "Papua Nová Guinea", "Chorvátsko"], "correct": 0},
+
+{ "question": "Počet planét v slnečnej sústave", "answers": ["8", "9", "7", "10"], "correct": 0 },
+{ "question": "Planéta známa ako Červená planéta", "answers": ["Mars", "Venuša", "Jupiter", "Merkúr"], "correct": 0 },
+{ "question": "Planéta, ktorá má prstence", "answers": ["Mars", "Saturn", "Venuša", "Uran"], "correct": 1 },
+{ "question": "Planéta najbližšia k Slnku", "answers": ["Venuša", "Merkúr", "Mars", "Zem"], "correct": 1 },
+{ "question": "Planéta, ktorá je známa ako 'modrá planéta'", "answers": ["Zem", "Neptún", "Urán", "Venuša"], "correct": 0 },
+{ "question": "Počet mesiacov Zeme", "answers": ["1", "2", "3", "0"], "correct": 0 },
+{ "question": "Druhá planéta od Slnka", "answers": ["Mars", "Venuša", "Merkúr", "Zem"], "correct": 1 },
+{ "question": "Počet mesiacov Saturnu", "answers": ["viac ako 100", "50", "12", "62"], "correct": 0 },
+{ "question": "Planéta, ktorá vládne ľudom narodeným 3, 12, 21 a 30 v akomkoľvek mesiaci", "answers": ["Merkúr", "Venuša", "Jupiter", "Saturn"], "correct": 2 },
+{ "question": "Najjasnejšia hviezda na nočnej oblohe", "answers": ["Venuša", "Sírius", "Slnko", "Polárka"], "correct": 1 },
+{ "question": "Počet obiehajúcich mesiacov okolo Jupitera", "answers": ["23", "56", "79", "62"], "correct": 2 },
+{ "question": "Vzdialenosť Zeme od Mesiaca", "answers": ["298 458 km", "384 400 km", "421 458 km", "350 000 km"], "correct": 1 },
+{ "question": "Planéty, ktorá nemajú žiadne mesiace", "answers": ["Merkúr – Venuša", "Jupiter - Saturn", "Neptún - Mars", "Pluto - Mars"], "correct": 0 },
+{ "question": "Najväčšie súhvezdie", "answers": ["Veľká medvedica", "Hydra", "Panna", "Levá"], "correct": 1 },
+{"question": "Názvy dvoch mesiacov planéty Mars", "answers": ["Fobos a Charón", "Fobos a Deimos", "Apolo a Fortuna", "Titan a Phobos"], "correct": 1},
+{"question": "Najväčšia planéta v našej slnečnej sústave", "answers": ["Zem", "Mars", "Jupiter", "Saturn"], "correct": 2},
+{"question": "Obal častíc obklopujúci Slnko", "answers": ["Stratosféra", "Heliosféra", "Biosféra", "Exosféra"], "correct": 1},
+{"question": "Planéta v slnečnej sústave, ktorá má prstenec", "answers": ["Saturn", "Jupiter", "Venuša", "Neptún"], "correct": 0},
+{"question": "Najbližšia hviezda k Zemi (okrem Slnka)", "answers": ["Proxima Centauri", "Sirius", "Vega", "Alpha Centauri"], "correct": 0},
+
+{ "question": "Hlavná zložka vzduchu", "answers": ["Kyslík", "Dusík", "Hélium", "Oxid uhličitý"], "correct": 1 },
+{ "question": "Vrstva atmosféry, v ktorej sa dejú zmeny počasia", "answers": ["Troposféra", "Termosféra", "Stratosféra", "Mezosféra"], "correct": 0 }
 
 ]
+
 
 
 
