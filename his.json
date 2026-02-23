@@ -1,9 +1,39 @@
 [
-{ "question": "Koniec 1. svetovej vojny", "answers": ["11. novembra 1914", "11. novembra 1917", "11. novembra 1918", "28. júna 1919"], "correct": 2 },
+{"question": "Jediný zo siedmich divov, ktorý sa zachoval dodnes", "answers": ["Diova socha", "Rodoský kolos", "Egyptské pyramídy", "Mauzóleum v Halikarnassose"], "correct": 2},
+{"question": "Zradca Grékov v bitke pri Termopylách", "answers": ["Leonidas", "Stratón", "Efialtés", "Themistokles"], "correct": 2},
+{"question": "Materiál, z ktorého je postavené rímske Koloseum", "answers": ["Kremenec", "Vápenec", "Travertín", "Žula"], "correct": 2},
+
+{ "question": "Východonemecká automobilka, ktorá sídlila v meste Eisenach", "answers": ["Trabant", "Wartburg", "Zástava", "Moskvič"], "correct": 1 },
+{"question": "Krajina, v ktorej v roku 1981 vznikla automobilová značka Oltcit", "answers": ["Bulharsko", "Albánsko", "Rumunsko", "Maďarsko"], "correct": 2},
+{"question": "Krajina, v ktorej v roku 1953 vznikla automobilová značka Zastava", "answers": ["Grécko", "Juhoslávia", "Taliansko", "Rumunsko"], "correct": 1},
+{"question": "Automobilová značka a model, ktorá v roku 1997 prvá začala sériovo vyrábať hybrid na svete", "answers": ["Škoda Elroq", "Toyota Prius", "Volkswagen T-Cross", "Honda Insight"], "correct": 1},
+{"question": "Prvý model Volkswagena, ktorý sa začal v roku 1992 vyrábať na Slovensku", "answers": ["Golf", "Passat", "Polo", "Tiguan"], "correct": 1},
+
+{ "question": "Pôvodný názov Tokia do roku 1868", "answers": ["Edo", "Kantó", "Jokohama", "Kyoto"], "correct": 0 },
+{"question": "Pôvodný názov Ho Či Minovo Mesta do roku 1975", "answers": ["Kuala Lumpur", "Manila", "Saigon", "Hanoj"], "correct": 2},
+{"question": "Mesto, ktoré sa do roku 1930 volalo Konštantínopol", "answers": ["Istanbul", "Káhira", "Atény", "Rím"], "correct": 0},
+{ "question": "Bývalé hlavné mesto Číny v rokoch 1928-1937", "answers": ["Šen-jang", "Nanking", "Šanghaj", "Peking"], "correct": 1 },
+{ "question": "České mesto, ktoré v rokoch 1949-1989 malo názov Gottwaldov", "answers": ["Olomouc", "Zlín", "Ostrava", "Brno"], "correct": 1 },
 {"question": "Nemecké mesto, ktoré si po druhej svetovej vojne rozdelili ZSSR, USA, Francúzsko a Veľká Británia", "answers": ["Mníchov", "Hamburg", "Berlín", "Drážďany"], "correct": 2},
-{ "question": "Koniec 2. svetovej vojny v Európe", "answers": ["8. máj 1945", "1. máj 1941", "1. júl 1914", "30. december 1945"], "correct": 0 },
-{ "question": "Koniec 2. svetovej vojny vo svete", "answers": ["8. máj 1945", "2. september 1945", "17. júl 1945", "30. december 1945"], "correct": 1 }
+{ "question": "Hlavné mesto novovzniknutých USA po vojne za nezávislosť", "answers": ["New York", "Boston", "Washington D.C.", "Philadelphia"], "correct": 2 },
+{ "question": "Hlavné mesto Francúzska počas revolúcie", "answers": ["Lyon", "Paríž", "Marseille", "Bordeaux"], "correct": 1 },
+{"question": "Mesto, v ktorom bola v roku 1870 založená prvá továreň na zmrzlinu", "answers": ["Rím", "Londýn", "Belehrad", "Paríž"], "correct": 1},
+
+{ "question": "Kmeň izraelského národa, z ktorého pochádzal Mojžiš", "answers": ["Efrajim", "Manases", "Lévi", "Judah"], "correct": 2 },
+{ "question": "Náboženstvo, z ktorého kresťania prevzali Starý zákon", "answers": ["Judaizmus", "Islám", "Synkretizmus", "Hinduizmus"], "correct": 0},
+{"question": "Názov pre päť kníh Mojžišových v Starom zákone", "answers": ["Apokryf", "Knihy Machabejcov", "Pentateuch", "Tóra"], "correct": 2},
+{"question": "Meno apoštola, ktorý podľa biblie zradil Ježiša", "answers": ["Barabáš", "Tomáš", "Judáš", "Matúš"], "correct": 2},
+{ "question": "Najznámejšia príručka inkvizítorov z roku 1487", "answers": ["Božia spravodlivosť", "Kladivo na čarodejnice", "Meno ruže", "Inkvizícia"], "correct": 1 },
+{"question": "Prorok, ktorý založil islamské náboženstvo", "answers": ["Mojžíš", "Jeremiáš", "Mohamed", "Jób"], "correct": 2},
+
+{"question": "Nealkoholický nápoj, ktorý v roku 1886 v Atlante namiešal lekárnik John Pemberton", "answers": ["Pepsi Cola", "Coca Cola", "Kofola", "Fanta"], "correct": 1},
+{"question": "Nealkoholický pomarančový nápoj, ktorý vyrába Pepsi Cola", "answers": ["Mirinda", "Fanta", "Tonic", "Sprite"], "correct": 0},
+{"question": "Nealkoholický nápoj, ktorý v roku 1898 v New Berne namiešal lekárnik Calebom Bradhamom", "answers": ["Pepsi Cola", "Coca Cola", "Kofola", "7Up"], "correct": 0},
+{"question": "Krajina, v ktorej sa v roku 1650 začal vyrábať alkoholický nápoj Gin", "answers": ["Belgicko", "Anglicko", "Holandsko", "Francúzsko"], "correct": 2},
+{"question": "Prvý sýtený nealkoholický nápoj na svete z roku 1783", "answers": ["Mattoni", "Coca Cola", "Schweppes", "Pepsi"], "correct": 2}
+  
 ]
+
 
 
 
