@@ -510,9 +510,16 @@
 {"question": "Severoamerické mesto, ktoré má prezývku Veterné mesto", "answers": ["Dallas", "Chicago", "Denver", "New York"], "correct": 1},
 { "question": "Slovenské mesto s prívlastkom Medená", "answers": ["Banská Štiavnica", "Banská Bystrica", "Považská Bystrica", "Kremnica"], "correct": 1 },
 { "question": "Slovenské mesto s prívlastkom Zlatá", "answers": ["Kremnica", "Gelnica", "Rožňava", "Banská Štiavnica"], "correct": 0 },
-{"question": "Slovenské mesto, ktoré je známe ako Perla Považia alebo Mesto módy", "answers": ["Piešťany", "Trenčín", "Žilina", "Nitra"], "correct": 1}
+{"question": "Slovenské mesto, ktoré je známe ako Perla Považia alebo Mesto módy", "answers": ["Piešťany", "Trenčín", "Žilina", "Nitra"], "correct": 1},
+  
+{ "question": "Svetadiel, ktorý má najviac obyvateľov", "answers": ["Európa", "Ázia", "Afrika", "Južná Amerika"], "correct": 1 },
+{ "question": "Kontinent najmenej obývaný", "answers": ["Antarktída", "Austrália", "Afrika", "Európa"], "correct": 0 },
+{ "question": "Svetadiel, v ktorom sa jazdí autom prevažne v ľavom pruhu", "answers": ["Afrika", "Ázia", "Austrália", "Európa"], "correct": 2 },
+{ "question": "Kontinent, na ktorom sa nachádza štát Paraguaj", "answers": ["Afrika", "Južná Amerika", "Ázia", "Severná Amerika"], "correct": 1},
+{ "question": "Najväčší kontinent", "answers": ["Ázia", "Afrika", "Severná Amerika", "Antarktída"], "correct": 0 }
 
 ]
+
 
 
 
