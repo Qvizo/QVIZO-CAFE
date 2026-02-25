@@ -585,9 +585,10 @@
 { "question": "Maximálny obsah zvyškového cukru na liter pri sladkom víne", "answers": [">45 g/l", "35-40,5 g/l", "25-40,5 g/l", "4-5,5 g/l"], "correct": 0 },
 { "question": "Šumivé víno, ktorého obsah zvyškového cukru je v rozmedzí 0-3 g/l", "answers": ["brut nature", "extra dry", "doux", "sec"], "correct": 0 },
 { "question": "Šumivé víno, ktorého obsah zvyškového cukru je >50 g/l", "answers": ["brut nature", "extra dry", "doux", "sec"], "correct": 2 },
-{ "question": "Podiel mliečneho tuku v masle", "answers": ["53%", "74%", "82%", "60%"], "correct": 2 },
+{ "question": "Podiel mliečneho tuku v masle", "answers": ["53%", "74%", "82%", "60%"], "correct": 2 }
   
 ]
+
 
 
 
