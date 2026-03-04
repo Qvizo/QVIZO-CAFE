@@ -69,7 +69,7 @@ body
 
 .question 
 {
-	font-size: 62px;
+	font-size: clamp(20px, 4vw, 70px);
 	font-weight: bold;
 	color: #333;
 	padding: 15px;
@@ -119,7 +119,7 @@ body
 	width: 45%;
 	margin: 10px 0;
 	padding: 12px;
-	font-size: 52px;
+	font-size: clamp(18px, 3.5vw, 55px);
 	font-weight: bold;
 	border: none;
 	border-radius: 12px;
@@ -141,7 +141,7 @@ body
 	align-items: center;
 	background-color: #800080;
 	color: white;
-	font-size: 50px;
+	font-size: clamp(16px, 3vw, 50px);
 	border-radius: 50%;
 	margin-right: 20px;
 	width: 60px;
@@ -1063,37 +1063,6 @@ function setTime(selectedTime) {
 	if (clickedBtn) clickedBtn.classList.add("active");
 }
 
-
-function adjustFontSizeForQuestion() {
-	const questionDiv = document.getElementById("question");
-  	const isMobile = window.innerWidth <= 768;
-	 // Nastavíme inú počiatočnú veľkosť pre mobil/desktop
-  	let fontSize = isMobile ? 32 : 88;
-    const minFontSize = isMobile ? 16 : 20;
-	questionDiv.style.fontSize = fontSize + "px";
-	 // Ak sa text nezmestí, zmenšuj fontSize až po minimálnu hodnotu
-  	while (questionDiv.scrollHeight > questionDiv.clientHeight && fontSize > minFontSize) {
-    fontSize -= 1;
-    questionDiv.style.fontSize = fontSize + "px";
-}
-}
-
-
-function adjustFontSizeForAnswers() {
-    const isMobile = window.innerWidth <= 768;
-    const buttons = document.querySelectorAll('.answer-button');
-    buttons.forEach(button => {
-    const textDiv = button.querySelector('.answer-text');
-    let fontSize = isMobile ? 28 : 52; // menšia veľkosť pre mobil
-    textDiv.style.fontSize = fontSize + 'px';
-    while (textDiv.scrollHeight > button.clientHeight && fontSize > 12) {
-    fontSize -= 1;
-    textDiv.style.fontSize = fontSize + 'px';
-}
-});
-}
-
-
 function startGame() {
 
   if (selectedCategories.length === 0) {
@@ -1137,10 +1106,7 @@ function showQuestion() {
     const questionDiv = document.getElementById("question");
     questionDiv.innerText = q.question;
 
-    // ← tu zavolaj zmenšovanie veľkosti písma
-    adjustFontSizeForQuestion();
-
-    // Zobrazíme počítadlo otázok
+      // Zobrazíme počítadlo otázok
     document.getElementById("counter").innerText = 
         `Otázka ${currentQuestionIndex + 1} / ${selectedQuestions.length}`;
 
@@ -1157,9 +1123,6 @@ function showQuestion() {
             btn.style.color = "black";
         }
     });
-
-    // Prispôsobenie veľkosti písma pre odpovede
-    adjustFontSizeForAnswers();
 
     // Nastavenie časovača
     timeLeft = userSelectedTime;
@@ -1361,6 +1324,7 @@ function verifyAndStartCafeSolo() {
 </body>
 
 </html>
+
 
 
 
