@@ -1068,7 +1068,7 @@ function adjustFontSizeForQuestion() {
 	const questionDiv = document.getElementById("question");
   	const isMobile = window.innerWidth <= 768;
 	 // Nastavíme inú počiatočnú veľkosť pre mobil/desktop
-  	let fontSize = isMobile ? 32 : 88;
+  	let fontSize = isMobile ? 40 : 150;
     const minFontSize = isMobile ? 16 : 20;
 	questionDiv.style.fontSize = fontSize + "px";
 	 // Ak sa text nezmestí, zmenšuj fontSize až po minimálnu hodnotu
@@ -1084,7 +1084,7 @@ function adjustFontSizeForAnswers() {
     const buttons = document.querySelectorAll('.answer-button');
     buttons.forEach(button => {
     const textDiv = button.querySelector('.answer-text');
-    let fontSize = isMobile ? 28 : 52; // menšia veľkosť pre mobil
+    let fontSize = isMobile ? 28 : 62; // menšia veľkosť pre mobil
     textDiv.style.fontSize = fontSize + 'px';
     while (textDiv.scrollHeight > button.clientHeight && fontSize > 12) {
     fontSize -= 1;
@@ -1361,6 +1361,7 @@ function verifyAndStartCafeSolo() {
 </body>
 
 </html>
+
 
 
 
