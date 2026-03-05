@@ -451,7 +451,7 @@
 { "question": "Najvyšší vrch Severnej Ameriky", "answers": ["Denali", "Mount Logan", "Aconcagua", "Pico de Orizaba"], "correct": 0 },
 { "question": "Najvyšší vrch Južnej Ameriky", "answers": ["Aconcagua", "Ojos del Salado", "Mount Pissis", "Llullaillaco"], "correct": 0 },
 { "question": "Najvyšší vrch Antarktídy", "answers": ["Vinson Massif", "Mount Kirkpatrick", "Mount Erebus", "Mount Craddock"], "correct": 0 },
-{ "question": "Najvyšší vrch Austrálie a Oceánie)", "answers": ["Mount Kosciuszko", "Puncak Jaya", "Mount Cook", "Mount Wilhelm"], "correct": 0 },
+{ "question": "Najvyšší vrch Austrálie a Oceánie", "answers": ["Mount Kosciuszko", "Puncak Jaya", "Mount Cook", "Mount Wilhelm"], "correct": 0 },
   
 { "question": "Najväčší štát v Ázii", "answers": ["Rusko", "Čína", "India", "Kazachstan"], "correct": 0 },
 { "question": "Najväčší štát v Afrike", "answers": ["Alžírsko", "Sudán", "Kongo", "Líbia"], "correct": 0 },
@@ -459,7 +459,7 @@
 { "question": "Najväčší štát v Severnej Amerike", "answers": ["Kanada", "USA", "Mexiko", "Guatemala"], "correct": 0 },
 { "question": "Najväčší štát v Južnej Amerike", "answers": ["Brazília", "Argentina", "Peru", "Kolumbia"], "correct": 0 },
 { "question": "Najväčší štát v Antarktíde", "answers": ["Žiadny štát", "Austrália", "Francúzsko", "Čile"], "correct": 0 },
-{ "question": "Najväčší štát v Austrálii a Oceánii)", "answers": ["Austrália", "Papua Nová Guinea", "Nový Zéland", "Fidži"], "correct": 0 },
+{ "question": "Najväčší štát v Austrálii a Oceánii", "answers": ["Austrália", "Papua Nová Guinea", "Nový Zéland", "Fidži"], "correct": 0 },
 
 { "question": "Najľudnatejší štát v Ázii", "answers": ["Čína", "India", "Japonsko", "Indonézia"], "correct": 0 },
 { "question": "Najľudnatejší štát v Afrike", "answers": ["Nigéria", "Etiópia", "Egypt", "Kongo"], "correct": 0 },
@@ -467,7 +467,7 @@
 { "question": "Najľudnatejší štát v Severnej Amerike", "answers": ["USA", "Mexiko", "Kanada", "Kuba"], "correct": 0 },
 { "question": "Najľudnatejší štát v Južnej Amerike", "answers": ["Brazília", "Kolumbia", "Argentina", "Peru"], "correct": 0 },
 { "question": "Najľudnatejší štát v Antarktíde", "answers": ["Žiadny štát", "Čile", "Nórsko", "Francúzsko"], "correct": 0 },
-{ "question": "Najľudnatejší štát v Austrálii a Oceánii)", "answers": ["Austrália", "Papua Nová Guinea", "Nový Zéland", "Fidži"], "correct": 0 },
+{ "question": "Najľudnatejší štát v Austrálii a Oceánii", "answers": ["Austrália", "Papua Nová Guinea", "Nový Zéland", "Fidži"], "correct": 0 },
 
 { "question": "Najľudnatejšie mesto v Ázii", "answers": ["Šanghaj (Čína)", "Mumbaj (India)", "Peking (Čína)", "Káhira (Egypt)"], "correct": 0 },
 { "question": "Najľudnatejšie mesto v Afrike", "answers": ["Lagos (Nigéria)", "Káhira (Egypt)", "Kinšasa (Kongo)", "Nairobi (Keňa)"], "correct": 0 },
@@ -475,7 +475,7 @@
 { "question": "Najľudnatejšie mesto v Severnej Amerike", "answers": ["Mexico City (Mexiko)", "New York City (USA)", "Los Angeles (USA)", "Toronto (Kanada)"], "correct": 0 },
 { "question": "Najľudnatejšie mesto v Južnej Amerike", "answers": ["São Paulo (Brazília)", "Buenos Aires (Argentina)", "Rio de Janeiro (Brazília)", "Lima (Peru)"], "correct": 0 },
 { "question": "Najľudnatejšie mesto v Antarktíde", "answers": ["Žiadne mesto", "McMurdo Station (USA)", "Palmer Station (USA)", "Vostok Station (Rusko)"], "correct": 0 },
-{ "question": "Najľudnatejšie mesto v Austrálii a Oceánii)", "answers": ["Sydney (Austrália)", "Melbourne (Austrália)", "Brisbane (Austrália)", "Auckland (Nový Zéland)"], "correct": 0 },
+{ "question": "Najľudnatejšie mesto v Austrálii a Oceánii", "answers": ["Sydney (Austrália)", "Melbourne (Austrália)", "Brisbane (Austrália)", "Auckland (Nový Zéland)"], "correct": 0 },
 
 { "question": "Najdlhšia rieka Afriky", "answers": ["Níl", "Kongo", "Zambezi", "Limpopo"], "correct": 0 },
 { "question": "Najdlhšia rieka Antarktídy", "answers": ["Onyx", "Mawson", "Lambert", "Davis"], "correct": 0 },
@@ -519,6 +519,7 @@
 { "question": "Najväčší kontinent", "answers": ["Ázia", "Afrika", "Severná Amerika", "Antarktída"], "correct": 0 }
 
 ]
+
 
 
 
