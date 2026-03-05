@@ -1135,8 +1135,9 @@ function showQuestion() {
 
     // Zobrazíme otázku
     const questionDiv = document.getElementById("question");
-    questionDiv.innerText = q.question;
-
+    /*questionDiv.innerText = q.question;*/
+    questionDiv.innerHTML = fixWidows(q.question);
+	
     // ← tu zavolaj zmenšovanie veľkosti písma
     adjustFontSizeForQuestion();
 
@@ -1184,6 +1185,18 @@ function showQuestion() {
     }, 1000);
 }
 
+	function fixWidows(text) {
+
+  // spojky a krátke slová, ktoré nechceme nechať osamote
+  const shortWords = ["a", "i", "v", "s", "z", "o", "u", "k"];
+
+  shortWords.forEach(word => {
+    const regex = new RegExp(`\\s${word}\\s`, "gi");
+    text = text.replace(regex, ` ${word}&nbsp;`);
+  });
+
+  return text;
+}
 
 function highlightCorrectAnswer() {
 
@@ -1361,6 +1374,7 @@ function verifyAndStartCafeSolo() {
 </body>
 
 </html>
+
 
 
 
