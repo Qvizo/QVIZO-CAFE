@@ -1194,7 +1194,7 @@ function highlightCorrectAnswer() {
     const questionDiv = document.getElementById("question");
     questionDiv.innerText = correctAnswer;  // 🔥 zobrazí sa iba správna odpoveď
     questionDiv.style.color = "green";
-
+adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
   } else {
     const correctButton = document.querySelectorAll(".answer-button")[selectedQuestions[currentQuestionIndex].shuffledCorrect];
     correctButton.style.backgroundColor = "#4CAF50";
@@ -1361,6 +1361,7 @@ function verifyAndStartCafeSolo() {
 </body>
 
 </html>
+
 
 
 
