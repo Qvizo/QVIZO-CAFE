@@ -96,10 +96,42 @@
 {"question": "Dátum vzniku prvého Slovenského štátu", "answers": ["14. marca 1938", "14. marca 1939", "14. marca 1940", "1. januára 1993"], "correct": 1},
 {"question": "Rok, kedy sa začal vyrábať v Československu nealkoholický nápoj Kofola", "answers": ["1950", "1960", "1970", "1980"], "correct": 1},
 {"question": "Najstarší pivovar na Slovensku, ktorý v roku 1473 založili jezuitský mnísi vo Vyhniach", "answers": ["Steiger", "Popper", "Stein", "Corgoň"], "correct": 0},
-{"question": "Prvý československý pivovar, ktorý začal v roku 1971 plniť pivo do plechoviek", "answers": ["Zlatý bažant", "Plzeňský Prazdroj", "Krušovice", "Gambrinus"], "correct": 0}
+{"question": "Prvý československý pivovar, ktorý začal v roku 1971 plniť pivo do plechoviek", "answers": ["Zlatý bažant", "Plzeňský Prazdroj", "Krušovice", "Gambrinus"], "correct": 0},
+  
+{"question": "Storočie, v ktorom sa začal renesančný umelecký štýl", "answers": ["14. storočie", "15. storočie", "16. storočie", "17. storočie"], "correct": 0},
+{"question": "Hlavný hospodársky systém v stredoveku", "answers": ["Kapitalizmus", "Socializmus", "Feudalizmus", "Manorizmus"], "correct": 2},
+{"question": "Myšlienkové hnutie zdôrazňujúce rozum a vedu v 18. storočí", "answers": ["Renesancia", "Romantizmus", "Osvietenstvo", "Humanizmus"], "correct": 2 },
+{ "question": "Politický systém s neobmedzenou mocou panovníka", "answers": ["Demokracia", "Republika", "Absolutizmus", "Federácia"], "correct": 2 },
+
+{ "question": "Počet obyvateľov planéty Zem v roku 1000", "answers": ["250-350 miliónov", "50-150 miliónov", "800-950 miliónov", "500-550 miliónov"], "correct": 0 },
+{ "question": "Počet obyvateľov planéty Zem v roku 2000", "answers": ["6,1 miliard", "5,5 miliard", "4,2 miliard", "> 7 miliard"], "correct": 0 },
+{ "question": "Počet obyvateľov planéty Zem v roku 1900", "answers": ["< 1 miliarda", "1 -2 miliardy", "2 - 3 miliardy", "> 3 miliard"], "correct": 1 },  
+{ "question": "Počet obyvateľov Nórska v roku 2022 (+/- 500 000)", "answers": ["3,5 milióna", "5,5 milióna", "7,5 milióna", "9,5 milióna"], "correct": 1},
+{ "question": "Prvý živý tvor, ktorý sa dostal v roku 1957 do vesmíru", "answers": ["Opica", "Pes", "Korytnačka", "Mačka"], "correct": 1 },
+{ "question": "Krajina, v ktorej sa začalo v roku 1936 prvé pravidelné verejné televízne vysielanie na svete", "answers": ["USA", "Francúzsko", "Veľká Británia", "Nemecko"], "correct": 2 },
+
+{"question": "Výletná ponorka, ktorá sa v roku 2023 potopila pri vraku lode Titanic", "answers": ["Ares", "Titan", "Poseidon", "Nautilus"], "correct": 1},
+
+{ "question": "Krajina, kde Alexander Veľký podľa legendy preťal Gordický uzol", "answers": ["Turecko", "Grécko", "Bulharsko", "Irak"], "correct": 0 },
+{ "question": "Doplň štát, ktorý patril do Trojspolku počas 1. svetovej vojny. Rakúsko-Uhorsko, Nemecko ...", "answers": ["Francúzsko", "Belgicko", "Taliansko", "Bulharsko"], "correct": 3 },
+{ "question": "Ostrov, ktorý v roku 1772 objavil Jacob Roggeveen", "answers": ["Veľkonočný ostrov", "Vianočný ostrov", "Jáva", "Bali"], "correct": 0 },
+{"question": "Krajina, ktorá sa do roku 1984 volala Horná Volta", "answers": ["Togo", "Burkina Faso", "Keňa", "Mali"], "correct": 1},
+{"question": "Oficiálny názov Iránu do roku 1935", "answers": ["Osmanská ríša", "Asýria", "Perzia", "Iránia"], "correct": 2},
+{"question": "Škandinávska krajina, ktorá počas druhej svetovej vojny bola neutrálna", "answers": ["Dánsko", "Švédsko", "Nórsko", "Fínsko"], "correct": 1},
+{"question": "Rok, kedy vznikol Izraelský štát", "answers": ["1878", "1918", "1948", "1967"], "correct": 2},
+{"question": "Krajina, v ktorej v roku 930 vznikol prvý parlament na svete", "answers": ["Wales", "Island", "Malta", "Švédsko"], "correct": 1},
+{"question": "Krajina, od ktorej USA odkúpili v roku 1867 Aljašku", "answers": ["Nemecko", "Rusko", "Veľká Británia", "Kanada"], "correct": 1},
+{"question": "Bývalá kolónia, ktorá do roku 1999 patrila Portugalsku", "answers": ["Barbados", "Macao", "Hongkong", "Kapverdy"], "correct": 1},
+{"question": "Krajina, ktorá sa v minulosti volala Nové Španielsko", "answers": ["Mexiko", "Argentína", "Bolívia", "Peru"], "correct": 0},
+{"question": "Štát, ktorý sa do roku 1990 volal Nemecká juhozápadná Afrika", "answers": ["Zimbabwe", "Botswana", "Namíbia", "Južná Afrika"], "correct": 2},
+{"question": "Štát, ktorý v roku 2001 prvý legalizoval manželstvá rovnakého pohlavia", "answers": ["USA", "Holandsko", "Švédsko", "Dánsko"], "correct": 1},
+{"question": "Krajina, v ktorej začala priemyselná revolúcia", "answers": ["Spojené štáty americké", "Veľká Británia", "Nemecko", "Francúzsko"], "correct": 1},
+{"question": "Prvý postkomunistický štát, ktorý prijal v roku 2009 euro", "answers": ["Chorvátsko", "Slovensko", "Litva", "Estónsko"], "correct": 1},
+{ "question": "Vznik Spojeného kráľovstva Veľkej Británie", "answers": ["1707", "1756", "1789", "1801"], "correct": 0 }
   
   
 ]
+
 
 
 
