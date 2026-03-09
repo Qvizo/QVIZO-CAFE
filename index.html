@@ -1241,11 +1241,19 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
       showQuestion();
     }, 2000);
   } else {
-    setTimeout(() => {
-      document.querySelector(".question-container").style.display = "none";
-      startGame();
-    }, 2000);
-  }
+  setTimeout(() => {
+
+    document.querySelector(".question-container").style.display = "none";
+
+    if (demoMode) {
+      alert("Toto bola DEMO verzia hry. Pre plnú verziu kontaktujte autora.");
+      location.reload(); // návrat na úvod
+    } else {
+      startGame(); // normálna verzia pokračuje
+    }
+
+  }, 2000);
+}
 }
 
 
@@ -1405,6 +1413,7 @@ if(demoMode){
 </body>
 
 </html>
+
 
 
 
