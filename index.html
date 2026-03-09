@@ -1350,7 +1350,16 @@ function verifyAndStartCafe() {
     msg.innerText = "Vyber si aspoň jednu kategóriu!";
     return; // Funkcia sa zastaví
   }
+	
+// 🔥 DEMO režim – preskočí kontrolu kódu
+  if (demoMode) {
+    isCafeSoloMode = false;
 
+    document.querySelector(".new-start-container").style.display = "none";
+    document.querySelector(".start-container").style.display = "block";
+    return;
+  }
+	
   // Kontrola kódu
   if (validCodes.includes(code)) {
     msg.style.color = "green";
@@ -1396,6 +1405,7 @@ if(demoMode){
 </body>
 
 </html>
+
 
 
 
