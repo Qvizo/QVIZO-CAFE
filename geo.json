@@ -314,7 +314,7 @@
 { "question": "Najjasnejšia hviezda na nočnej oblohe", "answers": ["Venuša", "Sírius", "Slnko", "Polárka"], "correct": 1 },
 { "question": "Počet obiehajúcich mesiacov okolo Jupitera", "answers": ["23", "56", "79", "62"], "correct": 2 },
 { "question": "Vzdialenosť Zeme od Mesiaca", "answers": ["298 458 km", "384 400 km", "421 458 km", "350 000 km"], "correct": 1 },
-{ "question": "Planéty, ktorá nemajú žiadne mesiace", "answers": ["Merkúr – Venuša", "Jupiter - Saturn", "Neptún - Mars", "Pluto - Mars"], "correct": 0 },
+{ "question": "Dve planéty v slnečnej sústave, ktoré nemajú žiadne mesiace", "answers": ["Merkúr – Venuša", "Jupiter - Saturn", "Neptún - Mars", "Pluto - Mars"], "correct": 0 },
 { "question": "Najväčšie súhvezdie", "answers": ["Veľká medvedica", "Hydra", "Panna", "Levá"], "correct": 1 },
 {"question": "Názvy dvoch mesiacov planéty Mars", "answers": ["Fobos a Charón", "Fobos a Deimos", "Apolo a Fortuna", "Titan a Phobos"], "correct": 1},
 {"question": "Najväčšia planéta v našej slnečnej sústave", "answers": ["Zem", "Mars", "Jupiter", "Saturn"], "correct": 2},
@@ -519,6 +519,7 @@
 { "question": "Najväčší kontinent", "answers": ["Ázia", "Afrika", "Severná Amerika", "Antarktída"], "correct": 0 }
 
 ]
+
 
 
 
