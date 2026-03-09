@@ -879,6 +879,7 @@ color: black;
 
   <button onclick="login()">Prihlásiť sa</button>
   <button onclick="register()">Vytvoriť účet</button>
+  <button onclick="startDemo()">Demo verzia</button>	
 
   <p id="authMessage"></p>
 </div>
@@ -997,9 +998,9 @@ let userSelectedTime = 10;
 let timeLeft = 10;
 let isPaused = false;
 let isCafeSoloMode = false;	
-
 let questions = [];
-
+let demoMode = false; // zapína demo režim
+	
 // Mapovanie kategórií na JSON súbory
 const categoryFiles = {
   GEO: "geo.json",
@@ -1011,6 +1012,15 @@ const categoryFiles = {
 
 let selectedCategories = [];
 
+function startDemo() {
+
+  demoMode = true;
+
+  document.getElementById("loginWindow").style.display = "none";
+  document.getElementById("newStartWindow").style.display = "flex";
+
+}
+	
 function toggleCategory(category, button) {
   if (category === "ALL") return;
 
@@ -1104,13 +1114,22 @@ function startGame() {
   const filesToLoad = selectedCategories.map(cat => categoryFiles[cat]);
 
   Promise.all(filesToLoad.map(file => fetch(file).then(res => res.json())))
-    .then(jsonSubory => {
+.then(jsonSubory => {
 
-      questions = jsonSubory.flat();
+  if (demoMode) {
 
-      shuffle(questions);
+    // z každej kategórie iba 5 otázok
+    questions = jsonSubory.flatMap(cat => cat.slice(0,5));
 
-      selectedQuestions = [...questions];
+  } else {
+
+    questions = jsonSubory.flat();
+
+  }
+
+  shuffle(questions);
+
+  selectedQuestions = [...questions];
       currentQuestionIndex = 0;
 
       document.querySelector(".start-container").style.display = "none";
@@ -1369,11 +1388,15 @@ function verifyAndStartCafeSolo() {
   }
 }	
 
+if(demoMode){
+  alert("Toto bola DEMO verzia hry QVIZO. Pre plnú verziu kontaktujte autora.");
+}	
 	
 </script>
 </body>
 
 </html>
+
 
 
 
