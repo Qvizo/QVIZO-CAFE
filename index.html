@@ -273,6 +273,35 @@ body
     background-color: #800080;
 }
 
+.demo-popup{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  justify-content:center;
+  align-items:center;
+  z-index:9999;
+}
+
+.demo-popup-content{
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  text-align:center;
+  max-width:400px;
+  box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.demo-popup-content button{
+  margin-top:20px;
+  padding:10px 25px;
+  font-size:18px;
+  cursor:pointer;
+}	
+
 @media (max-width: 768px) {
 
 .menu button, .back-button, .stop-button 
@@ -980,6 +1009,15 @@ color: black;
 <div class="end-container">
 <button onclick="backToStart()" style="font-size: 20px; background-color: #800080; color: white; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer;">Späť na začiatok</button>
 </div>
+<!-- DEMO POPUP -->
+<div id="demoPopup" class="demo-popup">
+  <div class="demo-popup-content">
+    <h2>DEMO verzia</h2>
+    <p>Toto bola DEMO verzia hry.<br>
+    Pre plnú verziu kontaktujte autora.</p>
+    <button onclick="closeDemo()">OK</button>
+	    </div>
+</div>
 <script>
 
 window.onload = function() {
@@ -1240,16 +1278,15 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
       document.getElementById("question").style.color = "#333";
       showQuestion();
     }, 2000);
-  } else {
+} else {
   setTimeout(() => {
 
     document.querySelector(".question-container").style.display = "none";
 
     if (demoMode) {
-      alert("Toto bola DEMO verzia hry. Pre plnú verziu kontaktujte autora.");
-      location.reload(); // návrat na úvod
+      document.getElementById("demoPopup").style.display = "flex";
     } else {
-      startGame(); // normálna verzia pokračuje
+      startGame();
     }
 
   }, 2000);
@@ -1327,6 +1364,9 @@ function login() {
     });
 }
 
+	function closeDemo(){
+  location.reload();
+}
 
 function register() {
     const email = document.getElementById("email").value.trim();
@@ -1405,14 +1445,13 @@ function verifyAndStartCafeSolo() {
   }
 }	
 
-if(demoMode){
-  alert("Toto bola DEMO verzia hry QVIZO. Pre plnú verziu kontaktujte autora.");
-}	
+
 	
 </script>
 </body>
 
 </html>
+
 
 
 
