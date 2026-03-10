@@ -874,10 +874,11 @@ color: black;
     <span class="q">Q</span><span class="vizo">VIZO</span>
   </h2>
 
- 
+  <button onclick="startDemo()">Demo verzia</button>
+  
   <input type="email" id="email" placeholder="Zadaj email">
   <input type="password" id="password" placeholder="Zadaj heslo">
-  <button onclick="startDemo()">Demo verzia</button>	
+ 	
   <button onclick="login()">Prihlásiť sa</button>
   <button onclick="register()">Vytvoriť účet</button>	
 
@@ -1391,12 +1392,22 @@ function verifyAndStartCafeSolo() {
     return;
   }
 
+  // 🔥 DEMO režim – preskočí kontrolu kódu
+  if (demoMode) {
+    isCafeSoloMode = true;
+
+    document.querySelector(".new-start-container").style.display = "none";
+    document.querySelector(".start-container").style.display = "block";
+    return;
+  }
+
+  // Normálna kontrola kódu
   if (validCodes.includes(code)) {
     msg.style.color = "green";
     msg.innerText = "Kód správny!";
-    
-    isCafeSoloMode = true;   // 🔥 zapneme SOLO režim
-    
+
+    isCafeSoloMode = true;
+
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
   } else {
@@ -1413,6 +1424,7 @@ if(demoMode){
 </body>
 
 </html>
+
 
 
 
