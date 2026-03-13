@@ -506,7 +506,7 @@
 { "question": "Prezývka mesta New York", "answers": ["Mesto riek", "Zlaté mesto", "Veľké jablko", "Betónová džungľa"], "correct": 2 },
 { "question": "Mesto, ktoré má prezývku Druhý Rím", "answers": ["Sofia", "Fatima", "Istanbul", "Belehrad"], "correct": 2 },
 { "question": "Mesto, ktoré má prezývku Gaudího mesto", "answers": ["Barcelona", "Madrid", "Valencia", "Sevilla"], "correct": 0 },
-{"question": "Mesto, ktoré má prezývku Fénixovo mesto", "answers": ["Káhira", "Kodaň", "Varšava", "Sofia"], "correct": 3},
+{"question": "Mesto, ktoré má prezývku Fénixovo mesto", "answers": ["Káhira", "Kodaň", "Varšava", "Sofia"], "correct": 2},
 {"question": "Severoamerické mesto, ktoré má prezývku Veterné mesto", "answers": ["Dallas", "Chicago", "Denver", "New York"], "correct": 1},
 { "question": "Slovenské mesto s prívlastkom Medená", "answers": ["Banská Štiavnica", "Banská Bystrica", "Považská Bystrica", "Kremnica"], "correct": 1 },
 { "question": "Slovenské mesto s prívlastkom Zlatá", "answers": ["Kremnica", "Gelnica", "Rožňava", "Banská Štiavnica"], "correct": 0 },
@@ -519,6 +519,7 @@
 { "question": "Najväčší kontinent", "answers": ["Ázia", "Afrika", "Severná Amerika", "Antarktída"], "correct": 0 }
 
 ]
+
 
 
 
