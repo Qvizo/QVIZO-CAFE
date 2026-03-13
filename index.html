@@ -295,12 +295,6 @@ body
   max-width: 400px;
 }	
 
-	function exitFullScreen() {
-  if (document.fullscreenElement) {
-    document.exitFullscreen();
-  }
-}
-	
 @media (max-width: 768px) {
 
 .menu button, .back-button, .stop-button 
@@ -1305,7 +1299,7 @@ function togglePause() {
 function backToStart() {
 	document.querySelector(".end-container").style.display = "none";
 	document.querySelector(".question-container").style.display = "none";
-	document.querySelector(".new-start-container").style.display = "flex";setTimeout
+	document.querySelector(".new-start-container").style.display = "flex";
 	document.querySelector(".start-container").style.display = "none";
 	
 document.getElementById("escBtn").style.display = "inline-block";
@@ -1345,6 +1339,12 @@ function toggleFullScreen() {
       document.exitFullscreen();
     }
   }
+
+		function exitFullScreen() {
+  if (document.fullscreenElement) {
+    document.exitFullscreen();
+  }
+}
 
 function login() {
   const email = document.getElementById("email").value.trim();
@@ -1464,6 +1464,7 @@ if(demoMode){
 </body>
 
 </html>
+
 
 
 
