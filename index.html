@@ -295,6 +295,11 @@ body
   max-width: 400px;
 }	
 
+	function exitFullScreen() {
+  if (document.fullscreenElement) {
+    document.exitFullscreen();
+  }
+}
 	
 @media (max-width: 768px) {
 
@@ -945,6 +950,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
   <div class="button-container">
     <button onclick="verifyAndStartCafe()">CAFE 4</button>
     <button class="cafe-solo-btn" onclick="verifyAndStartCafeSolo()">CAFE SOLO</button>
+	  <button id="escBtn" onclick="exitFullScreen()" style="display:none;">ESC</button>
 </div>
 
 </div>
@@ -1301,6 +1307,9 @@ function backToStart() {
 	document.querySelector(".question-container").style.display = "none";
 	document.querySelector(".new-start-container").style.display = "flex";setTimeout
 	document.querySelector(".start-container").style.display = "none";
+	
+document.getElementById("escBtn").style.display = "inline-block";
+	
 	currentQuestionIndex = 0;
 	clearInterval(timerInterval);
 	isPaused = false;
@@ -1455,6 +1464,7 @@ if(demoMode){
 </body>
 
 </html>
+
 
 
 
