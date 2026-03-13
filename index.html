@@ -1456,6 +1456,14 @@ function verifyAndStartCafeSolo() {
   }
 }	
 
+document.addEventListener("fullscreenchange", function() {
+
+  if (!document.fullscreenElement) {
+    document.getElementById("escBtn").style.display = "none";
+  }
+
+});	
+
 if(demoMode){
   alert("Pre plnú verziu kontaktujte autora. Viac info craco.slovakia@gmail.com");
 }	
@@ -1464,6 +1472,7 @@ if(demoMode){
 </body>
 
 </html>
+
 
 
 
