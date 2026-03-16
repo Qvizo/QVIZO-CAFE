@@ -1302,7 +1302,7 @@ function backToStart() {
 	document.querySelector(".new-start-container").style.display = "flex";
 	document.querySelector(".start-container").style.display = "none";
 	
-document.getElementById("escBtn").style.display = "inline-block";
+
 	
 	currentQuestionIndex = 0;
 	clearInterval(timerInterval);
@@ -1458,11 +1458,15 @@ function verifyAndStartCafeSolo() {
 
 document.addEventListener("fullscreenchange", function() {
 
-  if (!document.fullscreenElement) {
-    document.getElementById("escBtn").style.display = "none";
+  const escBtn = document.getElementById("escBtn");
+
+  if (document.fullscreenElement) {
+    escBtn.style.display = "inline-block";   // zobrazí sa iba vo fullscreen
+  } else {
+    escBtn.style.display = "none";           // mimo fullscreen bude skryté
   }
 
-});	
+});
 
 if(demoMode){
   alert("Pre plnú verziu kontaktujte autora. Viac info craco.slovakia@gmail.com");
