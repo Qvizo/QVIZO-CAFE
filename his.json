@@ -1,5 +1,10 @@
 [
 {"question": "Jediný zo siedmich divov, ktorý sa zachoval dodnes", "answers": ["Diova socha", "Rodoský kolos", "Egyptské pyramídy", "Mauzóleum v Halikarnassose"], "correct": 2},
+{"question": "Prvý model Volkswagena, ktorý sa začal v roku 1992 vyrábať na Slovensku", "answers": ["Golf", "Passat", "Polo", "Tiguan"], "correct": 1},
+{ "question": "Pôvodný názov Tokia do roku 1868", "answers": ["Edo", "Kantó", "Jokohama", "Kyoto"], "correct": 0 },
+{ "question": "Rok, v ktorom sa potopil Titanic", "answers": ["1908", "1912", "1915", "1918"], "correct": 1 },
+{ "question": "Názov legendárneho vlaku, ktorý spájal Paríž a Konštantínopol", "answers": ["Paris Express", "Orient Express", "Europa Express", "Eastern Star"], "correct": 1 },
+  
 {"question": "Zradca Grékov v bitke pri Termopylách", "answers": ["Leonidas", "Stratón", "Efialtés", "Themistokles"], "correct": 2},
 {"question": "Materiál, z ktorého je postavené rímske Koloseum", "answers": ["Kremenec", "Vápenec", "Travertín", "Žula"], "correct": 2},
 
@@ -7,9 +12,9 @@
 {"question": "Krajina, v ktorej v roku 1981 vznikla automobilová značka Oltcit", "answers": ["Bulharsko", "Albánsko", "Rumunsko", "Maďarsko"], "correct": 2},
 {"question": "Krajina, v ktorej v roku 1953 vznikla automobilová značka Zastava", "answers": ["Grécko", "Juhoslávia", "Taliansko", "Rumunsko"], "correct": 1},
 {"question": "Automobilová značka a model, ktorá v roku 1997 prvá začala sériovo vyrábať hybrid na svete", "answers": ["Škoda Elroq", "Toyota Prius", "Volkswagen T-Cross", "Honda Insight"], "correct": 1},
-{"question": "Prvý model Volkswagena, ktorý sa začal v roku 1992 vyrábať na Slovensku", "answers": ["Golf", "Passat", "Polo", "Tiguan"], "correct": 1},
 
-{ "question": "Pôvodný názov Tokia do roku 1868", "answers": ["Edo", "Kantó", "Jokohama", "Kyoto"], "correct": 0 },
+
+
 {"question": "Pôvodný názov Ho Či Minovo Mesta do roku 1975", "answers": ["Kuala Lumpur", "Manila", "Saigon", "Hanoj"], "correct": 2},
 {"question": "Mesto, ktoré sa do roku 1930 volalo Konštantínopol", "answers": ["Istanbul", "Káhira", "Atény", "Rím"], "correct": 0},
 { "question": "Bývalé hlavné mesto Číny v rokoch 1928-1937", "answers": ["Šen-jang", "Nanking", "Šanghaj", "Peking"], "correct": 1 },
@@ -32,7 +37,7 @@
 {"question": "Krajina, v ktorej sa v roku 1650 začal vyrábať alkoholický nápoj Gin", "answers": ["Belgicko", "Anglicko", "Holandsko", "Francúzsko"], "correct": 2},
 {"question": "Prvý sýtený nealkoholický nápoj na svete z roku 1783", "answers": ["Mattoni", "Coca Cola", "Schweppes", "Pepsi"], "correct": 2},
 
-{ "question": "Rok, v ktorom sa potopil Titanic", "answers": ["1908", "1912", "1915", "1918"], "correct": 1 },
+
 { "question": "Rok, v ktorom začala francúzska revolúcia", "answers": ["1789", "1798", "1802", "1791"], "correct": 0 },
 { "question": "Rok, kedy letela posledná posádka z kozmického programu Apollo na Mesiac", "answers": ["1972", "1978", "1981", "1969"], "correct": 0 },
 { "question": "Rok, kedy bola vyrobená prvá elektronická kalkulačka Anita Mark VIII", "answers": ["1895", "1961", "1989", "1945"], "correct": 1 },
@@ -73,7 +78,7 @@
 { "question": "Názov najväčšej lode Krištofa Kolumba, s ktorou objavil Ameriku", "answers": ["Nina", "Pinta", "Santa Maria", "Briga"], "correct": 2 },
 { "question": "Názov lode, ktorá zachránila časť ľudí z Titanicu", "answers": ["Californian", "Catherina", "Carpathia", "Britannic"], "correct": 2 },
 
-{ "question": "Názov legendárneho vlaku, ktorý spájal Paríž a Konštantínopol", "answers": ["Paris Express", "Orient Express", "Europa Express", "Eastern Star"], "correct": 1 },
+
 {"question": "Národ, po ktorom sme prevzali číslice", "answers": ["Arabský", "Čínsky", "Grécky", "Indický"], "correct": 0},
 {"question": "Hnutie žien, ktoré v roku 1910 v Londýne ako prvé protestovali za ženské volebné právo", "answers": ["Mažoretky", "Rovnobežky", "Sufražetky", "Feminizmus"], "correct": 2},
 { "question": "Syn Márie Terézie a rímsko-nemecký cisár", "answers": ["Leopold II.", "Jozef II.", "František I.", "Karol VI."], "correct": 1 },
