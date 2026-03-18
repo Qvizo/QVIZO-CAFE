@@ -1397,10 +1397,14 @@ function verifyAndStartCafe() {
 
   // Kontrola, či je vybraná aspoň jedna kategória
   if (selectedCategories.length === 0) {
+  if (demoMode) {
+    alert("Vyber si aspoň jednu kategóriu!");
+  } else {
     msg.style.color = "red";
     msg.innerText = "Vyber si aspoň jednu kategóriu!";
-    return; // Funkcia sa zastaví
   }
+  return;
+}
 	
 // 🔥 DEMO režim – preskočí kontrolu kódu
   if (demoMode) {
@@ -1429,10 +1433,14 @@ function verifyAndStartCafeSolo() {
   const msg = document.getElementById("codeMessage");
 
   if (selectedCategories.length === 0) {
+  if (demoMode) {
+    alert("Vyber si aspoň jednu kategóriu!");
+  } else {
     msg.style.color = "red";
     msg.innerText = "Vyber si aspoň jednu kategóriu!";
-    return;
   }
+  return;
+}
 
   // 🔥 DEMO režim – preskočí kontrolu kódu
   if (demoMode) {
