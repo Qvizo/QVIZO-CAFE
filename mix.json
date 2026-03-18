@@ -1,4 +1,10 @@
 [
+{"question": "Časť oka, ktorá určuje farbu očí", "answers": ["Šošovka", "Dúhovka", "Skléra", "Rohovka"], "correct": 1},
+{"question": "Chemický vzorec klasickej jedlej soli", "answers": ["H2O", "HCN", "NaCl", "NaOH"], "correct": 2},
+{"question": "22 - 9 = ?", "answers": ["13", "14", "15", "16"], "correct": 0},
+{ "question": "Rozprávka, v ktorej vystupuje postava Cruelly de Vil", "answers": ["101 dalmatíncov", "Shrek", "Šmolkovia", "Mickey Mouse"], "correct": 0 },
+{"question": "Mesto, v ktorom sa každoročne udeľujú filmový Oscar", "answers": ["Londýn", "Los Angeles", "New York", "Las Vegas"], "correct": 1},
+  
 {"question": "Znamenie zverokruhu v období 21. marec – 19. apríl", "answers": ["Baran", "Býk", "Rak", "Lev"], "correct": 0},
 {"question": "Znamenie zverokruhu v období 20. apríl – 20. máj", "answers": ["Baran", "Býk", "Rak", "Lev"], "correct": 1},
 {"question": "Znamenie zverokruhu v období 21. máj – 20. jún", "answers": ["Blíženci", "Rak", "Lev", "Panna"], "correct": 0},
@@ -46,7 +52,7 @@
 { "question": "Ľudská časť tela, kde sa nachádza kosť ihlica", "answers": ["Dolná končatina", "Horná končatina", "Lepka", "Hlava"], "correct": 0 },
   
 {"question": "Časť tela, ktorú postihuje ochorenie s názvom dna", "answers": ["Kĺby", "Srdce", "Cievy", "Pľúca"], "correct": 0},
-{"question": "Časť oka, ktorá určuje farbu očí", "answers": ["Šošovka", "Dúhovka", "Skléra", "Rohovka"], "correct": 1},
+
 {"question": "Počet komôr v ľudskom srdci", "answers": ["2", "4", "6", "3"], "correct": 1},
 {"question": "Základná stavebná jednotka nervovej sústavy", "answers": ["Receptor", "Neurón", "Atóm", "Prvok"], "correct": 1},
 {"question": "Názov obdobia, ktorým prechádzajú starnúci muži", "answers": ["Menopauza", "Andropauza", "Mezopauza", "Gerontológia"], "correct": 1},
@@ -157,7 +163,7 @@
 {"question": "Odbor medicíny zaoberajúci sa prevenciou a liečbou porúch pohybového aparátu", "answers": ["Ortopédia", "Reumatológia", "Fyzikálna medicína", "Neurológia"], "correct": 0},
 {"question": "Odbor medicíny zaoberajúci sa diagnostikou a liečbou ochorení žíl", "answers": ["Flebológia", "Kardiológia", "Dermatológia", "Chirurgia"], "correct": 0},
 
-{"question": "Chemický vzorec klasickej jedlej soli", "answers": ["H2O", "HCN", "NaCl", "NaOH"], "correct": 2},
+
 {"question": "Chemický vzorec vody", "answers": ["H₂O", "CO₂", "O₂", "H₂O₂"], "correct": 0},
 {"question": "Chemický vzorec oxidu uhličitého", "answers": ["H₂O", "CO₂", "NaCl", "SO₂"], "correct": 1},
 {"question": "Chemický vzorec kyslíka", "answers": ["H₂", "O₂", "CO₂", "N₂"], "correct": 1},
@@ -431,7 +437,7 @@
 {"question": "3 x 8 = ?", "answers": ["22", "24", "26", "28"], "correct": 1},
 {"question": "36 / 6 = ?", "answers": ["6", "5", "7", "8"], "correct": 0},
 {"question": "13 + 4 = ?", "answers": ["17", "18", "15", "14"], "correct": 0},
-{"question": "22 - 9 = ?", "answers": ["13", "14", "15", "16"], "correct": 0},
+
 {"question": "6 x 9 = ?", "answers": ["52", "53", "54", "51"], "correct": 2},
 {"question": "32 / 4 = ?", "answers": ["8", "9", "7", "6"], "correct": 0},
 {"question": "11 + 3 = ?", "answers": ["14", "15", "16", "17"], "correct": 0},
@@ -544,7 +550,7 @@
 {"question": "Slovenský výrobca pneumatík", "answers": ["Barum", "Cordiant", "Matador", "Michelin"], "correct": 2},
 { "question": "Taliansky okruh známy ako Chrám rýchlosti, ktorý existuje od roku 1922", "answers": ["Nardo", "Monza", "Imola", "Mugello"], "correct": 1 },
   
-{ "question": "Rozprávka, v ktorej vystupuje postava Cruelly de Vil", "answers": ["101 dalmatíncov", "Shrek", "Šmolkovia", "Mickey Mouse"], "correct": 0 },
+
 { "question": "Štát, v ktorom v roku 1906 vznikol prvý celovečerný film „The Story of the Kelly Gang“ ", "answers": ["Austrália", "Francúzsko", "USA", "Kanada"], "correct": 0 },
 { "question": "Prvý slovenský celovečerný film z roku 1921", "answers": ["Jánošík", "Krvavá grófka", "Pacho Hybský zbojník", "Dracula"], "correct": 0 },
 { "question": "Americký televízny sitkom zobrazujúci život šiestich mladých ľudí v New Yorke", "answers": ["Simpsonovci", "Teória veľkého tresku", "Priatelia", "Krok za krokom"], "correct": 2 },
@@ -560,7 +566,7 @@
 {"question": "Indiánsky kmeň, ktorého bol náčelníkom Vinnetou", "answers": ["Apači", "Siouxovia", "Navajovia", "Irokézi"], "correct": 0},
 {"question": "Hlavný chirurg v televíznom seriáli M*A*S*H", "answers": ["Hawkeye Pierce", "B. J. Hunnicutt", "Maxwell Klinger", "Frank Burns"], "correct": 0},
 {"question": "Superhrdina z Marvel, ktorý sa označuje ako 'prvý avenger'", "answers": ["Iron Man", "Hulk", "Kapitán Amerika", "Thor"], "correct": 2},
-{"question": "Mesto, v ktorom sa každoročne udeľujú filmový Oscar", "answers": ["Londýn", "Los Angeles", "New York", "Las Vegas"], "correct": 1},
+
 { "question": "Názov obyvateľného mesiaca z filmu Avatar", "answers": ["Krakozia", "Essos", "Pandora", "Titan"], "correct": 2 },
 { "question": "Film, v ktorom zaznela hláška: „Baby nebude sedieť v kúte.“", "answers": ["Pomáda", "Hriešny tanec", "Flashdance", "Titanic"], "correct": 1 },  
 { "question": "Hláška z českého filmu: „A chčije a chčije…“", "answers": ["Chalupáři", "Na samotě u lesa", "Pelišky", "Vesničko má středisková"], "correct": 1 },
