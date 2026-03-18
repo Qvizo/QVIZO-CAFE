@@ -1053,9 +1053,12 @@ function startDemo() {
 
   document.getElementById("loginWindow").style.display = "none";
   document.getElementById("newStartWindow").style.display = "flex";
-document.getElementById("codeBox").style.display = "none"; // skryje pole kódu
-	/ skry iba input, nech zostane hláška
-document.getElementById("accessCode").style.display = "none";
+
+  // NEschovávaj celý box!
+  document.getElementById("codeBox").style.display = "block";
+
+  // skry iba input
+  document.getElementById("accessCode").style.display = "none";
 }
 	
 function toggleCategory(category, button) {
