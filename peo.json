@@ -1,5 +1,11 @@
 [
 { "question": "Prvý človek na Mesiaci", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 1 },
+{ "question": "Autor knihy 'Vojna a mier'", "answers": ["Lev Tolstoj", "Anton Čechov", "Fjodor Dostojevskij", "Maxim Gorkij"], "correct": 0 },
+{ "question": "Meno domorodého priateľa Robinsona Crusoa v pôvodnom románe Daniela Defoa", "answers": ["Pondelok", "Streda", "Piatok", "Utorok"], "correct": 2 },
+{ "question": "Zvonár v Chráme Matky Božej v slávnom románe od Victora Huga", "answers": ["Quintano", "Quasimodo", "Quentin", "Quintus"], "correct": 1 },
+{ "question": "Objaviteľ penicilínu", "answers": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Joseph Lister"], "correct": 0 }, 
+
+  
 { "question": "Prvý človek vo vesmíre", "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "correct": 2 },
 { "question": "Prvý človek, ktorý v roku 1911 dosiahol južný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 2 },
 { "question": "Prvý človek, ktorý v roku 1909 dosiahol severný pól", "answers": ["Robert Peary", "Edmund Hillary", "Roald Amundsen", "Ernest Shackleton"], "correct": 0 },
@@ -12,7 +18,7 @@
 {"question": "Prvý prezident Spojených štátov amerických", "answers": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "Benjamin Franklin"], "correct": 1 },  
 { "question": "Autor teórie relativity", "answers": ["Nikola Tesla", "Albert Einstein", "Isaac Newton", "Stephen Hawking"], "correct": 1 },
 { "question": "Vynálezca telefónu", "answers": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Antonio Meucci"], "correct": 0 },
-{ "question": "Objaviteľ penicilínu", "answers": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Joseph Lister"], "correct": 0 }, 
+
 
 {"question": "Prvý Slovák vo vesmíre", "answers": ["Vladimír Remek", "Ivan Bella", "Štefan Banič", "Jozef Psotka"], "correct": 1},
 {"question": "Prvý Slovák, ktorý zdolal všetky osemtisícovky sveta", "answers": ["Jozef Psotka", "Peter Hámor", "Zoltán Demján", "Milan Kňažko"], "correct": 1},
@@ -24,7 +30,7 @@
 { "question": "Natália Hejková bola...", "answers": ["Trénerka basketbalu", "Trénerka volejbalu", "Trénerka tenisu", "Trénerka futbalu"], "correct": 0 },
 { "question": "Autor prvého slovenského celovečerného filmu Jánošík z roku 1921", "answers": ["Jaroslav Siakeľ", "Ján Kadár", "Paľo Bielik", "Štefan Uher"], "correct": 0 }, 
   
-{ "question": "Autor knihy 'Vojna a mier'", "answers": ["Lev Tolstoj", "Anton Čechov", "Fjodor Dostojevskij", "Maxim Gorkij"], "correct": 0 },
+
 { "question": "Autor knihy '1984'", "answers": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "J.R.R. Tolkien"], "correct": 0 },
 { "question": "Autor knihy 'Moby-Dick'", "answers": ["Herman Melville", "Edgar Allan Poe", "Mark Twain", "Nathaniel Hawthorne"], "correct": 0 },
 { "question": "Autor knihy 'Veľký Gatsby'", "answers": ["F. Scott Fitzgerald", "John Steinbeck", "Ernest Hemingway", "William Faulkner"], "correct": 0 },
@@ -45,8 +51,7 @@
 { "question": "Autor knihy 'Malý princ'", "answers": ["Antoine de Saint-Exupéry", "Jules Verne", "Hans Christian Andersen", "Victor Hugo"], "correct": 0 },
 { "question": "Autor knihy 'Kto chytá v žite'", "answers": ["Jerome David Salinger", "Diego Luna", "Lev Nikolajevič Tolstoj", "Franz Kafka"], "correct": 0 },
 { "question": "Najslávnejší román ruského spisovateľa Leva Nikolajeviča Tolstoja", "answers": ["Starec a more", "Vojna a mier", "Na západe nič nové", "Anna Karenina"], "correct": 1 },
-{ "question": "Meno domorodého priateľa Robinsona Crusoa v pôvodnom románe Daniela Defoa", "answers": ["Pondelok", "Streda", "Piatok", "Utorok"], "correct": 2 },
-{ "question": "Zvonár v Chráme Matky Božej v slávnom románe od Victora Huga", "answers": ["Quintano", "Quasimodo", "Quentin", "Quintus"], "correct": 1 },
+
 { "question": "Autor literárneho diela Marína", "answers": ["Martin Kukučín", "Andrej Sládkovič", "Ján Smrek", "Pavol Országh Hviezdoslav"], "correct": 1 },
 { "question": "Prvá obrázková učebnica na svete, ktorú vydal v roku 1658 Ján Amos Komenský", "answers": ["Schola pansophica", "Didactica magna", "Orbis pictus", "Janua linguarum"], "correct": 2 }
   
