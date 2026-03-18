@@ -1054,6 +1054,8 @@ function startDemo() {
   document.getElementById("loginWindow").style.display = "none";
   document.getElementById("newStartWindow").style.display = "flex";
 document.getElementById("codeBox").style.display = "none"; // skryje pole kódu
+	/ skry iba input, nech zostane hláška
+document.getElementById("accessCode").style.display = "none";
 }
 	
 function toggleCategory(category, button) {
@@ -1397,14 +1399,11 @@ function verifyAndStartCafe() {
 
   // Kontrola, či je vybraná aspoň jedna kategória
   if (selectedCategories.length === 0) {
-  if (demoMode) {
-    alert("Vyber si aspoň jednu kategóriu!");
-  } else {
     msg.style.color = "red";
     msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    return; // Funkcia sa zastaví
   }
-  return;
-}
+
 	
 // 🔥 DEMO režim – preskočí kontrolu kódu
   if (demoMode) {
@@ -1433,14 +1432,11 @@ function verifyAndStartCafeSolo() {
   const msg = document.getElementById("codeMessage");
 
   if (selectedCategories.length === 0) {
-  if (demoMode) {
-    alert("Vyber si aspoň jednu kategóriu!");
-  } else {
     msg.style.color = "red";
     msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    return;
   }
-  return;
-}
+
 
   // 🔥 DEMO režim – preskočí kontrolu kódu
   if (demoMode) {
