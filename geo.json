@@ -1,5 +1,10 @@
 [
 {"question": "Hlavné mesto Albánska", "answers": ["Tirana", "Skopje", "Záhreb", "Podgorica"], "correct": 0},
+{"question": "Štát, ktorý má hlavné mesto Berlín", "answers": ["Nemecko", "Holandsko", "Belgicko", "Japonsko"], "correct": 0},
+{ "question": "Počet planét v slnečnej sústave", "answers": ["8", "9", "7", "10"], "correct": 0 },
+{ "question": "Hlavná zložka vzduchu", "answers": ["Kyslík", "Dusík", "Hélium", "Oxid uhličitý"], "correct": 1 },  
+{ "question": "Najdlhšia rieka Afriky", "answers": ["Níl", "Kongo", "Zambezi", "Limpopo"], "correct": 0 },  
+
 {"question": "Hlavné mesto Arménska", "answers": ["Jerevan", "Baku", "Tbilisi", "Teherán"], "correct": 0},
 {"question": "Hlavné mesto Azerbajdžanu", "answers": ["Baku", "Tbilisi", "Bukurešť", "Teherán"], "correct": 0},
 {"question": "Hlavné mesto Bieloruska", "answers": ["Minsk", "Kyjev", "Riga", "Vilnius"], "correct": 0},
@@ -172,7 +177,7 @@
 {"question": "Štát, ktorý má hlavné mesto Viedeň", "answers": ["Rakúsko", "Nemecko", "Švajčiarsko", "Austrália"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Varšavu", "answers": ["Poľsko", "Ukrajina", "Bielorusko", "India"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Budapešť", "answers": ["Rakúsko", "Maďarsko", "Rumunsko", "Brazília"], "correct": 1},
-{"question": "Štát, ktorý má hlavné mesto Berlín", "answers": ["Nemecko", "Holandsko", "Belgicko", "Japonsko"], "correct": 0},
+
 {"question": "Štát, ktorý má hlavné mesto Rím", "answers": ["Francúzsko", "Španielsko", "Taliansko", "USA"], "correct": 2},
 {"question": "Štát, ktorý má hlavné mesto Madrid", "answers": ["Portugalsko", "Španielsko", "Andorra", "Egypt"], "correct": 1},
 {"question": "Štát, ktorý má hlavné mesto Paríž", "answers": ["Belgicko", "Francúzsko", "Švajčiarsko", "Čína"], "correct": 1},
@@ -302,7 +307,7 @@
 {"question": "Štát, ktorý má hlavné mesto Wellington", "answers": ["Nový Zéland", "Austrália", "Papua Nová Guinea", "Slovensko"], "correct": 0},
 {"question": "Štát, ktorý má hlavné mesto Canberra", "answers": ["Austrália", "Nový Zéland", "Papua Nová Guinea", "Chorvátsko"], "correct": 0},
 
-{ "question": "Počet planét v slnečnej sústave", "answers": ["8", "9", "7", "10"], "correct": 0 },
+
 { "question": "Planéta známa ako Červená planéta", "answers": ["Mars", "Venuša", "Jupiter", "Merkúr"], "correct": 0 },
 { "question": "Planéta, ktorá má prstence", "answers": ["Mars", "Saturn", "Venuša", "Uran"], "correct": 1 },
 { "question": "Planéta najbližšia k Slnku", "answers": ["Venuša", "Merkúr", "Mars", "Zem"], "correct": 1 },
@@ -322,7 +327,7 @@
 {"question": "Planéta v slnečnej sústave, ktorá má prstenec", "answers": ["Saturn", "Jupiter", "Venuša", "Neptún"], "correct": 0},
 {"question": "Najbližšia hviezda k Zemi (okrem Slnka)", "answers": ["Proxima Centauri", "Sirius", "Vega", "Alpha Centauri"], "correct": 0},
 
-{ "question": "Hlavná zložka vzduchu", "answers": ["Kyslík", "Dusík", "Hélium", "Oxid uhličitý"], "correct": 1 },
+
 { "question": "Vrstva atmosféry, v ktorej sa dejú zmeny počasia", "answers": ["Troposféra", "Termosféra", "Stratosféra", "Mezosféra"], "correct": 0 },
 
 {"question": "Najvyšší vrch pohoria Vysoké Tatry", "answers": ["Repisko (1259 m)", "Gerlachovský štít (2654 m)", "Ďumbier (2046 m)", "Vihorlat (1076 m)"], "correct": 1},
@@ -477,7 +482,7 @@
 { "question": "Najľudnatejšie mesto v Antarktíde", "answers": ["Žiadne mesto", "McMurdo Station (USA)", "Palmer Station (USA)", "Vostok Station (Rusko)"], "correct": 0 },
 { "question": "Najľudnatejšie mesto v Austrálii a Oceánii", "answers": ["Sydney (Austrália)", "Melbourne (Austrália)", "Brisbane (Austrália)", "Auckland (Nový Zéland)"], "correct": 0 },
 
-{ "question": "Najdlhšia rieka Afriky", "answers": ["Níl", "Kongo", "Zambezi", "Limpopo"], "correct": 0 },
+
 { "question": "Najdlhšia rieka Antarktídy", "answers": ["Onyx", "Mawson", "Lambert", "Davis"], "correct": 0 },
 { "question": "Najdlhšia rieka Austrálie (Oceánie)", "answers": ["Murray-Darling", "Sepik", "Fly", "Lachlan"], "correct": 0 },
 { "question": "Najdlhšia rieka Ázie", "answers": ["Jang-c’-ťiang", "Ganga", "Mekong", "Indus"], "correct": 0 },
