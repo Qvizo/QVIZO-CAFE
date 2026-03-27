@@ -956,6 +956,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
   <div class="button-container">
     <button class="cafe-solo-btn" onclick="verifyAndStartCafeSolo()">CAFE 1</button>
 	   <button onclick="verifyAndStartCafe()">CAFE 4</button>
+	  <button onclick="startTucetMode()">TUCET 12</button>
      <button id="escBtn" onclick="exitFullScreen()" style="display:none;">ESC</button>
 </div>
 
@@ -1043,6 +1044,8 @@ let userSelectedTime = 10;
 let timeLeft = 10;
 let isPaused = false;
 let isCafeSoloMode = false;	
+	let isTucetMode = false;
+let tucetQuestions = [];
 let questions = [];
 let demoMode = false; // zapína demo režim
 	
@@ -1286,22 +1289,35 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
   currentQuestionIndex++;
 
   if (currentQuestionIndex < selectedQuestions.length) {
+
     setTimeout(() => {
       document.getElementById("question").style.color = "#333";
       showQuestion();
     }, 2000);
-  } else {
-  setTimeout(() => {
 
-    document.querySelector(".question-container").style.display = "none";
-
-   if (demoMode) {
-  document.getElementById("demoPopup").style.display = "flex";
 } else {
-  startGame();
-}
 
-  }, 2000);
+    setTimeout(() => {
+
+      if (isTucetMode) {
+
+        showQvizoLogo(() => {
+          startNewTucetCycle();
+        });
+
+      } else {
+
+        document.querySelector(".question-container").style.display = "none";
+
+        if (demoMode) {
+          document.getElementById("demoPopup").style.display = "flex";
+        } else {
+          startGame();
+        }
+
+      }
+
+    }, 2000);
 }
 }
 
@@ -1318,7 +1334,7 @@ function backToStart() {
 	document.querySelector(".question-container").style.display = "none";
 	document.querySelector(".new-start-container").style.display = "flex";
 	document.querySelector(".start-container").style.display = "none";
-	
+	isTucetMode = false;
 
 	
 	currentQuestionIndex = 0;
@@ -1477,6 +1493,67 @@ document.addEventListener("fullscreenchange", function() {
 
 });
 
+	function startTucetMode() {
+
+  if (selectedCategories.length === 0) {
+    alert("Vyber aspoň jednu kategóriu!");
+    return;
+  }
+
+  isTucetMode = true;
+
+  // rovnaké načítanie ako startGame
+  const filesToLoad = selectedCategories.map(cat => categoryFiles[cat]);
+
+  Promise.all(filesToLoad.map(file => fetch(file).then(res => res.json())))
+    .then(jsonSubory => {
+
+      questions = jsonSubory.flat();
+      shuffle(questions);
+
+      startNewTucetCycle();
+
+      document.querySelector(".new-start-container").style.display = "none";
+      document.querySelector(".question-container").style.display = "flex";
+
+    });
+}
+
+function startNewTucetCycle() {
+
+  shuffle(questions);
+
+  tucetQuestions = questions.slice(0, 12);
+  selectedQuestions = [...tucetQuestions];
+
+  currentQuestionIndex = 0;
+
+  showQuestion();
+}
+
+function showQvizoLogo(callback) {
+
+  const questionDiv = document.getElementById("question");
+
+  questionDiv.innerHTML = `
+    <div style="font-size:80px; text-align:center;">
+      <span style="color:red;">Q</span><span style="color:black;">VIZO</span>
+    </div>
+  `;
+
+  document.querySelectorAll(".answer-button").forEach(btn => {
+    btn.style.display = "none";
+  });
+
+  setTimeout(() => {
+    document.querySelectorAll(".answer-button").forEach(btn => {
+      if (!isCafeSoloMode) btn.style.display = "flex";
+    });
+    callback();
+  }, 2000);
+}	
+
+	
 if(demoMode){
   alert("Pre plnú verziu kontaktujte autora. craco.slovakia@gmail.com");
 }	
