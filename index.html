@@ -956,7 +956,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
   <div class="button-container">
     <button class="cafe-solo-btn" onclick="verifyAndStartCafeSolo()">CAFE 1</button>
 	   <button onclick="verifyAndStartCafe()">CAFE 4</button>
-	  <button onclick="startTucetMode()">TUCET 12</button>
+	 
      <button id="escBtn" onclick="exitFullScreen()" style="display:none;">ESC</button>
 </div>
 
@@ -987,6 +987,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
 <div class="start-buttons-wrapper">
 <button class="start-button" onclick="startGame()">ŠTART</button>
 <button class="fullscreen-button" onclick="toggleFullScreen()">FULL SCREEN</button>
+<button class="start-button" onclick="startTucetMode()">TUCET 12</button>	
 </div>
 </div>
 
@@ -1513,8 +1514,8 @@ document.addEventListener("fullscreenchange", function() {
 
       startNewTucetCycle();
 
-      document.querySelector(".new-start-container").style.display = "none";
-      document.querySelector(".question-container").style.display = "flex";
+      document.querySelector(".start-container").style.display = "none";
+document.querySelector(".question-container").style.display = "flex";
 
     });
 }
