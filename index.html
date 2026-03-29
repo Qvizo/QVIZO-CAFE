@@ -1212,7 +1212,10 @@ function showQuestion() {
     questionDiv.innerHTML = fixWidows(q.question);
 	
     // ← tu zavolaj zmenšovanie veľkosti písma
+	
+    requestAnimationFrame(() => {
     adjustFontSizeForQuestion();
+});
 
     // Zobrazíme počítadlo otázok
     document.getElementById("counter").innerText = 
@@ -1510,10 +1513,9 @@ document.addEventListener("fullscreenchange", function() {
       questions = jsonSubory.flat();
       shuffle(questions);
 
-      startNewTucetCycle();
-
-      document.querySelector(".start-container").style.display = "none";
+       document.querySelector(".start-container").style.display = "none";
 document.querySelector(".question-container").style.display = "flex";
+		startNewTucetCycle();
 
     });
 }
