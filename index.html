@@ -1547,17 +1547,20 @@ function showQvizoLogo(callback) {
 
   const questionDiv = document.getElementById("question");
 
-  questionDiv.innerHTML = `
+questionDiv.innerHTML = `
+  <div style="text-align:center;">
+    
     <div style="font-size:80px;">
       <span style="color:red;">Q</span><span style="color:black;">VIZO</span>
     </div>
     
     <div style="font-size:28px; margin-top:10px; color:#333;">
-      TOTO JE NAJLEPŠIA HRA NA SVETE
+      Najlepšia hra na svete
     </div>
 
   </div>
-  `;
+`;
+	
  // 🔴 SKRY odpovede
   document.querySelectorAll(".answer-button").forEach(btn => {
     btn.style.display = "none";
