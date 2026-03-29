@@ -1172,8 +1172,8 @@ function startGame() {
 
   if (demoMode) {
 
-    // z každej kategórie iba 5 otázok
-    questions = jsonSubory.flatMap(cat => cat.slice(0,5));
+    // z každej kategórie iba 12 otázok
+    questions = jsonSubory.flatMap(cat => cat.slice(0,12));
 
   } else {
 
@@ -1510,7 +1510,11 @@ document.addEventListener("fullscreenchange", function() {
   Promise.all(filesToLoad.map(file => fetch(file).then(res => res.json())))
     .then(jsonSubory => {
 
-      questions = jsonSubory.flat();
+      if (demoMode) {
+  questions = jsonSubory.flatMap(cat => cat.slice(0, 5));
+} else {
+  questions = jsonSubory.flat();
+}
       shuffle(questions);
 
        document.querySelector(".start-container").style.display = "none";
