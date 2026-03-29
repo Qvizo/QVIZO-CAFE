@@ -1305,9 +1305,16 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
 
       if (isTucetMode) {
 
-        showQvizoLogo(() => {
-          startNewTucetCycle();
-        });
+  if (demoMode) {
+    // 🔴 DEMO = len jedno kolo
+    document.querySelector(".question-container").style.display = "none";
+    document.getElementById("demoPopup").style.display = "flex";
+  } else {
+    // 🟢 normálny režim ide ďalej
+    showQvizoLogo(() => {
+      startNewTucetCycle();
+    });
+  }
 
       } else {
 
