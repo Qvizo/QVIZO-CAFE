@@ -1545,12 +1545,19 @@ function showQvizoLogo(callback) {
       <span style="color:red;">Q</span><span style="color:black;">VIZO</span>
     </div>
   `;
-
+ // 🔴 SKRY odpovede
   document.querySelectorAll(".answer-button").forEach(btn => {
     btn.style.display = "none";
   });
-
+	
+// 🔴 SKRY STOP, SPÄŤ, TIMER
+  document.querySelector(".stop-button").style.display = "none";
+  document.querySelector(".back-button").style.display = "none";
+  document.getElementById("timer").style.display = "none";
+  
   setTimeout(() => {
+
+	  
     document.querySelectorAll(".answer-button").forEach(btn => {
       if (!isCafeSoloMode) btn.style.display = "flex";
     });
