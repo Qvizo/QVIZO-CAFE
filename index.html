@@ -1556,7 +1556,10 @@ function showQvizoLogo(callback) {
   document.getElementById("timer").style.display = "none";
   
   setTimeout(() => {
-
+// 🟢 ZNOVU ZOBRAZ po logu
+    document.querySelector(".stop-button").style.display = "inline-block";
+    document.querySelector(".back-button").style.display = "inline-block";
+    document.getElementById("timer").style.display = "block";
 	  
     document.querySelectorAll(".answer-button").forEach(btn => {
       if (!isCafeSoloMode) btn.style.display = "flex";
