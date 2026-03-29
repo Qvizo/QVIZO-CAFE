@@ -985,9 +985,9 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
 </div>
 </div>
 <div class="start-buttons-wrapper">
-<button class="start-button" onclick="startGame()">ŠTART</button>
+<button class="start-button" onclick="startGame()">INFINITY ∞</button>
 <button class="fullscreen-button" onclick="toggleFullScreen()">FULL SCREEN</button>
-<button class="start-button" onclick="startTucetMode()">TUCET 12</button>	
+<button class="start-button" onclick="startTucetMode()">DOZENO 12</button>	
 </div>
 </div>
 
@@ -1551,6 +1551,9 @@ function showQvizoLogo(callback) {
     <div style="font-size:80px; text-align:center;">
       <span style="color:red;">Q</span><span style="color:black;">VIZO</span>
     </div>
+	 <div style="font-size:28px; margin-top:20px; color:#333;">
+      Najlepšia hra na svete
+    </div>
   `;
  // 🔴 SKRY odpovede
   document.querySelectorAll(".answer-button").forEach(btn => {
@@ -1561,18 +1564,20 @@ function showQvizoLogo(callback) {
   document.querySelector(".stop-button").style.display = "none";
   document.querySelector(".back-button").style.display = "none";
   document.getElementById("timer").style.display = "none";
+  document.getElementById("counter").style.display = "none";
   
   setTimeout(() => {
 // 🟢 ZNOVU ZOBRAZ po logu
     document.querySelector(".stop-button").style.display = "inline-block";
     document.querySelector(".back-button").style.display = "inline-block";
     document.getElementById("timer").style.display = "block";
+	document.getElementById("counter").style.display = "block";
 	  
     document.querySelectorAll(".answer-button").forEach(btn => {
       if (!isCafeSoloMode) btn.style.display = "flex";
     });
     callback();
-  }, 2000);
+  }, 3000);
 }	
 
 	
