@@ -1511,7 +1511,7 @@ document.addEventListener("fullscreenchange", function() {
     .then(jsonSubory => {
 
       if (demoMode) {
-  questions = jsonSubory.flatMap(cat => cat.slice(0, 5));
+  questions = jsonSubory.flatMap(cat => cat.slice(0, 12));
 } else {
   questions = jsonSubory.flat();
 }
