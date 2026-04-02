@@ -1157,6 +1157,22 @@ function adjustFontSizeForAnswers() {
 });
 }
 
+function getRandomQuestionsFromCategories(jsonSubory, countPerCategory = 2) {
+  let result = [];
+
+  jsonSubory.forEach(categoryArray => {
+    let shuffled = [...categoryArray];
+    shuffle(shuffled);
+
+    // vezmi napr. 2 otázky z kategórie
+    result.push(...shuffled.slice(0, countPerCategory));
+  });
+
+  // finálne premiešanie
+  shuffle(result);
+
+  return result;
+}	
 
 function startGame() {
 
@@ -1170,16 +1186,17 @@ function startGame() {
   Promise.all(filesToLoad.map(file => fetch(file).then(res => res.json())))
 .then(jsonSubory => {
 
+ if (selectedCategories.length === Object.keys(categoryFiles).length) {
+  // 🔥 ALL režim → 2 otázky z každej kategórie
+  questions = getRandomQuestionsFromCategories(jsonSubory, 2);
+} else {
+  // normálny režim
   if (demoMode) {
-
-    // z každej kategórie iba 12 otázok
-    questions = jsonSubory.flatMap(cat => cat.slice(0,12));
-
+    startTucetMode()
   } else {
-
     questions = jsonSubory.flat();
-
   }
+}
 
   shuffle(questions);
 
@@ -1517,10 +1534,14 @@ document.addEventListener("fullscreenchange", function() {
   Promise.all(filesToLoad.map(file => fetch(file).then(res => res.json())))
     .then(jsonSubory => {
 
-      if (demoMode) {
-  questions = jsonSubory.flatMap(cat => cat.slice(0, 12));
+if (selectedCategories.length === Object.keys(categoryFiles).length) {
+  questions = getRandomQuestionsFromCategories(jsonSubory, 2);
 } else {
-  questions = jsonSubory.flat();
+  if (demoMode) {
+    questions = jsonSubory.flatMap(cat => cat.slice(0, 12));
+  } else {
+    questions = jsonSubory.flat();
+  }
 }
       shuffle(questions);
 
