@@ -1191,14 +1191,16 @@ isTucetMode = false;  // 🔥 dôležité – aby sa nespúšťal TUCET
 .then(jsonSubory => {
 
  if (selectedCategories.length === Object.keys(categoryFiles).length) {
-  // 🔥 INFINITY → všetky otázky
-  questions = jsonSubory.flat();
+  // 🔥 ALL režim → 2 otázky z každej kategórie
+  questions = getRandomQuestionsFromCategories(jsonSubory, 2);
 } else {
+  // normálny režim
   if (demoMode) {
-    questions = jsonSubory.flatMap(cat => cat.slice(0, 12));
+    questions = jsonSubory.flatMap(cat => cat.slice(0,12));
   } else {
     questions = jsonSubory.flat();
   }
+}
 
   shuffle(questions);
 
