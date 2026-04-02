@@ -949,6 +949,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
     <button class="category-btn" onclick="toggleCategory('NAT', this)">NAT</button>
     <button class="category-btn" onclick="toggleCategory('PEO', this)">PEO</button>
     <button class="category-btn" onclick="toggleCategory('MIX', this)">MIX</button>
+	<button class="category-btn" onclick="toggleCategory('SPO', this)">SPO</button>
     <button class="category-btn" onclick="selectAllCategories(this)">ALL</button>
 </div>
 
@@ -1056,7 +1057,8 @@ const categoryFiles = {
   HIS: "his.json",
   NAT: "nat.json",
   PEO: "peo.json",
-  MIX: "mix.json"
+  MIX: "mix.json",
+  SPO: "spo.json"   // ✅ NOVÁ KATEGÓRIA
 };
 
 let selectedCategories = [];
