@@ -1050,7 +1050,7 @@ let isCafeSoloMode = false;
 let tucetQuestions = [];
 let questions = [];
 let demoMode = false; // zapína demo režim
-	
+let usedQuestions = [];	
 // Mapovanie kategórií na JSON súbory
 const categoryFiles = {
   GEO: "geo.json",
@@ -1512,32 +1512,56 @@ document.addEventListener("fullscreenchange", function() {
   }
 
   isTucetMode = true;
+  usedQuestions = []; // reset
 
-  // rovnaké načítanie ako startGame
   const filesToLoad = selectedCategories.map(cat => categoryFiles[cat]);
 
   Promise.all(filesToLoad.map(file => fetch(file).then(res => res.json())))
     .then(jsonSubory => {
 
       if (demoMode) {
-  questions = jsonSubory.flatMap(cat => cat.slice(0, 12));
-} else {
-  questions = jsonSubory.flat();
-}
-      shuffle(questions);
+        // 🔥 DEMO – z každej kategórie len 12 otázok
+        questions = jsonSubory.map(cat => cat.slice(0, 12));
+      } else {
+        // 🔥 FULL – celé kategórie
+        questions = jsonSubory;
+      }
 
-       document.querySelector(".start-container").style.display = "none";
-document.querySelector(".question-container").style.display = "flex";
-		startNewTucetCycle();
+      document.querySelector(".start-container").style.display = "none";
+      document.querySelector(".question-container").style.display = "flex";
 
+      startNewTucetCycle();
     });
 }
 
 function startNewTucetCycle() {
 
-  shuffle(questions);
+  let newSet = [];
 
-  tucetQuestions = questions.slice(0, 12);
+  questions.forEach(categoryArray => {
+
+    // otázky, ktoré ešte neboli použité
+    let available = categoryArray.filter(q => !usedQuestions.includes(q));
+
+    // ak sa minuli → reset len tejto kategórie
+    if (available.length < 2) {
+      usedQuestions = usedQuestions.filter(q => !categoryArray.includes(q));
+      available = [...categoryArray];
+    }
+
+    shuffle(available);
+
+    // vezmi 2 otázky z každej kategórie
+    let selected = available.slice(0, 2);
+
+    newSet.push(...selected);
+    usedQuestions.push(...selected);
+  });
+
+  // finálne premiešanie všetkých otázok
+  shuffle(newSet);
+
+  tucetQuestions = newSet;
   selectedQuestions = [...tucetQuestions];
 
   currentQuestionIndex = 0;
