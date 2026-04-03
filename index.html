@@ -1173,27 +1173,21 @@ function startGame() {
 .then(jsonSubory => {
 
   if (demoMode) {
-
-    // z každej kategórie iba 12 otázok
-    questions = jsonSubory.flatMap(cat => cat.slice(0,12));
-
+    questions = jsonSubory.map(cat => cat.slice(0, 12));
   } else {
-
-    questions = jsonSubory.flat();
-
+    questions = jsonSubory;
   }
 
-  shuffle(questions);
+  selectedQuestions = buildInfinityQuestions(questions);
 
-  selectedQuestions = [...questions];
-      currentQuestionIndex = 0;
+  currentQuestionIndex = 0;
 
-      document.querySelector(".start-container").style.display = "none";
-      document.querySelector(".question-container").style.display = "flex";
+  document.querySelector(".start-container").style.display = "none";
+  document.querySelector(".question-container").style.display = "flex";
 
-      showQuestion();
-    })
-    .catch(error => console.error("Chyba pri načítaní otázok:", error));
+  showQuestion();
+})
+.catch(error => console.error("Chyba pri načítaní otázok:", error));
 }
 
 
@@ -1612,6 +1606,35 @@ questionDiv.innerHTML = `
   }, 3000);
 }	
 
+	function buildInfinityQuestions(categories) {
+
+  // skopíruj a premiešaj každú kategóriu zvlášť
+  let shuffledCategories = categories.map(cat => {
+    let copy = [...cat];
+    shuffle(copy);
+    return copy;
+  });
+
+  let result = [];
+  let index = 0;
+  let hasMore = true;
+
+  while (hasMore) {
+    hasMore = false;
+
+    for (let i = 0; i < shuffledCategories.length; i++) {
+      if (index < shuffledCategories[i].length) {
+        result.push(shuffledCategories[i][index]);
+        hasMore = true;
+      }
+    }
+
+    index++;
+  }
+
+  return result;
+}
+	
 	
 if(demoMode){
   alert("Pre plnú verziu kontaktujte autora. craco.slovakia@gmail.com");
