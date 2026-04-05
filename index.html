@@ -1530,32 +1530,51 @@ document.addEventListener("fullscreenchange", function() {
 
 function startNewTucetCycle() {
 
-  let newSet = [];
+  let result = [];
 
-  questions.forEach(categoryArray => {
+  // 🔥 AK JE LEN 1 alebo 2 kategórie → vezmi 12 otázok celkovo
+  if (questions.length <= 2) {
 
-    // otázky, ktoré ešte neboli použité
-    let available = categoryArray.filter(q => !usedQuestions.includes(q));
+    let allQuestions = questions.flat();
 
-    // ak sa minuli → reset len tejto kategórie
-    if (available.length < 2) {
-      usedQuestions = usedQuestions.filter(q => !categoryArray.includes(q));
-      available = [...categoryArray];
+    // odfiltruj už použité
+    let available = allQuestions.filter(q => !usedQuestions.includes(q));
+
+    if (available.length < 12) {
+      usedQuestions = [];
+      available = [...allQuestions];
     }
 
     shuffle(available);
 
-    // vezmi 2 otázky z každej kategórie
-    let selected = available.slice(0, 2);
+    result = available.slice(0, 12);
+    usedQuestions.push(...result);
 
-    newSet.push(...selected);
-    usedQuestions.push(...selected);
-  });
+  } else {
 
-  // finálne premiešanie všetkých otázok
-  shuffle(newSet);
+    // 🔥 VIAC KATEGÓRIÍ → 2 z každej
+    questions.forEach(categoryArray => {
 
-  tucetQuestions = newSet;
+      let available = categoryArray.filter(q => !usedQuestions.includes(q));
+
+      if (available.length < 2) {
+        available = [...categoryArray];
+        usedQuestions = usedQuestions.filter(q => !categoryArray.includes(q));
+      }
+
+      shuffle(available);
+
+      let selected = available.slice(0, 2);
+      result.push(...selected);
+      usedQuestions.push(...selected);
+
+    });
+
+  }
+
+  shuffle(result);
+
+  tucetQuestions = result;
   selectedQuestions = [...tucetQuestions];
 
   currentQuestionIndex = 0;
