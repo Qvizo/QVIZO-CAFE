@@ -1204,6 +1204,7 @@ function showQuestion() {
 
     // Zobrazíme otázku
     const questionDiv = document.getElementById("question");
+	questionDiv.style.color = "#333"; // 🔥 reset farby na čiernu
     /*questionDiv.innerText = q.question;*/
     questionDiv.innerHTML = fixWidows(q.question);
 	
