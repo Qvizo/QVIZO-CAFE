@@ -1553,25 +1553,34 @@ function startNewTucetCycle() {
 
   } else {
 
-    // 🔥 VIAC KATEGÓRIÍ → 2 z každej
-    questions.forEach(categoryArray => {
+  let totalNeeded = 12;
+  let perCategory = Math.floor(totalNeeded / questions.length);
+  let remainder = totalNeeded % questions.length;
 
-      let available = categoryArray.filter(q => !usedQuestions.includes(q));
+  questions.forEach((categoryArray, index) => {
 
-      if (available.length < 2) {
-        available = [...categoryArray];
-        usedQuestions = usedQuestions.filter(q => !categoryArray.includes(q));
-      }
+    let take = perCategory;
 
-      shuffle(available);
+    // prvé kategórie dostanú +1 (aby bol súčet 12)
+    if (index < remainder) {
+      take += 1;
+    }
 
-      let selected = available.slice(0, 2);
-      result.push(...selected);
-      usedQuestions.push(...selected);
+    let available = categoryArray.filter(q => !usedQuestions.includes(q));
 
-    });
+    if (available.length < take) {
+      available = [...categoryArray];
+      usedQuestions = usedQuestions.filter(q => !categoryArray.includes(q));
+    }
 
-  }
+    shuffle(available);
+
+    let selected = available.slice(0, take);
+    result.push(...selected);
+    usedQuestions.push(...selected);
+
+  });
+}
 
   shuffle(result);
 
