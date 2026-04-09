@@ -547,6 +547,7 @@ color: black;
   	line-height: 1.2;
 }
 
+	
 
 :fullscreen .qvizo-title {
 	margin-bottom: 0px;
@@ -787,6 +788,27 @@ color: black;
 }
 }
 
+@media (max-width: 768px) {
+
+:fullscreen .answers {
+    flex-direction: column;
+}
+
+:fullscreen .answer-button {
+    width: 100%;
+    min-width: 0;        /* 🔥 toto je najdôležitejšie */
+    height: auto;
+    font-size: 22px;
+    padding: 10px;
+}
+
+:fullscreen .answer-text {
+    font-size: 18px;
+    -webkit-line-clamp: 2;
+}
+
+}	
+	
 
 @media (min-width: 769px) {
 .question-container, .answers 
