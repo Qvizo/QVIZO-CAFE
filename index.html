@@ -518,19 +518,20 @@ color: black;
 }
 
 	@media (max-width: 768px) {
-  :fullscreen .answers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 10px;
+  .answers {
+    flex-direction: column;
+    gap: 5px;  /* Zmenšíme medzery medzi odpoveďami */
   }
 
-  :fullscreen .answer-button {
-    width: 48%; /* Šírka odpovedí */
-    min-height: 70px; /* Fix výšky odpovedí */
-    margin-bottom: 5px; /* Znížené medzery medzi odpoveďami */
-    margin-right: 2%; /* Znížené medzery medzi odpoveďami na pravej strane */
-    font-size: 22px; /* Zmenšenie fontu odpovedí */
+  .answer-button {
+    width: 100%;  /* Urobíme odpovede na šírku */
+    font-size: 18px; /* Znížime font */
+    margin-bottom: 5px; /* Malé medzery medzi odpoveďami */
+    min-height: 70px;  /* Znížime výšku odpovedí */
+  }
+
+  .answer-text {
+    font-size: 16px; /* Menší text v odpovediach */
   }
 }
 
