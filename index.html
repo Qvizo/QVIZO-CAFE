@@ -520,11 +520,10 @@ color: black;
 
 :fullscreen .answer-button 
 {	
-	font-size: 24px;
+	font-size: 32px;
   	line-height: 1.2;              /* Výška jedného riadku v násobkoch fontu */
-  	height: auto;
-	min-height: 80px;
-  	width: 48%;  /* Namiesto fixných 700px použi percentá 5.6.2025*/
+  	height: calc(1.2em * 3 + 30px);
+	width: 48%;  /* Namiesto fixných 700px použi percentá 5.6.2025*/
   	min-width: 300px; /* Aby sa nezmenšovali príliš 5.6.2025 */
   	box-sizing: border-box;
   	overflow: hidden;
@@ -614,23 +613,6 @@ color: black;
   }
 }
 
-@media (max-width: 768px) {
-  .answers {
-    flex-direction: column;
-    gap: 5px;  /* Zmenšíme medzery medzi odpoveďami */
-  }
-
-  .answer-button {
-    width: 100%;  /* Urobíme odpovede na šírku */
-    font-size: 8px; /* Znížime font */
-    margin-bottom: 5px; /* Malé medzery medzi odpoveďami */
-    min-height: 70px;  /* Znížime výšku odpovedí */
-  }
-
-  .answer-text {
-    font-size: 16px; /* Menší text v odpovediach */
-  }
-}
 	
 @media (max-width: 768px) {
 .question-container, .start-container, .end-container 
