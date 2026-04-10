@@ -867,6 +867,22 @@ color: black;
 	justify-content: flex-end;
 }
 
+@media (min-width: 769px) {
+
+.question-container {
+    max-width: 900px;   /* 🔥 zmenší celé okno */
+    height: 85vh;       /* menej ako 90vh */
+    margin: auto;
+}
+
+}	
+
+	@media (min-width: 769px) {
+.question {
+    font-size: 40px;
+    max-height: 120px;
+}
+}
 
 @media screen and (min-width: 1024px) {
 :fullscreen .answer-button 
@@ -875,6 +891,39 @@ color: black;
 }
 }
 
+	@media (min-width: 769px) {
+
+.answer-button {
+    font-size: 28px;
+    height: 90px;   /* 🔥 menšie tlačidlá */
+}
+
+.answer-letter {
+    font-size: 26px;
+    width: 40px;
+}
+
+.answer-text {
+    font-size: 22px;
+}
+
+}
+
+	@media (min-width: 769px) {
+
+.timer {
+    font-size: 28px;
+}
+
+.question-counter {
+    font-size: 20px;
+}
+
+.qvizo-title {
+    font-size: 50px;
+}
+
+}
 
 @media screen and (max-width: 1023px) {
 :fullscreen .answer-button 
