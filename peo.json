@@ -21,11 +21,6 @@
 {"question": "Prvý Slovák vo vesmíre", "answers": ["Vladimír Remek", "Ivan Bella", "Štefan Banič", "Jozef Psotka"], "correct": 1},
 {"question": "Prvý Slovák, ktorý zdolal všetky osemtisícovky sveta", "answers": ["Jozef Psotka", "Peter Hámor", "Zoltán Demján", "Milan Kňažko"], "correct": 1},
 {"question": "Prvý Slovák, ktorý sa stal úradujúcim prezidentom Československa v roku 1935", "answers": ["Gustáv Husák", "Milan Rastislav Štefánik", "Milan Hodža", "Eduard Beneš"], "correct": 2},
-{"question": "Prvý Slovák, ktorý získal prvú olympijskú medailu (rok 1936, striebro - zápasenie)", "answers": ["Michal Martikán", "Jozef Herda", "Jozef Lohyňa", "Vladimir Križo"], "correct": 1},
-{"question": "Prvý tenista, ktorý v roku 1938 zvíťazil v dvojhre vo všetkých Grandslamových turnajoch v jednom kalendárnom roku", "answers": ["Rod Laver", "Stefan Edberg", "Donald Budge", "Boris Becker"], "correct": 2},
-{ "question": "Slovensko-maďarsko-španielsky futbalista, ktorý má sochu pred štadiónom v Barcelóne", "answers": ["Ladislav Kubala", "Peter Dubovský", "Róbert Mak", "Stanislav Lobotka"], "correct": 0 },
-{ "question": "Peter Dubovský bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 },
-{ "question": "Natália Hejková bola...", "answers": ["Trénerka basketbalu", "Trénerka volejbalu", "Trénerka tenisu", "Trénerka futbalu"], "correct": 0 },
 { "question": "Autor prvého slovenského celovečerného filmu Jánošík z roku 1921", "answers": ["Jaroslav Siakeľ", "Ján Kadár", "Paľo Bielik", "Štefan Uher"], "correct": 0 }, 
   
 
