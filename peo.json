@@ -13,8 +13,6 @@
 { "question": "Prvý český spevák, ktorý je držiteľom Zlatého slávika z roku 1962", "answers": ["Karel Gott", "Waldemar Matuška", "Dalibor Janda", "Jiří Suchý"], "correct": 1 },
 { "question": "Prvý uhorský kráľ korunovaný v Stoličnom Belehrade v roku 1000", "answers": ["Belo I.", "Štefan I.", "Ondrej I.", "Ladislav I."], "correct": 1 },
 { "question": "Prvý človek, ktorý bol vyobrazený na minci", "answers": ["Tutanchamon", "Šalamún", "Július Cézar", "Augustus"], "correct": 2 },
-{ "question": "Prvý víťaz Tour de France z roku 1903", "answers": ["Peter Sagan", "Maurice Garin", "Eddy Merckx", "Chris Froome"], "correct": 1 },
-{"question": "Prvý víťaz kulturistickej súťaže Mr. Olympia z roku 1965", "answers": ["Larry Scott", "Arnold Schwarzenegger", "Frank Zane", "Steve Reeves"], "correct": 0},
 {"question": "Prvý prezident Spojených štátov amerických", "answers": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "Benjamin Franklin"], "correct": 1 },  
 { "question": "Autor teórie relativity", "answers": ["Nikola Tesla", "Albert Einstein", "Isaac Newton", "Stephen Hawking"], "correct": 1 },
 { "question": "Vynálezca telefónu", "answers": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Antonio Meucci"], "correct": 0 },
