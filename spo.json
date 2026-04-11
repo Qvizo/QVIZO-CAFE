@@ -1,6 +1,6 @@
 [
-{ "question": "Sport 1", "answers": ["A", "B", "C", "D"], "correct": 0 },
-{ "question": "Sport 2", "answers": ["A", "B", "C", "D"], "correct": 1 },
+{ "question": "Prvý víťaz Tour de France z roku 1903", "answers": ["Peter Sagan", "Maurice Garin", "Eddy Merckx", "Chris Froome"], "correct": 1 },
+{"question": "Prvý víťaz kulturistickej súťaže Mr. Olympia z roku 1965", "answers": ["Larry Scott", "Arnold Schwarzenegger", "Frank Zane", "Steve Reeves"], "correct": 0},
   { "question": "Sport 3", "answers": ["A", "B", "C", "D"], "correct": 2 },
   { "question": "Sport 4", "answers": ["A", "B", "C", "D"], "correct": 0 },
   { "question": "Sport 5", "answers": ["A", "B", "C", "D"], "correct": 1 },
