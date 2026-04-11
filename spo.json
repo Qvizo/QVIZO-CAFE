@@ -1,19 +1,13 @@
 [
 { "question": "Prvý víťaz Tour de France z roku 1903", "answers": ["Peter Sagan", "Maurice Garin", "Eddy Merckx", "Chris Froome"], "correct": 1 },
 {"question": "Prvý víťaz kulturistickej súťaže Mr. Olympia z roku 1965", "answers": ["Larry Scott", "Arnold Schwarzenegger", "Frank Zane", "Steve Reeves"], "correct": 0},
-  { "question": "Sport 3", "answers": ["A", "B", "C", "D"], "correct": 2 },
-  { "question": "Sport 4", "answers": ["A", "B", "C", "D"], "correct": 0 },
-  { "question": "Sport 5", "answers": ["A", "B", "C", "D"], "correct": 1 },
-  { "question": "Sport 6", "answers": ["A", "B", "C", "D"], "correct": 2},
-  { "question": "Sport 7", "answers": ["A", "B", "C", "D"], "correct": 0 },
-  { "question": "Sport 8", "answers": ["A", "B", "C", "D"], "correct": 1 },
-  { "question": "Sport 9", "answers": ["A", "B", "C", "D"], "correct": 0 },
-  { "question": "Sport 10", "answers": ["A", "B", "C", "D"], "correct": 2 },
-  { "question": "Sport 11", "answers": ["A", "B", "C", "D"], "correct": 0 },
-  { "question": "Sport 12", "answers": ["A", "B", "C", "D"], "correct": 0 },
-  { "question": "Sport 13", "answers": ["A", "B", "C", "D"], "correct": 0 },
-  { "question": "Sport 14", "answers": ["A", "B", "C", "D"], "correct": 0 },
-{ "question": "Sport 15", "answers": ["A", "B", "C", "D"], "correct": 0 }
+{"question": "Prvý Slovák, ktorý získal prvú olympijskú medailu (rok 1936, striebro - zápasenie)", "answers": ["Michal Martikán", "Jozef Herda", "Jozef Lohyňa", "Vladimir Križo"], "correct": 1},
+{"question": "Prvý tenista, ktorý v roku 1938 zvíťazil v dvojhre vo všetkých Grandslamových turnajoch v jednom kalendárnom roku", "answers": ["Rod Laver", "Stefan Edberg", "Donald Budge", "Boris Becker"], "correct": 2},
+{ "question": "Slovensko-maďarsko-španielsky futbalista, ktorý má sochu pred štadiónom v Barcelóne", "answers": ["Ladislav Kubala", "Peter Dubovský", "Róbert Mak", "Stanislav Lobotka"], "correct": 0 },
+{ "question": "Peter Dubovský bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 },
+{ "question": "Natália Hejková bola...", "answers": ["Trénerka basketbalu", "Trénerka volejbalu", "Trénerka tenisu", "Trénerka futbalu"], "correct": 0 }
+
+
 ]
 
 
