@@ -1058,7 +1058,13 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
 </div>
 <script>
 
-
+window.onload = function() {
+  document.getElementById("loginWindow").style.display = "flex";
+  document.getElementById("newStartWindow").style.display = "none";
+  document.querySelector(".start-container").style.display = "none";
+  document.querySelector(".question-container").style.display = "none";
+  document.getElementById("loginWindow").style.display = "flex";
+};
 
 
 let selectedQuestions = [];
