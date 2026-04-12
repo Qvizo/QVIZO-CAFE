@@ -1,7 +1,7 @@
 [
 {"question": "Časť oka, ktorá určuje farbu očí", "answers": ["Šošovka", "Dúhovka", "Skléra", "Rohovka"], "correct": 1},
 {"question": "Chemický vzorec klasickej jedlej soli", "answers": ["H2O", "HCN", "NaCl", "NaOH"], "correct": 2},
-{"question": "22 - 9 = ?", "answers": ["13", "14", "15", "16"], "correct": 0},
+{"question": "Vypočítaj príklad\n22 - 9 = ?", "answers": ["13", "14", "15", "16"], "correct": 0},
 { "question": "Rozprávka, v ktorej vystupuje postava Cruelly de Vil", "answers": ["101 dalmatíncov", "Shrek", "Šmolkovia", "Mickey Mouse"], "correct": 0 },
 {"question": "Mesto, v ktorom sa každoročne udeľujú filmový Oscar", "answers": ["Londýn", "Los Angeles", "New York", "Las Vegas"], "correct": 1},
   
