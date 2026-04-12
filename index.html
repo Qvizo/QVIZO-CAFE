@@ -1498,7 +1498,7 @@ function verifyAndStartCafeSolo() {
   // 🔥 DEMO režim – preskočí kontrolu kódu
   if (demoMode) {
     isCafeSoloMode = true;
-
+document.querySelector(".question-container").style.maxWidth = "1600px";
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
     return;
