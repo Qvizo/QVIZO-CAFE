@@ -941,7 +941,15 @@ color: black;
   <button onclick="startDemo()">DEMO VERZIA</button>
   
   <input type="email" id="email" placeholder="Zadaj email">
-  <input type="password" id="password" placeholder="Zadaj heslo">
+<div style="position: relative; width: 70%; margin: 0 auto;">
+  <input type="password" id="password" placeholder="Zadaj heslo"
+    style="width: 100%; font-size:20px; padding:10px; border-radius:10px; border:1px solid #333;">
+  
+  <span onclick="togglePassword()" 
+    style="position:absolute; right:10px; top:50%; transform:translateY(-50%); cursor:pointer;">
+    👁
+  </span>
+</div>
  	
   <button onclick="login()">Prihlásiť sa</button>
   <button onclick="register()">Vytvoriť účet</button>	
@@ -1695,6 +1703,16 @@ questionDiv.innerHTML = `
 
   return result;
 }
+
+function togglePassword() {
+  const input = document.getElementById("password");
+
+  if (input.type === "password") {
+    input.type = "text";
+  } else {
+    input.type = "password";
+  }
+}	
 	
 	
 if(demoMode){
