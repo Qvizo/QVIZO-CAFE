@@ -968,8 +968,15 @@ color: black;
 
   <!-- Overovací kód -->
 <div id="codeBox">
-<input type="password" id="accessCode" placeholder="Zadaj kód" 
-style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:10px; border:1px solid #333; display:block; text-align:center;">
+<div style="position: relative; width: 80%; margin: 10px auto;">
+  <input type="password" id="accessCode" placeholder="Zadaj kód"
+    style="width: 100%; font-size:20px; padding:10px; border-radius:10px; border:1px solid #333; text-align:center; margin:0;">
+  
+  <span onclick="toggleAccessCode()" 
+    style="position:absolute; right:10px; top:50%; transform:translateY(-50%); cursor:pointer;">
+    👁
+  </span>
+</div>
 <p id="codeMessage" style="color:red; font-weight:bold;"></p>
 </div>
 
@@ -1695,7 +1702,16 @@ questionDiv.innerHTML = `
 
   return result;
 }
-	
+
+	function toggleAccessCode() {
+  const input = document.getElementById("accessCode");
+
+  if (input.type === "password") {
+    input.type = "text";
+  } else {
+    input.type = "password";
+  }
+}
 	
 if(demoMode){
   alert("Pre plnú verziu kontaktujte autora. craco.slovakia@gmail.com");
