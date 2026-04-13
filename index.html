@@ -1163,19 +1163,30 @@ function setTime(selectedTime) {
 
 
 function adjustFontSizeForQuestion() {
-	const questionDiv = document.getElementById("question");
-  	const isMobile = window.innerWidth <= 768;
-	 // Nastavíme inú počiatočnú veľkosť pre mobil/desktop
-  	let fontSize = isMobile ? 40 : 140;
-    const minFontSize = isMobile ? 16 : 20;
-	questionDiv.style.fontSize = fontSize + "px";
-	 // Ak sa text nezmestí, zmenšuj fontSize až po minimálnu hodnotu
-  	while (questionDiv.scrollHeight > questionDiv.clientHeight && fontSize > minFontSize) {
+  const questionDiv = document.getElementById("question");
+  const isMobile = window.innerWidth <= 768;
+
+  let fontSize = isMobile ? 40 : 140;
+  const minFontSize = isMobile ? 16 : 20;
+
+  questionDiv.style.fontSize = fontSize + "px";
+
+  // 🔽 najprv klasické zmenšovanie ak sa nezmestí
+  while (questionDiv.scrollHeight > questionDiv.clientHeight && fontSize > minFontSize) {
     fontSize -= 1;
     questionDiv.style.fontSize = fontSize + "px";
-}
-}
+  }
 
+  // 🔥 NOVÉ: kontrola počtu riadkov
+  const lineHeight = parseFloat(getComputedStyle(questionDiv).lineHeight);
+  const lines = Math.round(questionDiv.scrollHeight / lineHeight);
+
+  // 🔥 AK JE LEN 1 RIADOK → ešte zmenši
+  if (lines === 1) {
+    fontSize = Math.floor(fontSize * 0.7); // ← uprav si (0.6–0.8)
+    questionDiv.style.fontSize = fontSize + "px";
+  }
+}
 
 function adjustFontSizeForAnswers() {
     const isMobile = window.innerWidth <= 768;
