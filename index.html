@@ -512,7 +512,7 @@ color: black;
   	display: flex;
   	flex-direction: column;
   	justify-content: space-between; /* Umiestni text a odpovede do správnych pozícií */
-  	overflow: hidden; /* Skryje všetok obsah, ktorý prekračuje */
+  	overflow: visible;
 }
 
 
@@ -580,7 +580,7 @@ color: black;
 
 :fullscreen .question {
 	font-size: 48px ;
-  	max-height: 250px;        /* odstrániť výškové obmedzenie */
+  max-height: none;
   	min-height: 100px;       /* zvýši minimálnu výšku */
 	overflow: hidden;
 }
