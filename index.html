@@ -310,7 +310,18 @@ min-height: 100vh;
 #escBtn:hover {
   background-color: darkgray !important;
 }
-	
+
+	/* Vypne default oko v Edge / Chrome */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+/* Pre Chrome (novšie verzie) */
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-textfield-decoration-container {
+  display: none !important;
+}
 
 @media (max-width: 768px) {
 
