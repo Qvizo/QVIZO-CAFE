@@ -942,7 +942,7 @@ color: black;
   <button onclick="startDemo()">DEMO VERZIA</button>
   
   <input type="email" id="email" placeholder="Zadaj email">
- <div style="position: relative; width: 70%; align-self: center;">
+<div style="position: relative; width: 70%; margin: 10px auto; left: -10px;">
   <input type="password" id="password" placeholder="Zadaj heslo"
     style="width: 100%; font-size:20px; padding:10px; border-radius:10px; border:1px solid #333;">
   
@@ -977,7 +977,7 @@ color: black;
 
   <!-- Overovací kód -->
 <div id="codeBox">
-<div style="position: relative; width: 80%; margin: 10px auto;">
+<div id="accessWrapper" style="position: relative; width: 80%; margin: 10px auto; left: -10px;">
   <input type="password" id="accessCode" placeholder="Zadaj kód"
     style="width: 100%; font-size:20px; padding:10px; border-radius:10px; border:1px solid #333; text-align:center; margin:0;">
   
@@ -1122,7 +1122,7 @@ function startDemo() {
   document.getElementById("codeBox").style.display = "block";
 
   // skry iba input
-  document.getElementById("accessCode").style.display = "none";
+  document.getElementById("accessWrapper").style.display = "none";
 }
 	
 function toggleCategory(category, button) {
