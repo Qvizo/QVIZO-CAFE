@@ -1,4 +1,5 @@
 [
+  {"question": "Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška \nSkúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška Skúška", "answers": ["Tirana", "Skopje", "Záhreb", "Podgorica"], "correct": 0},
 {"question": "Hlavné mesto \nAlbánska", "answers": ["Tirana", "Skopje", "Záhreb", "Podgorica"], "correct": 0},
 {"question": "Štát, ktorý má \nhlavné mesto Berlín", "answers": ["Nemecko", "Holandsko", "Belgicko", "Japonsko"], "correct": 0},
 { "question": "Počet planét \nv slnečnej sústave", "answers": ["8", "9", "7", "10"], "correct": 0 },
