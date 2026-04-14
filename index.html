@@ -18,8 +18,9 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-overflow: hidden;
-height: 100vh;
+min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 	/* 🔥 PRIDAJ TOTO */
@@ -309,7 +310,10 @@ height: 100vh;
 #escBtn:hover {
   background-color: darkgray !important;
 }
-	
+
+	* {
+  box-sizing: border-box;
+}
 
 @media (max-width: 768px) {
 
