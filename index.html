@@ -463,6 +463,12 @@ color: black;
 	transition: background-color 0.3s ease;
 }
 
+/* 🔥 CAFE1 – väčšia otázka */
+.cafe1-mode .question {
+    min-height: 200px;
+    max-height: 300px;
+    font-size: 48px;
+}	
 
 /* CAFE */
 .button-container button:first-child {
@@ -1469,7 +1475,8 @@ function verifyAndStartCafe() {
 // 🔥 DEMO režim – preskočí kontrolu kódu
   if (demoMode) {
     isCafeSoloMode = false;
-
+document.body.classList.add("cafe4-mode");
+document.body.classList.remove("cafe1-mode");
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
     return;
@@ -1480,6 +1487,8 @@ function verifyAndStartCafe() {
     msg.style.color = "green";
     msg.innerText = "Kód správny!";
 	isCafeSoloMode = false;   // 🔥 vypneme SOLO režim  
+	  document.body.classList.add("cafe4-mode");
+document.body.classList.remove("cafe1-mode");
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
   } else {
@@ -1502,6 +1511,8 @@ function verifyAndStartCafeSolo() {
   // 🔥 DEMO režim – preskočí kontrolu kódu
   if (demoMode) {
     isCafeSoloMode = true;
+	  document.body.classList.add("cafe1-mode");
+document.body.classList.remove("cafe4-mode");
 	  
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
@@ -1514,7 +1525,8 @@ function verifyAndStartCafeSolo() {
     msg.innerText = "Kód správny!";
 
     isCafeSoloMode = true;
-
+document.body.classList.add("cafe1-mode");
+document.body.classList.remove("cafe4-mode");
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
   } else {
