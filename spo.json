@@ -4,7 +4,12 @@
 {"question": "Prvý Slovák, ktorý získal prvú olympijskú medailu (rok 1936, striebro - zápasenie)", "answers": ["Michal Martikán", "Jozef Herda", "Jozef Lohyňa", "Vladimir Križo"], "correct": 1},
 {"question": "Prvý tenista, ktorý v roku 1938 zvíťazil v dvojhre vo všetkých Grandslamových turnajoch v jednom kalendárnom roku", "answers": ["Rod Laver", "Stefan Edberg", "Donald Budge", "Boris Becker"], "correct": 2},
 { "question": "Slovensko-maďarsko-španielsky futbalista, ktorý má sochu pred štadiónom v Barcelóne", "answers": ["Ladislav Kubala", "Peter Dubovský", "Róbert Mak", "Stanislav Lobotka"], "correct": 0 },
-{ "question": "Peter Dubovský bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 },
+{ "question": "Peter Sagan bol...", "answers": ["Cyklista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 },
+  { "question": "Peter Dubovský bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 },
+  { "question": "Miroslav Šatan bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 1 },
+  { "question": "Jozef Golonka bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 1 },
+  { "question": "Martina Moravcová bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 2 },
+  { "question": "Antonín Panenka bol...", "answers": ["Futbalista", "Hokejista", "Plavec", "Biatlonista"], "correct": 0 },
 { "question": "Natália Hejková bola...", "answers": ["Trénerka basketbalu", "Trénerka volejbalu", "Trénerka tenisu", "Trénerka futbalu"], "correct": 0 }
 
 
