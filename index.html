@@ -1564,7 +1564,12 @@ document.addEventListener("fullscreenchange", function() {
 function startNewTucetCycle() {
 
   let result = [];
-
+	
+// 🔥 GLOBAL RESET
+  let allQuestionsFlat = questions.flat();
+  if (usedQuestions.length >= allQuestionsFlat.length) {
+    usedQuestions = [];
+  }
   // 🔥 AK JE LEN 1 alebo 2 kategórie → vezmi 12 otázok celkovo
   if (questions.length <= 2) {
 
@@ -1600,10 +1605,10 @@ function startNewTucetCycle() {
 
     let available = categoryArray.filter(q => !usedQuestions.includes(q));
 
-    if (available.length < take) {
-      available = [...categoryArray];
-      usedQuestions = usedQuestions.filter(q => !categoryArray.includes(q));
-    }
+if (available.length < take) {
+  // zober aj tie čo už boli, ale NERESITUJ usedQuestions
+  available = [...categoryArray];
+}
 
     shuffle(available);
 
