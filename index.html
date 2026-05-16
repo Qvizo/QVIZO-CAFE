@@ -1005,7 +1005,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
 <p>Vyber si časový interval, klikni na Full Screen a zvoľ si typ hry Infinity alebo Dozeno</p>
 <div class="time-buttons">
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-<button class="time-button" onclick="setTime(5)">5</button>
+<button class="time-button" onclick="setTime(2)">2</button>
 <button class="time-button" onclick="setTime(10)">10</button>
 </div>
 <div style="display: flex; justify-content: center; gap: 10px;">
@@ -1564,12 +1564,7 @@ document.addEventListener("fullscreenchange", function() {
 function startNewTucetCycle() {
 
   let result = [];
-	
-// 🔥 GLOBAL RESET
-  let allQuestionsFlat = questions.flat();
-  if (usedQuestions.length >= allQuestionsFlat.length) {
-    usedQuestions = [];
-  }
+
   // 🔥 AK JE LEN 1 alebo 2 kategórie → vezmi 12 otázok celkovo
   if (questions.length <= 2) {
 
@@ -1605,10 +1600,10 @@ function startNewTucetCycle() {
 
     let available = categoryArray.filter(q => !usedQuestions.includes(q));
 
-if (available.length < take) {
-  // zober aj tie čo už boli, ale NERESITUJ usedQuestions
-  available = [...categoryArray];
-}
+    if (available.length < take) {
+      available = [...categoryArray];
+      usedQuestions = usedQuestions.filter(q => !categoryArray.includes(q));
+    }
 
     shuffle(available);
 
