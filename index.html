@@ -577,13 +577,11 @@ color: black;
 }
 
 
-::fullscreen .question {
-	font-size: 34px;
+:fullscreen .question {
+	font-size: 48px ;
 	max-height: none;
-	min-height: 120px;
-	height: auto;
-	overflow-wrap: break-word;
-	white-space: normal;
+	min-height: 100px;
+	overflow: hidden;
 }
 
 
@@ -1172,7 +1170,7 @@ function adjustFontSizeForQuestion() {
     const minFontSize = isMobile ? 16 : 20;
 	questionDiv.style.fontSize = fontSize + "px";
 	 // Ak sa text nezmestí, zmenšuj fontSize až po minimálnu hodnotu
-  	while (questionDiv.scrollHeight > questionDiv.offsetHeight && fontSize > minFontSize) {
+  	while (questionDiv.scrollHeight > questionDiv.clientHeight && fontSize > minFontSize) {
     fontSize -= 1;
     questionDiv.style.fontSize = fontSize + "px";
 }
