@@ -82,7 +82,7 @@ height: 100vh;
 	border: 3px solid #800080;
 	border-radius: 20px;
 	background-color: #F8D1B2;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	word-wrap: break-word; /* Zabezpečí zalomenie textu */
 		white-space: normal;
 	text-align: center;
@@ -510,9 +510,8 @@ color: black;
   	box-sizing: border-box;
   	display: flex;
   	flex-direction: column;
-  	justify-content: flex-start;
+  	justify-content: space-between; /* Umiestni text a odpovede do správnych pozícií */
   	overflow: hidden; /* Skryje všetok obsah, ktorý prekračuje */
-	gap: 5px;
 }
 
 
@@ -572,7 +571,7 @@ color: black;
 	display: flex;
   	justify-content: space-between;
   	align-items: center;
-  	margin: 0;
+  	margin: 10px 0;
   	gap: 20px;          /* Primeraná medzera */
   	flex-wrap: nowrap;  /* zachováš ich v jednom riadku */
 }
@@ -580,8 +579,8 @@ color: black;
 
 :fullscreen .question {
 	font-size: 48px ;
-	max-height: 350px;
-	min-height: 250px;
+  max-height: 350px;
+  	min-height: 250px;       /* zvýši minimálnu výšku */
 	overflow: hidden;
 }
 
@@ -592,7 +591,7 @@ color: black;
   	justify-content: space-between;
   	align-items: center;
   	gap: 10px;
-  	margin: 0;
+  	margin: 20px 0;
   	flex-wrap: nowrap;
 }
 
@@ -1006,7 +1005,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
 <p>Vyber si časový interval, klikni na Full Screen a zvoľ si typ hry Infinity alebo Dozeno</p>
 <div class="time-buttons">
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-<button class="time-button" onclick="setTime(2)">2</button>
+<button class="time-button" onclick="setTime(5)">5</button>
 <button class="time-button" onclick="setTime(10)">10</button>
 </div>
 <div style="display: flex; justify-content: center; gap: 10px;">
@@ -1631,8 +1630,12 @@ function showQvizoLogo(callback) {
 
 questionDiv.innerHTML = `
   <div style="text-align:center;">
-     
-    <div style="font-size:80px; margin-top:10px; color:#333;">
+    
+    <div style="font-size:80px;">
+      <span style="color:red;">Q</span><span style="color:black;">VIZO</span>
+    </div>
+    
+    <div style="font-size:28px; margin-top:10px; color:#333;">
       Najlepšia hra na svete
     </div>
 
@@ -1702,6 +1705,39 @@ if(demoMode){
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
