@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color: #A0E68C;
+	background-color: #F0E68C;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -578,7 +578,7 @@ color: black;
 
 
 :fullscreen .question {
-	font-size: 48px ;
+	font-size: 78px ;
   max-height: 350px;
   	min-height: 100px;       /* zvýši minimálnu výšku */
 	overflow: hidden;
@@ -1081,85 +1081,6 @@ let isCafeSoloMode = false;
 	let isTucetMode = false;
 let tucetQuestions = [];
 let questions = [];
-// 🔥 TESTOVACIE JSON OTÁZKY PRIAMO V KÓDE
-const localQuestions = [
-
-{
-  "question": "Hlavné mesto \nSlovenska je?",
-  "answers": ["Košice", "Bratislava", "Žilina", "Nitra"],
-  "correct": 1
-},
-
-{
-  "question": "Koľko dní má týždeň?",
-  "answers": ["5", "6", "7", "8"],
-  "correct": 2
-},
-
-{
-  "question": "Najvyšší vrch Slovenska je?",
-  "answers": ["Kriváň", "Lomnický štít", "Gerlachovský štít", "Ďumbier"],
-  "correct": 2
-},
-
-{
-  "question": "Aká farba vznikne zmiešaním modrej a žltej?",
-  "answers": ["Červená", "Zelená", "Fialová", "Oranžová"],
-  "correct": 1
-},
-
-{
-  "question": "Koľko mesiacov má rok?",
-  "answers": ["10", "11", "12", "13"],
-  "correct": 2
-},
-
-{
-  "question": "Ktoré zviera je najväčšie?",
-  "answers": ["Pes", "Slon", "Mačka", "Myš"],
-  "correct": 1
-},
-
-{
-  "question": "Ktorá planéta je najbližšie k Slnku?",
-  "answers": ["Mars", "Merkúr", "Venuša", "Jupiter"],
-  "correct": 1
-},
-
-{
-  "question": "Koľko strán má trojuholník?",
-  "answers": ["2", "3", "4", "5"],
-  "correct": 1
-},
-
-{
-  "question": "Aký je výsledok 5 + 5?",
-  "answers": ["8", "9", "10", "11"],
-  "correct": 2
-},
-
-{
-  "question": "Ktorý oceán je najväčší?",
-  "answers": ["Atlantický", "Indický", "Tichý", "Severný"],
-  "correct": 2
-},
-
-{
-  "question": "Ktorý jazyk sa používa v Nemecku?",
-  "answers": ["Francúzština", "Nemčina", "Španielčina", "Taliančina"],
-  "correct": 1
-},
-
-{
-  "question": "Ktoré zviera lieta?",
-  "answers": ["Pes", "Mačka", "Orol", "Kôň"],
-  "correct": 2
-}
-
-];
-
-
-
 let demoMode = false; // zapína demo režim
 let usedQuestions = [];	
 // Mapovanie kategórií na JSON súbory
@@ -1278,8 +1199,16 @@ function startGame() {
     return;
   }
 
-  // 🔥 TESTOVACÍ REŽIM
-  questions = [localQuestions];
+  const filesToLoad = selectedCategories.map(cat => categoryFiles[cat]);
+
+  Promise.all(filesToLoad.map(file => fetch(file).then(res => res.json())))
+.then(jsonSubory => {
+
+  if (demoMode) {
+    questions = jsonSubory.map(cat => cat.slice(0, 12));
+  } else {
+    questions = jsonSubory;
+  }
 
   selectedQuestions = buildInfinityQuestions(questions);
 
@@ -1289,6 +1218,8 @@ function startGame() {
   document.querySelector(".question-container").style.display = "flex";
 
   showQuestion();
+})
+.catch(error => console.error("Chyba pri načítaní otázok:", error));
 }
 
 
@@ -1774,6 +1705,39 @@ if(demoMode){
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
