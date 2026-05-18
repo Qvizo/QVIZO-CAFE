@@ -11,15 +11,16 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:orange;
+	background-color:red;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	overflow-y: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-overflow: hidden;
-height: 100vh;
+
+min-height: 100vh;
 }
 
 	/* 🔥 PRIDAJ TOTO */
@@ -887,175 +888,6 @@ color: black;
 	width: 100%;
 }
 }
-
-/* ===================================================== */
-/* MALÉ MOBILY – Samsung J6 a podobné */
-/* ===================================================== */
-
-@media screen and (max-width: 420px) {
-
-body {
-    overflow-y: auto;
-    height: auto;
-    min-height: 100vh;
-    align-items: flex-start;
-}
-
-/* HLAVNÝ KONTAJNER */
-.question-container,
-.start-container,
-.new-start-container,
-.end-container {
-
-    width: 98%;
-    max-width: 98%;
-    margin: 4px auto;
-    padding: 6px;
-    border-radius: 18px;
-    min-height: auto;
-}
-
-/* LOGO */
-.qvizo-title {
-    font-size: 32px !important;
-    margin-bottom: 2px;
-}
-
-/* OTÁZKA */
-.question {
-
-    font-size: 18px !important;
-    min-height: 85px;
-    max-height: 110px;
-
-    padding: 8px;
-    margin-bottom: 6px;
-
-    line-height: 1.1;
-
-    overflow-y: auto;
-}
-
-/* HORNÝ RIADOK */
-.top-bar {
-
-    margin: 4px 0 !important;
-    gap: 4px !important;
-}
-
-/* TIMER */
-.timer {
-
-    font-size: 18px !important;
-}
-
-/* STOP + SPÄŤ */
-.stop-button,
-.back-button {
-
-    font-size: 14px !important;
-    padding: 6px 8px !important;
-    min-width: 65px;
-}
-
-/* ODPOVEDE */
-.answers {
-
-    gap: 5px !important;
-}
-
-/* TLAČIDLÁ ODPOVEDÍ */
-.answer-button {
-
-    width: 100% !important;
-
-    min-height: 52px;
-    height: auto;
-
-    margin: 0;
-
-    padding: 4px;
-
-    font-size: 14px !important;
-}
-
-/* PÍSMENO A/B/C/D */
-.answer-letter {
-
-    width: 24px;
-    height: 24px;
-
-    font-size: 14px;
-
-    margin-right: 6px;
-}
-
-/* TEXT ODPOVEDE */
-.answer-text {
-
-    font-size: 14px !important;
-    line-height: 1.1;
-}
-
-/* FULLSCREEN */
-:fullscreen .question-container {
-
-    width: 100%;
-    height: 100dvh;
-
-    max-height: 100dvh;
-
-    padding: 4px;
-}
-
-/* FULLSCREEN OTÁZKA */
-:fullscreen .question {
-
-    font-size: 18px !important;
-
-    min-height: 80px;
-    max-height: 100px;
-
-    margin-bottom: 4px;
-}
-
-/* FULLSCREEN ODPOVEDE */
-:fullscreen .answer-button {
-
-    width: 100% !important;
-
-    min-width: 0;
-
-    min-height: 48px;
-
-    padding: 2px 4px;
-}
-
-/* FULLSCREEN TEXT */
-:fullscreen .answer-text {
-
-    font-size: 13px !important;
-    line-height: 1.1;
-}
-
-/* FULLSCREEN TIMER */
-:fullscreen .timer {
-
-    font-size: 16px !important;
-}
-
-/* FULLSCREEN STOP/SPÄŤ */
-:fullscreen .stop-button,
-:fullscreen .back-button {
-
-    font-size: 12px !important;
-    padding: 4px 6px !important;
-}
-
-}
-
-
-
 
 	
 /* ============================= */
