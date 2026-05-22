@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:pink;
+	background-color:blau;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1085,6 +1085,8 @@ let tucetQuestions = [];
 let questions = [];
 let demoMode = false; // zapína demo režim
 let usedQuestions = [];	
+	let answerLocked = false;
+let waitingNextQuestion = false;
 // Mapovanie kategórií na JSON súbory
 const categoryFiles = {
   GEO: "geo.json",
@@ -1226,6 +1228,8 @@ function startGame() {
 
 
 function showQuestion() {
+	answerLocked = false;
+waitingNextQuestion = false;
     const q = selectedQuestions[currentQuestionIndex];
 
     // Zamiešame odpovede
@@ -1306,7 +1310,7 @@ function showQuestion() {
 }
 
 function highlightCorrectAnswer() {
-
+ if (waitingNextQuestion) return;
   if (isCafeSoloMode) {
     const q = selectedQuestions[currentQuestionIndex];
     const correctAnswer = q.answers[q.correct];
@@ -1363,6 +1367,109 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
 }
 }
 
+	function answerQuestion(selectedIndex) {
+
+  // zabráni viacnásobnému klikaniu
+  if (answerLocked || waitingNextQuestion) return;
+
+  answerLocked = true;
+
+  clearInterval(timerInterval);
+
+  const q = selectedQuestions[currentQuestionIndex];
+  const correctIndex = q.shuffledCorrect;
+
+  const buttons = document.querySelectorAll(".answer-button");
+
+  // SPRÁVNA ODPOVEĎ
+  if (selectedIndex === correctIndex) {
+
+    buttons[selectedIndex].style.backgroundColor = "#4CAF50";
+    buttons[selectedIndex].style.color = "white";
+
+    waitingNextQuestion = true;
+
+    currentQuestionIndex++;
+
+    setTimeout(() => {
+
+      if (currentQuestionIndex < selectedQuestions.length) {
+
+        showQuestion();
+
+      } else {
+
+        endGameAfterAnswer();
+
+      }
+
+    }, 1200);
+
+  } else {
+
+    // NESPRÁVNA ODPOVEĎ
+    buttons[selectedIndex].style.backgroundColor = "red";
+    buttons[selectedIndex].style.color = "white";
+
+    setTimeout(() => {
+
+      buttons[correctIndex].style.backgroundColor = "#4CAF50";
+      buttons[correctIndex].style.color = "white";
+
+    }, 500);
+
+    waitingNextQuestion = true;
+
+    currentQuestionIndex++;
+
+    setTimeout(() => {
+
+      if (currentQuestionIndex < selectedQuestions.length) {
+
+        showQuestion();
+
+      } else {
+
+        endGameAfterAnswer();
+
+      }
+
+    }, 1800);
+  }
+}
+
+	function endGameAfterAnswer() {
+
+  if (isTucetMode) {
+
+    if (demoMode) {
+
+      document.querySelector(".question-container").style.display = "none";
+      document.getElementById("demoPopup").style.display = "flex";
+
+    } else {
+
+      showQvizoLogo(() => {
+        startNewTucetCycle();
+      });
+
+    }
+
+  } else {
+
+    document.querySelector(".question-container").style.display = "none";
+
+    if (demoMode) {
+
+      document.getElementById("demoPopup").style.display = "flex";
+
+    } else {
+
+      startGame();
+
+    }
+  }
+}
 
 function togglePause() {
 	const stopBtn = document.querySelector(".stop-button");
