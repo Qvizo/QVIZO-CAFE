@@ -959,7 +959,7 @@ color: black;
     <h2>DEMO VERZIA</h2>
     <p>Pre plnú verziu kontaktujte autora.<br>
    craco.game@gmail.com</p>
-    <button onclick="location.reload()">OK</button>
+    <button style="display:none;">OK</button>
   </div>
 </div>	
 
@@ -1009,7 +1009,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
 <p>Vyber si časový interval, klikni na Full Screen a zvoľ si typ hry Infinity alebo Dozeno</p>
 <div class="time-buttons">
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 5px;">
-<button class="time-button" onclick="setTime(5)">5</button>
+<button class="time-button" onclick="setTime(1)">1</button>
 <button class="time-button" onclick="setTime(10)">10</button>
 </div>
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 5px;">
@@ -1353,17 +1353,30 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
     });
   }
 
+     } else {
+
+  if (demoMode) {
+
+    showDemoAndRestart(() => {
+
+      document.querySelector(".question-container").style.display = "flex";
+
+      if (isTucetMode) {
+        startNewTucetCycle();
       } else {
-
-        document.querySelector(".question-container").style.display = "none";
-
-        if (demoMode) {
-          document.getElementById("demoPopup").style.display = "flex";
-        } else {
-          startGame();
-        }
-
+        startGame();
       }
+
+    });
+
+  } else {
+
+    document.querySelector(".question-container").style.display = "none";
+    startGame();
+
+  }
+
+}
 
     }, 2000);
 }
@@ -1459,18 +1472,27 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
 
   } else {
 
+  if (demoMode) {
+
+    showDemoAndRestart(() => {
+
+      document.querySelector(".question-container").style.display = "flex";
+
+      if (isTucetMode) {
+        startNewTucetCycle();
+      } else {
+        startGame();
+      }
+
+    });
+
+  } else {
+
     document.querySelector(".question-container").style.display = "none";
+    startGame();
 
-    if (demoMode) {
-
-      document.getElementById("demoPopup").style.display = "flex";
-
-    } else {
-
-      startGame();
-
-    }
   }
+}
 }
 
 function togglePause() {
@@ -1777,6 +1799,22 @@ questionDiv.innerHTML = `
     callback();
   }, 3000);
 }	
+
+	function showDemoAndRestart(callback) {
+
+  // zobraz popup
+  document.getElementById("demoPopup").style.display = "flex";
+
+  // po 3 sekundách zavri popup
+  setTimeout(() => {
+
+    document.getElementById("demoPopup").style.display = "none";
+
+    // spusti callback
+    callback();
+
+  }, 3000);
+}
 
 	function buildInfinityQuestions(categories) {
 
