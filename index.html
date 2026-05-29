@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:red;
+	background-color:black;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1459,10 +1459,19 @@ adjustFontSizeForQuestion();   // 🔥 TOTO DOPLŇ
 
     if (demoMode) {
 
-      document.querySelector(".question-container").style.display = "none";
-      document.getElementById("demoPopup").style.display = "flex";
+  document.querySelector(".question-container").style.display = "none";
 
-    } else {
+  document.getElementById("demoPopup").style.display = "flex";
+
+  setTimeout(() => {
+
+    document.getElementById("demoPopup").style.display = "none";
+
+    backToStart();
+
+  }, 3000);
+
+} else {
 
       showQvizoLogo(() => {
         startNewTucetCycle();
@@ -1846,10 +1855,7 @@ questionDiv.innerHTML = `
 }
 	
 	
-if(demoMode){
-  alert("Pre plnú verziu kontaktujte autora. craco.game@gmail.com");
-}	
-	
+
 </script>
 </body>
 
