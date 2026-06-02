@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:red;
+	background-color:blau;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1458,8 +1458,8 @@ function register() {
   }
   
 function verifyAndStartCafe() {
-  const code = document.getElementById("accessCode").value.trim();
-  const msg = document.getElementById("codeMessage");
+  /*2.6.2026 const code = document.getElementById("accessCode").value.trim();
+  const msg = document.getElementById("codeMessage"); 2.6.2026*/
 
   // Kontrola, či je vybraná aspoň jedna kategória
   if (selectedCategories.length === 0) {
@@ -1493,8 +1493,8 @@ function verifyAndStartCafe() {
 }
 
 function verifyAndStartCafeSolo() {
-  const code = document.getElementById("accessCode").value.trim();
-  const msg = document.getElementById("codeMessage");
+  /*2.6.2026 const code = document.getElementById("accessCode").value.trim();
+  const msg = document.getElementById("codeMessage"); 2.6.2026*/
 
   if (selectedCategories.length === 0) {
     msg.style.color = "red";
