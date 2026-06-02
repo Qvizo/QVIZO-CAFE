@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:red;
+	background-color:brown;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -843,9 +843,14 @@ color: black;
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
 	const analytics = firebase.analytics();
+	const db = firebase.firestore();
 
 	// Prístupové kódy
-  const validCodes = ["VIP2025", "TAPETA123", "NEZVEREJNUJ"];
+  async function checkCode(code) {
+  const doc = await db.collection("accessCodes").doc(code).get();
+
+  return doc.exists && doc.data().active === true;
+}
 	
 </script>
 
@@ -857,7 +862,7 @@ color: black;
 <h2 class="qvizo-title">
 <span class="q">Q</span><span class="vizo">VIZO</span>
 </h2>
-<!--2.6.2026 <button onclick="startDemo()">DEMO VERZIA</button> 2.6.2026-->
+<button onclick="startDemo()">DEMO VERZIA</button>
 <input type="email" id="email" placeholder="Zadaj email">
 <input type="password" id="password" placeholder="Zadaj heslo">
 <button onclick="login()">Prihlásiť sa</button>
@@ -883,11 +888,11 @@ color: black;
 <h2>Zvoľ si kategóriu otázok a typ hry</h2>
 
 <!-- Overovací kód -->
-<!-- 2.6.2026 <div id="codeBox">
+<div id="codeBox">
 <input type="password" id="accessCode" placeholder="Zadaj kód" 
 style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:10px; border:1px solid #333; display:block; text-align:center;">
 <p id="codeMessage" style="color:red; font-weight:bold;"></p>
-</div> 2.6.2026-->
+</div>
 
 <!-- Kategórie -->
 <div class="category-container">
@@ -1458,8 +1463,8 @@ function register() {
   }
   
 function verifyAndStartCafe() {
-  /*2.6.2026 const code = document.getElementById("accessCode").value.trim();
-  const msg = document.getElementById("codeMessage"); 2.6.2026*/
+  const code = document.getElementById("accessCode").value.trim();
+  const msg = document.getElementById("codeMessage");
 
   // Kontrola, či je vybraná aspoň jedna kategória
   if (selectedCategories.length === 0) {
@@ -1479,8 +1484,7 @@ function verifyAndStartCafe() {
   }
 	
   // Kontrola kódu
-  <!--2.6.2026 if (validCodes.includes(code)) { 2.6.2026-->
-	  if (true) { 
+  if (validCodes.includes(code)) {
     msg.style.color = "green";
     msg.innerText = "Kód správny!";
 	isCafeSoloMode = false;   // 🔥 vypneme SOLO režim  
@@ -1493,13 +1497,13 @@ function verifyAndStartCafe() {
 }
 
 function verifyAndStartCafeSolo() {
-  /*2.6.2026 const code = document.getElementById("accessCode").value.trim();
-  const msg = document.getElementById("codeMessage"); 2.6.2026*/
+  const code = document.getElementById("accessCode").value.trim();
+  const msg = document.getElementById("codeMessage");
 
   if (selectedCategories.length === 0) {
-    /* 2.6.2026 msg.style.color = "red";
+    msg.style.color = "red";
     msg.innerText = "Vyber si aspoň jednu kategóriu!";
-    return; 2.6.2026*/
+    return;
   }
 
 
@@ -1513,8 +1517,7 @@ function verifyAndStartCafeSolo() {
   }
 
   // Normálna kontrola kódu
-  <!--2.6.2026 if (validCodes.includes(code)) { 2.6.2026-->
-	  if (true) {
+  if (validCodes.includes(code)) {
     msg.style.color = "green";
     msg.innerText = "Kód správny!";
 
@@ -1523,8 +1526,8 @@ function verifyAndStartCafeSolo() {
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
   } else {
-   /*2.6.2026 msg.style.color = "red";
-    msg.innerText = "Neplatný kód! Skús znova."; 2.6.2026*/
+    msg.style.color = "red";
+    msg.innerText = "Neplatný kód! Skús znova.";
   }
 }	
 
@@ -1714,139 +1717,6 @@ if(demoMode){
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
