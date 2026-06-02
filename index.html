@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:blau;
+	background-color:red;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1497,9 +1497,9 @@ function verifyAndStartCafeSolo() {
   const msg = document.getElementById("codeMessage"); 2.6.2026*/
 
   if (selectedCategories.length === 0) {
-    msg.style.color = "red";
+    /* 2.6.2026 msg.style.color = "red";
     msg.innerText = "Vyber si aspoň jednu kategóriu!";
-    return;
+    return; 2.6.2026*/
   }
 
 
@@ -1523,8 +1523,8 @@ function verifyAndStartCafeSolo() {
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
   } else {
-    msg.style.color = "red";
-    msg.innerText = "Neplatný kód! Skús znova.";
+   /*2.6.2026 msg.style.color = "red";
+    msg.innerText = "Neplatný kód! Skús znova."; 2.6.2026*/
   }
 }	
 
