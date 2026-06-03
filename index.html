@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:pink;
+	background-color:purple;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1460,7 +1460,13 @@ function register() {
   }
   
 function verifyAndStartCafe() {
+  const msg = document.getElementById("codeMessage");
 
+  if (selectedCategories.length === 0) {
+    msg.style.color = "red";
+    msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    return;
+  }
   if (fullVersionUnlocked) {
     isCafeSoloMode = false;
     document.querySelector(".new-start-container").style.display = "none";
@@ -1501,7 +1507,13 @@ function verifyAndStartCafe() {
 }
 
 function verifyAndStartCafeSolo() {
+  const msg = document.getElementById("codeMessage");
 
+  if (selectedCategories.length === 0) {
+    msg.style.color = "red";
+    msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    return;
+  }
   if (fullVersionUnlocked) {
     isCafeSoloMode = true;
     document.querySelector(".new-start-container").style.display = "none";
