@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:brown;
+	background-color:yellow;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -998,6 +998,7 @@ let usedQuestions = [];
 let answerLocked = false;
 let waitingNextQuestion = false;
 // Mapovanie kategórií na JSON súbory
+	let fullVersionUnlocked = true;
 const categoryFiles = {
   GEO: "geo.json",
   HIS: "his.json",
@@ -1458,6 +1459,13 @@ function register() {
   }
   
 function verifyAndStartCafe() {
+
+  if (fullVersionUnlocked) {
+    isCafeSoloMode = false;
+    document.querySelector(".new-start-container").style.display = "none";
+    document.querySelector(".start-container").style.display = "block";
+    return;
+  }
   const code = document.getElementById("accessCode").value.trim();
   const msg = document.getElementById("codeMessage");
 
@@ -1492,6 +1500,13 @@ function verifyAndStartCafe() {
 }
 
 function verifyAndStartCafeSolo() {
+
+  if (fullVersionUnlocked) {
+    isCafeSoloMode = true;
+    document.querySelector(".new-start-container").style.display = "none";
+    document.querySelector(".start-container").style.display = "block";
+    return;
+  }
   const code = document.getElementById("accessCode").value.trim();
   const msg = document.getElementById("codeMessage");
 
