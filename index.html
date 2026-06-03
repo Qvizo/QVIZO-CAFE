@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:green;
+	background-color:red;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -981,7 +981,7 @@ window.onload = function() {
   document.querySelector(".start-container").style.display = "none";
   document.querySelector(".question-container").style.display = "none";
   document.getElementById("loginWindow").style.display = "flex";
-	document.getElementById("codeBox").style.display = "block"; /* 3.6.2026 nebude sa zobrazovať overovací kód */
+	document.getElementById("codeBox").style.display = "none"; /* 3.6.2026 nebude sa zobrazovať overovací kód */
 };
 
 let selectedQuestions = [];
@@ -1464,7 +1464,7 @@ function verifyAndStartCafe() {
 
   if (selectedCategories.length === 0) {
     msg.style.color = "red";
-    msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    alert("Vyber aspoň jednu kategóriu!");
     return;
   }
   if (fullVersionUnlocked) {
@@ -1511,7 +1511,7 @@ function verifyAndStartCafeSolo() {
 
   if (selectedCategories.length === 0) {
     msg.style.color = "red";
-    msg.innerText = "Vyber si aspoň jednu kategóriu!";
+    alert("Vyber aspoň jednu kategóriu!");
     return;
   }
   if (fullVersionUnlocked) {
