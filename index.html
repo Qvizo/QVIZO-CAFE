@@ -843,14 +843,9 @@ color: black;
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
 	const analytics = firebase.analytics();
-	const db = firebase.firestore();
 
 	// Prístupové kódy
-  async function checkCode(code) {
-  const doc = await db.collection("accessCodes").doc(code).get();
-
-  return doc.exists && doc.data().active === true;
-}
+  const validCodes = ["VIP2025", "TAPETA123", "NEZVEREJNUJ"];
 	
 </script>
 
