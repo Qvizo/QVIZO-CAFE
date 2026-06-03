@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:orange;
+	background-color:brown;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -826,7 +826,7 @@ color: black;
 <script src="https://www.gstatic.com/firebasejs/11.10.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/11.10.0/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/11.10.0/firebase-analytics-compat.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore-compat.js"></script>
+	
 
 <script>
   // Konfigurácia Firebase
@@ -843,7 +843,7 @@ color: black;
   // Inicializácia Firebase
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
-	const db = firebase.firestore();
+	
 	const analytics = firebase.analytics();
 
 	// Prístupové kódy
@@ -856,10 +856,7 @@ color: black;
 
 <!-- 0. OKNO Prihlásenie -->
 <div class="login-container" id="loginWindow">
-	<div id="visitCounter"
-     style="font-size:20px;font-weight:bold;margin-bottom:10px;">
-Načítavam počet návštev...
-</div>
+
 <h2 class="qvizo-title">
 <span class="q">Q</span><span class="vizo">VIZO</span>
 </h2>
@@ -982,8 +979,7 @@ style="font-size:20px; padding:10px; margin:10px auto; width:80%; border-radius:
 <script>
 
 window.onload = function() {
-	updateVisitCounter();
-  document.getElementById("loginWindow").style.display = "flex";
+	  document.getElementById("loginWindow").style.display = "flex";
   document.getElementById("newStartWindow").style.display = "none";
   document.querySelector(".start-container").style.display = "none";
   document.querySelector(".question-container").style.display = "none";
@@ -1716,37 +1712,6 @@ questionDiv.innerHTML = `
   }, 3000);
 }	
 
-	async function updateVisitCounter() {
-  try {
-
-    const counterRef = db.collection("stats").doc("visits");
-
-    await db.runTransaction(async (transaction) => {
-
-      const doc = await transaction.get(counterRef);
-
-      if (!doc.exists) {
-        transaction.set(counterRef, { count: 1 });
-        document.getElementById("visitCounter").innerText =
-          "Počet návštev: 1";
-      } else {
-
-        const newCount = doc.data().count + 1;
-
-        transaction.update(counterRef, {
-          count: newCount
-        });
-
-        document.getElementById("visitCounter").innerText =
-          "Počet návštev: " + newCount;
-      }
-
-    });
-
-  } catch (error) {
-    console.error(error);
-  }
-}
 
 	function buildInfinityQuestions(categories) {
 
