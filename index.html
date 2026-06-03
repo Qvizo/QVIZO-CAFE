@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:purple;
+	background-color:red;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1474,7 +1474,7 @@ function verifyAndStartCafe() {
     return;
   }
   const code = document.getElementById("accessCode").value.trim();
-  const msg = document.getElementById("codeMessage");
+
 
   // Kontrola, či je vybraná aspoň jedna kategória
   if (selectedCategories.length === 0) {
@@ -1521,7 +1521,7 @@ function verifyAndStartCafeSolo() {
     return;
   }
   const code = document.getElementById("accessCode").value.trim();
-  const msg = document.getElementById("codeMessage");
+  
 
   if (selectedCategories.length === 0) {
     msg.style.color = "red";
