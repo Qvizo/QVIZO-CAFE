@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:pink;
+	background-color:yellow;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1827,7 +1827,15 @@ questionDiv.innerHTML = `
 if(demoMode){
   alert("Pre plnú verziu kontaktujte autora. craco.game@gmail.com");
 }	
-	
+	if(demoMode){
+  alert("Pre plnú verziu kontaktujte autora. craco.game@gmail.com");
+}
+
+window.addEventListener("resize", () => {
+    adjustFontSizeForQuestion();
+    adjustFontSizeForAnswers();
+});
+
 </script>
 </body>
 
