@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:brown;
+	background-color:pink;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -818,6 +818,87 @@ color: black;
 
 .button-container .cafe-solo-btn:hover {
     background-color: #187bcd !important;
+}
+
+
+	/* ========================================= */
+/* MOBIL A TABLET NA ŠÍRKU (LANDSCAPE) */
+/* ========================================= */
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+
+.question-container,
+.start-container,
+.new-start-container,
+.login-container,
+.end-container {
+    width: 98%;
+    max-width: 98%;
+    margin: 5px auto;
+    padding: 10px;
+    min-height: auto;
+}
+
+.qvizo-title {
+    font-size: 40px;
+}
+
+.question {
+    font-size: 24px;
+    min-height: 80px;
+    max-height: 120px;
+}
+
+.question-counter {
+    font-size: 18px;
+}
+
+.timer {
+    font-size: 24px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.answer-button {
+    width: 48%;
+    min-height: 50px;
+    height: auto;
+    font-size: 18px;
+    margin: 0;
+}
+
+.answer-text {
+    font-size: 16px;
+}
+
+.answer-letter {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.start-button,
+.fullscreen-button,
+.time-button {
+    font-size: 18px;
+    padding: 8px;
+}
+
+.top-bar {
+    gap: 5px;
+}
+
+.stop-button,
+.back-button {
+    font-size: 16px;
+    padding: 6px 10px;
+}
+
 }
 
 </style>
