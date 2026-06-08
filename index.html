@@ -11,7 +11,7 @@ body
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	background-color:brown;
+	background-color:green;
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
@@ -1479,16 +1479,16 @@ function verifyAndStartCafe() {
   }
 	
   // Kontrola kódu
-  if (validCodes.includes(code)) {
+ /* if (validCodes.includes(code)) {
     msg.style.color = "green";
-    msg.innerText = "Kód správny!";
+    msg.innerText = "Kód správny!";*/
 	isCafeSoloMode = false;   // 🔥 vypneme SOLO režim  
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
-  } else {
+ /* } else {
     msg.style.color = "red";
     msg.innerText = "Neplatný kód! Skús znova.";
-  }
+  }*/
 }
 
 function verifyAndStartCafeSolo() {
@@ -1512,18 +1512,18 @@ function verifyAndStartCafeSolo() {
   }
 
   // Normálna kontrola kódu
-  if (validCodes.includes(code)) {
+  /*if (validCodes.includes(code)) {
     msg.style.color = "green";
-    msg.innerText = "Kód správny!";
+    msg.innerText = "Kód správny!";*/
 
     isCafeSoloMode = true;
 
     document.querySelector(".new-start-container").style.display = "none";
     document.querySelector(".start-container").style.display = "block";
-  } else {
+ /* } else {
     msg.style.color = "red";
     msg.innerText = "Neplatný kód! Skús znova.";
-  }
+  }*/
 }	
 
 document.addEventListener("fullscreenchange", function() {
